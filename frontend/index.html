@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeQuiz • Ôn thi Kỹ thuật lập trình C</title><link rel="stylesheet" href="/styles.css"></head>
+<body><main class="app">
+<header class="top"><div class="logo">C<span>?</span></div><div><h1>CodeQuiz</h1><p class="muted">Ôn thi giữa kỳ · Kỹ thuật lập trình C · Chương 1–4</p></div></header>
+<section id="home" class="card">
+  <span class="eyebrow">LUYỆN TẬP THÔNG MINH</span><h2>Mỗi mã đề mới, một thử thách mới.</h2>
+  <p class="muted">40 câu mỗi đề, 10 câu mỗi chương. Câu hỏi và thứ tự đáp án đều xáo trộn. Chọn đáp án để biết đúng/sai và xem giải thích ngay.</p>
+  <div id="stats" class="stats">Đang tải ngân hàng câu hỏi...</div>
+  <button id="create" class="primary">Bắt đầu đề 40 câu →</button>
+  <div class="resume"><input id="examCode" placeholder="Nhập mã đề để học tiếp"><button id="resume">Mở mã đề</button></div>
+  <div id="history" class="history"></div>
+</section>
+<section id="exam" class="card hidden">
+  <div class="topline"><button id="back" class="quiet">← Trang chủ</button><span id="code" class="code"></span></div>
+  <div class="progress-line"><div id="bar"></div></div>
+  <div class="meta"><span id="number"></span><span id="score"></span></div>
+  <div id="topic" class="eyebrow"></div><h2 id="prompt"></h2>
+  <div id="choices" class="choices"></div>
+  <div id="feedback" class="feedback hidden"></div>
+  <div class="actions"><button id="prev">← Câu trước</button><button id="next" class="primary">Câu tiếp →</button></div>
+  <button id="finish" class="quiet finish">Kết thúc và xem kết quả</button>
+</section>
+<section id="result" class="card hidden"><span class="eyebrow">KẾT QUẢ</span><h2 id="resultTitle"></h2><div id="summary"></div>
+<button id="newExam" class="primary">Tạo mã đề mới →</button><button id="review" class="quiet">Xem lại câu trả lời</button></section>
+<footer>CodeQuiz · Luyện tập trực tiếp trên trình duyệt · Dữ liệu và đáp án được xử lý bởi backend</footer>
+</main><script type="module" src="/app.js"></script></body></html>

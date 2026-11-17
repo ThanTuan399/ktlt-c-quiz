@@ -1,0 +1,14 @@
+{
+  "name": "ktlt-c-quiz",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node backend/src/server.js",
+    "dev": "node --watch backend/src/server.js",
+    "test": "node --test tests/*.test.js"
+  }
+}
