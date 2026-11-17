@@ -12,7 +12,16 @@
       "Chỉ thực hiện phép tính cộng"
     ],
     "a": 1,
-    "why": "Chương trình là chuỗi chỉ thị để máy thực hiện nhiệm vụ."
+    "why": "Chương trình là chuỗi chỉ thị để máy thực hiện nhiệm vụ.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 1,
+          "slide": 4
+        }
+      ]
+    }
   },
   {
     "id": "C1-002",
@@ -27,7 +36,16 @@
       "Dịch mã máy → viết yêu cầu"
     ],
     "a": 1,
-    "why": "Đầu tiên xác định đầu vào/đầu ra, tìm cách xử lý, viết rồi dịch chương trình để chạy."
+    "why": "Đầu tiên xác định đầu vào/đầu ra, tìm cách xử lý, viết rồi dịch chương trình để chạy.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 1,
+          "slide": 5
+        }
+      ]
+    }
   },
   {
     "id": "C1-003",
@@ -42,7 +60,16 @@
       "Thiết bị vật lý"
     ],
     "a": 0,
-    "why": "Một chương trình thường là tập hợp câu lệnh/chỉ thị và dữ liệu liên quan."
+    "why": "Một chương trình thường là tập hợp câu lệnh/chỉ thị và dữ liệu liên quan.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 1,
+          "slide": 6
+        }
+      ]
+    }
   },
   {
     "id": "C1-004",
@@ -57,7 +84,16 @@
       "Bộ nhớ và CPU"
     ],
     "a": 1,
-    "why": "Xác định Input/Output là bước đầu của việc mô hình hóa bài toán."
+    "why": "Xác định Input/Output là bước đầu của việc mô hình hóa bài toán.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 1,
+          "slide": 5
+        }
+      ]
+    }
   },
   {
     "id": "C1-005",
@@ -72,7 +108,16 @@
       "Mã máy đã biên dịch"
     ],
     "a": 0,
-    "why": "Giải thuật mô tả quy trình xử lý trên dữ liệu."
+    "why": "Giải thuật mô tả quy trình xử lý trên dữ liệu.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 1,
+          "slide": 8
+        }
+      ]
+    }
   },
   {
     "id": "C1-006",
@@ -87,7 +132,16 @@
       "Tính hướng đối tượng"
     ],
     "a": 1,
-    "why": "Tính hữu hạn bảo đảm quá trình không kéo dài vô tận."
+    "why": "Tính hữu hạn bảo đảm quá trình không kéo dài vô tận.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 1,
+          "slide": 10
+        }
+      ]
+    }
   },
   {
     "id": "C1-007",
@@ -102,7 +156,16 @@
       "Phải viết bằng ngôn ngữ C"
     ],
     "a": 0,
-    "why": "Cần phân biệt tính xác định với tính hiệu quả."
+    "why": "Cần phân biệt tính xác định với tính hiệu quả.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 1,
+          "slide": 10
+        }
+      ]
+    }
   },
   {
     "id": "C1-008",
@@ -117,7 +180,16 @@
       "Bắt buộc viết bằng Pascal"
     ],
     "a": 0,
-    "why": "Tính hiệu quả liên quan thời gian, bộ nhớ và sự đơn giản."
+    "why": "Tính hiệu quả liên quan thời gian, bộ nhớ và sự đơn giản.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 1,
+          "slide": 10
+        }
+      ]
+    }
   },
   {
     "id": "C1-009",
@@ -132,7 +204,16 @@
       "Mã máy, mạng máy tính, sơ đồ ER"
     ],
     "a": 1,
-    "why": "Cả ba đều giúp mô tả một quy trình trước hoặc trong khi viết code."
+    "why": "Cả ba đều giúp mô tả một quy trình trước hoặc trong khi viết code.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 1,
+          "slide": 11
+        }
+      ]
+    }
   },
   {
     "id": "C1-010",
@@ -147,7 +228,20 @@
       "Gán giá trị đơn giản"
     ],
     "a": 0,
-    "why": "Đây là kiến thức nền tảng mở rộng từ phần lưu đồ của giáo trình."
+    "why": "Đây là kiến thức nền tảng mở rộng từ phần lưu đồ của giáo trình.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 1,
+          "slide": 12
+        },
+        {
+          "chapter": 1,
+          "slide": 13
+        }
+      ]
+    }
   },
   {
     "id": "C1-011",
@@ -162,7 +256,16 @@
       "Giả mã không có vòng lặp"
     ],
     "a": 1,
-    "why": "Giả mã kết hợp cấu trúc điều khiển với ngôn ngữ tự nhiên."
+    "why": "Giả mã kết hợp cấu trúc điều khiển với ngôn ngữ tự nhiên.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 1,
+          "slide": 14
+        }
+      ]
+    }
   },
   {
     "id": "C1-012",
@@ -177,7 +280,16 @@
       "Nối tất cả mã vào một hàm duy nhất"
     ],
     "a": 1,
-    "why": "Mô-đun hóa giúp tổ chức lời giải thành các phần nhỏ."
+    "why": "Mô-đun hóa giúp tổ chức lời giải thành các phần nhỏ.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 1,
+          "slide": 16
+        }
+      ]
+    }
   },
   {
     "id": "C1-013",
@@ -192,7 +304,16 @@
       "Kết quả → dữ liệu → yêu cầu"
     ],
     "a": 1,
-    "why": "Mô tả ban đầu khái quát, sau được cụ thể hóa dần."
+    "why": "Mô tả ban đầu khái quát, sau được cụ thể hóa dần.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 1,
+          "slide": 17
+        }
+      ]
+    }
   },
   {
     "id": "C1-014",
@@ -207,7 +328,16 @@
       "Kết thúc ngay"
     ],
     "a": 0,
-    "why": "Thuật toán lặp trừ số nhỏ khỏi số lớn đến khi hai số bằng nhau."
+    "why": "Thuật toán lặp trừ số nhỏ khỏi số lớn đến khi hai số bằng nhau.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 1,
+          "slide": 9
+        }
+      ]
+    }
   },
   {
     "id": "C1-015",
@@ -222,7 +352,16 @@
       "18"
     ],
     "a": 1,
-    "why": "18−12=6; sau đó 12−6=6, kết thúc với UCLN=6."
+    "why": "18−12=6; sau đó 12−6=6, kết thúc với UCLN=6.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 1,
+          "slide": 9
+        }
+      ]
+    }
   },
   {
     "id": "C1-016",
@@ -237,7 +376,16 @@
       "Chia mảng thành hai mảng mới"
     ],
     "a": 1,
-    "why": "Giáo trình dùng thuật toán chọn phần tử nhỏ nhất lần lượt."
+    "why": "Giáo trình dùng thuật toán chọn phần tử nhỏ nhất lần lượt.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 1,
+          "slide": 19
+        }
+      ]
+    }
   },
   {
     "id": "C1-017",
@@ -252,7 +400,16 @@
       "[2, 4, 5]"
     ],
     "a": 0,
-    "why": "Chọn 2 nhỏ nhất và đổi chỗ với phần tử đầu là 5."
+    "why": "Chọn 2 nhỏ nhất và đổi chỗ với phần tử đầu là 5.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 1,
+          "slide": 23
+        }
+      ]
+    }
   },
   {
     "id": "C1-018",
@@ -267,7 +424,16 @@
       "Số hàm và số chú thích"
     ],
     "a": 1,
-    "why": "Giáo trình nhấn mạnh thời gian và không gian bộ nhớ."
+    "why": "Giáo trình nhấn mạnh thời gian và không gian bộ nhớ.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 1,
+          "slide": 24
+        }
+      ]
+    }
   },
   {
     "id": "C1-019",
@@ -282,7 +448,16 @@
       "Dung lượng ổ cứng cố định"
     ],
     "a": 0,
-    "why": "Big-O so sánh bậc tăng trưởng, không phải thời gian giây cụ thể."
+    "why": "Big-O so sánh bậc tăng trưởng, không phải thời gian giây cụ thể.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 1,
+          "slide": 27
+        }
+      ]
+    }
   },
   {
     "id": "C1-020",
@@ -297,7 +472,16 @@
       "O(2ⁿ)"
     ],
     "a": 2,
-    "why": "Bỏ hệ số hằng, chỉ giữ hạng bậc cao nhất."
+    "why": "Bỏ hệ số hằng, chỉ giữ hạng bậc cao nhất.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 1,
+          "slide": 27
+        }
+      ]
+    }
   },
   {
     "id": "C1-021",
@@ -312,7 +496,16 @@
       "O(1)"
     ],
     "a": 1,
-    "why": "Quy tắc cộng: giữ độ phức tạp trội hơn."
+    "why": "Quy tắc cộng: giữ độ phức tạp trội hơn.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 1,
+          "slide": 29
+        }
+      ]
+    }
   },
   {
     "id": "C1-022",
@@ -327,7 +520,16 @@
       "O(n!)"
     ],
     "a": 2,
-    "why": "Có n×n lần thực hiện thao tác hằng số."
+    "why": "Có n×n lần thực hiện thao tác hằng số.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 1,
+          "slide": 30
+        }
+      ]
+    }
   },
   {
     "id": "C1-023",
@@ -342,7 +544,16 @@
       "O(2ⁿ)"
     ],
     "a": 1,
-    "why": "Số lần lặp tỉ lệ thuận với n."
+    "why": "Số lần lặp tỉ lệ thuận với n.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 1,
+          "slide": 30
+        }
+      ]
+    }
   },
   {
     "id": "C1-024",
@@ -357,7 +568,16 @@
       "O(n!)"
     ],
     "a": 1,
-    "why": "n log n tăng chậm hơn n², hàm mũ, giai thừa."
+    "why": "n log n tăng chậm hơn n², hàm mũ, giai thừa.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 1,
+          "slide": 28
+        }
+      ]
+    }
   },
   {
     "id": "C1-025",
@@ -372,7 +592,16 @@
       "Vì dữ liệu đầu vào không tồn tại"
     ],
     "a": 1,
-    "why": "Để đánh giá bậc tăng trưởng, thường xét số phép toán theo n."
+    "why": "Để đánh giá bậc tăng trưởng, thường xét số phép toán theo n.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 1,
+          "slide": 25
+        }
+      ]
+    }
   },
   {
     "id": "C1-026",
@@ -387,7 +616,16 @@
       "O(n²)"
     ],
     "a": 0,
-    "why": "Số thao tác không tăng theo kích thước đầu vào."
+    "why": "Số thao tác không tăng theo kích thước đầu vào.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 1,
+          "slide": 28
+        }
+      ]
+    }
   },
   {
     "id": "C1-027",
@@ -402,7 +640,16 @@
       "Ngôn ngữ tự nhiên"
     ],
     "a": 2,
-    "why": "Các chương trình khác cần được chuyển sang chỉ thị máy ở một giai đoạn nào đó."
+    "why": "Các chương trình khác cần được chuyển sang chỉ thị máy ở một giai đoạn nào đó.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 1,
+          "slide": 34
+        }
+      ]
+    }
   },
   {
     "id": "C1-028",
@@ -417,7 +664,16 @@
       "Text editor"
     ],
     "a": 0,
-    "why": "Assembler dịch mã lệnh hợp ngữ sang chỉ thị máy."
+    "why": "Assembler dịch mã lệnh hợp ngữ sang chỉ thị máy.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 1,
+          "slide": 35
+        }
+      ]
+    }
   },
   {
     "id": "C1-029",
@@ -432,7 +688,16 @@
       "Không cần bất kỳ khâu chuyển đổi nào"
     ],
     "a": 1,
-    "why": "Bài giảng nhấn mạnh tính dễ đọc, dễ viết, khả chuyển hơn."
+    "why": "Bài giảng nhấn mạnh tính dễ đọc, dễ viết, khả chuyển hơn.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 1,
+          "slide": 36
+        }
+      ]
+    }
   },
   {
     "id": "C1-030",
@@ -447,7 +712,16 @@
       "Không thể phát hiện lỗi"
     ],
     "a": 0,
-    "why": "Mô hình cơ bản là dịch/thực thi từng phần, không tạo object file như compiler truyền thống."
+    "why": "Mô hình cơ bản là dịch/thực thi từng phần, không tạo object file như compiler truyền thống.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 1,
+          "slide": 39
+        }
+      ]
+    }
   },
   {
     "id": "C1-031",
@@ -462,7 +736,16 @@
       "Thay bàn phím"
     ],
     "a": 0,
-    "why": "Compiler tạo mã đối tượng, linker kết hợp tạo chương trình thực thi."
+    "why": "Compiler tạo mã đối tượng, linker kết hợp tạo chương trình thực thi.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 1,
+          "slide": 40
+        }
+      ]
+    }
   },
   {
     "id": "C1-032",
@@ -477,7 +760,16 @@
       "Linker luôn chạy trước compiler"
     ],
     "a": 1,
-    "why": "Đây là luồng xây dựng chương trình trình bày ở mục 1.4."
+    "why": "Đây là luồng xây dựng chương trình trình bày ở mục 1.4.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 1,
+          "slide": 44
+        }
+      ]
+    }
   },
   {
     "id": "C1-033",
@@ -492,7 +784,16 @@
       "Chỉ cửa sổ dòng lệnh"
     ],
     "a": 0,
-    "why": "IDE hỗ trợ nhiều công cụ phát triển trong một môi trường."
+    "why": "IDE hỗ trợ nhiều công cụ phát triển trong một môi trường.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 1,
+          "slide": 42
+        }
+      ]
+    }
   },
   {
     "id": "C1-034",
@@ -507,7 +808,16 @@
       "Chỉ khi dùng Linux"
     ],
     "a": 1,
-    "why": "Giáo trình nêu IDE không phải điều kiện bắt buộc."
+    "why": "Giáo trình nêu IDE không phải điều kiện bắt buộc.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 1,
+          "slide": 42
+        }
+      ]
+    }
   },
   {
     "id": "C1-035",
@@ -522,7 +832,24 @@
       "Thiết kế web → lưu ảnh → xuất PDF"
     ],
     "a": 1,
-    "why": "Sau biên dịch và liên kết mới có chương trình để kiểm thử."
+    "why": "Sau biên dịch và liên kết mới có chương trình để kiểm thử.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 1,
+          "slide": 43
+        },
+        {
+          "chapter": 1,
+          "slide": 44
+        },
+        {
+          "chapter": 1,
+          "slide": 45
+        }
+      ]
+    }
   },
   {
     "id": "C1-036",
@@ -537,7 +864,16 @@
       ".html"
     ],
     "a": 1,
-    "why": "Tệp .c lưu mã nguồn; .exe thường là tệp thực thi trên Windows."
+    "why": "Tệp .c lưu mã nguồn; .exe thường là tệp thực thi trên Windows.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 1,
+          "slide": 43
+        }
+      ]
+    }
   },
   {
     "id": "C1-037",
@@ -552,7 +888,16 @@
       "Xóa trình biên dịch"
     ],
     "a": 1,
-    "why": "Lỗi logic thường không bị compiler phát hiện."
+    "why": "Lỗi logic thường không bị compiler phát hiện.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 1,
+          "slide": 45
+        }
+      ]
+    }
   },
   {
     "id": "C1-038",
@@ -567,7 +912,16 @@
       "Không có dữ liệu"
     ],
     "a": 1,
-    "why": "Slide so sánh cách tổ chức tuyến tính với lập trình cấu trúc."
+    "why": "Slide so sánh cách tổ chức tuyến tính với lập trình cấu trúc.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 1,
+          "slide": 47
+        }
+      ]
+    }
   },
   {
     "id": "C1-039",
@@ -582,7 +936,16 @@
       "Không dùng cấu trúc điều khiển"
     ],
     "a": 0,
-    "why": "Tính mô-đun và tái sử dụng là điểm mạnh của phương pháp cấu trúc."
+    "why": "Tính mô-đun và tái sử dụng là điểm mạnh của phương pháp cấu trúc.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 1,
+          "slide": 48
+        }
+      ]
+    }
   },
   {
     "id": "C1-040",
@@ -597,7 +960,16 @@
       "Chỉ dùng ngôn ngữ máy"
     ],
     "a": 1,
-    "why": "OOP tập trung vào đối tượng và khả năng bảo trì, mở rộng."
+    "why": "OOP tập trung vào đối tượng và khả năng bảo trì, mở rộng.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 1,
+          "slide": 49
+        }
+      ]
+    }
   },
   {
     "id": "C1-041",
@@ -612,7 +984,16 @@
       "Loại bỏ nhu cầu viết thuật toán"
     ],
     "a": 1,
-    "why": "Chia chức năng rõ ràng giúp cô lập lỗi và tổ chức mã tốt."
+    "why": "Chia chức năng rõ ràng giúp cô lập lỗi và tổ chức mã tốt.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 1,
+          "slide": 48
+        }
+      ]
+    }
   },
   {
     "id": "C1-042",
@@ -627,7 +1008,16 @@
       "Không phải lập trình"
     ],
     "a": 0,
-    "why": "Mỗi phần thực hiện một chức năng và có thể được gọi lại."
+    "why": "Mỗi phần thực hiện một chức năng và có thể được gọi lại.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 1,
+          "slide": 48
+        }
+      ]
+    }
   },
   {
     "id": "C2-001",
@@ -642,7 +1032,16 @@
       "Bjarne Stroustrup"
     ],
     "a": 1,
-    "why": "Dennis Ritchie phát triển C cùng cộng sự ở Bell Labs."
+    "why": "Dennis Ritchie phát triển C cùng cộng sự ở Bell Labs.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 4
+        }
+      ]
+    }
   },
   {
     "id": "C2-002",
@@ -657,7 +1056,16 @@
       "HTML và CSS"
     ],
     "a": 1,
-    "why": "Giáo trình nêu ngôn ngữ B và BCPL."
+    "why": "Giáo trình nêu ngôn ngữ B và BCPL.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 5
+        }
+      ]
+    }
   },
   {
     "id": "C2-003",
@@ -672,7 +1080,16 @@
       "2011"
     ],
     "a": 1,
-    "why": "Slide chương 2 nhấn mạnh năm 1972."
+    "why": "Slide chương 2 nhấn mạnh năm 1972.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 4
+        }
+      ]
+    }
   },
   {
     "id": "C2-004",
@@ -687,7 +1104,16 @@
       "2011"
     ],
     "a": 1,
-    "why": "Đây là mốc lịch sử thường được hỏi về C."
+    "why": "Đây là mốc lịch sử thường được hỏi về C.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 5
+        }
+      ]
+    }
   },
   {
     "id": "C2-005",
@@ -702,7 +1128,16 @@
       "2011"
     ],
     "a": 2,
-    "why": "ANSI chuẩn hóa C năm 1989."
+    "why": "ANSI chuẩn hóa C năm 1989.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 6
+        }
+      ]
+    }
   },
   {
     "id": "C2-006",
@@ -712,12 +1147,21 @@
     "q": "Vì sao C thường được dùng làm ngôn ngữ lập trình hệ thống?",
     "opts": [
       "Vì C chỉ chạy trên web",
-      "Vì C có công cụ thao tác dữ liệu, bộ nhớ và có tính khả chuyển",
+      "Vì C có tính khả chuyển và thế mạnh xây dựng chương trình hệ thống",
       "Vì C không có kiểu dữ liệu",
       "Vì C chỉ dùng để trình chiếu"
     ],
     "a": 1,
-    "why": "C được dùng để viết thành phần hệ thống và chương trình yêu cầu kiểm soát tài nguyên."
+    "why": "Slide 8 nêu C có tính cấu trúc, khả chuyển cao và thích hợp xây dựng chương trình hệ thống.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 8
+        }
+      ]
+    }
   },
   {
     "id": "C2-007",
@@ -732,7 +1176,16 @@
       "Chỉ chạy trong trình duyệt"
     ],
     "a": 1,
-    "why": "Ngôn ngữ C hỗ trợ lập trình có cấu trúc."
+    "why": "Ngôn ngữ C hỗ trợ lập trình có cấu trúc.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 8
+        }
+      ]
+    }
   },
   {
     "id": "C2-008",
@@ -747,7 +1200,16 @@
       "Integrated Digital Email"
     ],
     "a": 0,
-    "why": "IDE là môi trường phát triển tích hợp."
+    "why": "IDE là môi trường phát triển tích hợp.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 10
+        }
+      ]
+    }
   },
   {
     "id": "C2-009",
@@ -762,7 +1224,16 @@
       "Chrome"
     ],
     "a": 0,
-    "why": "GCC hỗ trợ biên dịch chương trình C (dùng gcc cho C)."
+    "why": "GCC hỗ trợ biên dịch chương trình C (dùng gcc cho C).",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 10
+        }
+      ]
+    }
   },
   {
     "id": "C2-010",
@@ -777,7 +1248,16 @@
       "Chỉ khi dùng Windows XP"
     ],
     "a": 1,
-    "why": "IDE là công cụ hỗ trợ, không phải yêu cầu của ngôn ngữ."
+    "why": "IDE là công cụ hỗ trợ, không phải yêu cầu của ngôn ngữ.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 11
+        }
+      ]
+    }
   },
   {
     "id": "C2-011",
@@ -792,7 +1272,16 @@
       "Nội dung chú thích"
     ],
     "a": 1,
-    "why": "Không được lấy keyword làm tên biến hoặc hàm."
+    "why": "Không được lấy keyword làm tên biến hoặc hàm.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 16
+        }
+      ]
+    }
   },
   {
     "id": "C2-012",
@@ -807,7 +1296,16 @@
       "float"
     ],
     "a": 2,
-    "why": "Tên bắt đầu bằng chữ hoặc _, sau đó có thể có chữ, số, _; không trùng từ khóa."
+    "why": "Tên bắt đầu bằng chữ hoặc _, sau đó có thể có chữ, số, _; không trùng từ khóa.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 17
+        }
+      ]
+    }
   },
   {
     "id": "C2-013",
@@ -822,7 +1320,16 @@
       "diem_1"
     ],
     "a": 1,
-    "why": "while là từ khóa; C phân biệt chữ hoa/thường."
+    "why": "while là từ khóa; C phân biệt chữ hoa/thường.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 16
+        }
+      ]
+    }
   },
   {
     "id": "C2-014",
@@ -837,7 +1344,16 @@
       "Cả hai không hợp lệ"
     ],
     "a": 1,
-    "why": "Ngôn ngữ C phân biệt chữ hoa và chữ thường."
+    "why": "Ngôn ngữ C phân biệt chữ hoa và chữ thường.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 17
+        }
+      ]
+    }
   },
   {
     "id": "C2-015",
@@ -852,7 +1368,16 @@
       "const(MAX,100)"
     ],
     "a": 0,
-    "why": "#define dùng phép thay thế macro, không đặt dấu = như phép gán."
+    "why": "#define dùng phép thay thế macro, không đặt dấu = như phép gán.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 18
+        }
+      ]
+    }
   },
   {
     "id": "C2-016",
@@ -867,7 +1392,16 @@
       "PI const float;"
     ],
     "a": 1,
-    "why": "C có từ khóa const để tạo đối tượng chỉ đọc qua tên đó."
+    "why": "C có từ khóa const để tạo đối tượng chỉ đọc qua tên đó.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 18
+        }
+      ]
+    }
   },
   {
     "id": "C2-017",
@@ -882,7 +1416,16 @@
       "Hằng chỉ chứa ký tự"
     ],
     "a": 0,
-    "why": "Biến chứa giá trị có thể cập nhật, còn đối tượng const không thể gán lại theo cách thông thường."
+    "why": "Biến chứa giá trị có thể cập nhật, còn đối tượng const không thể gán lại theo cách thông thường.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 20
+        }
+      ]
+    }
   },
   {
     "id": "C2-018",
@@ -897,7 +1440,16 @@
       "int (a=4,b=5)"
     ],
     "a": 0,
-    "why": "Cú pháp C: kiểu, danh sách biến và dấu chấm phẩy kết thúc lệnh khai báo."
+    "why": "Cú pháp C: kiểu, danh sách biến và dấu chấm phẩy kết thúc lệnh khai báo.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 21
+        }
+      ]
+    }
   },
   {
     "id": "C2-019",
@@ -912,7 +1464,16 @@
       "a và y cùng kiểu dữ liệu"
     ],
     "a": 1,
-    "why": "Ở đây chỉ có y được khởi tạo tường minh; giá trị ban đầu của biến cục bộ chưa khởi tạo không xác định."
+    "why": "Ở đây chỉ có y được khởi tạo tường minh; giá trị ban đầu của biến cục bộ chưa khởi tạo không xác định.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 21
+        }
+      ]
+    }
   },
   {
     "id": "C2-020",
@@ -927,7 +1488,16 @@
       "print()"
     ],
     "a": 2,
-    "why": "main là điểm vào của chương trình C lưu trú thông thường."
+    "why": "main là điểm vào của chương trình C lưu trú thông thường.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 22
+        }
+      ]
+    }
   },
   {
     "id": "C2-021",
@@ -942,7 +1512,16 @@
       "Chỉ chuỗi ký tự"
     ],
     "a": 0,
-    "why": "Ví dụ a + b*2 là biểu thức gồm toán hạng a, b, 2 và toán tử."
+    "why": "Ví dụ a + b*2 là biểu thức gồm toán hạng a, b, 2 và toán tử.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 23
+        }
+      ]
+    }
   },
   {
     "id": "C2-022",
@@ -957,7 +1536,16 @@
       "ctype.h"
     ],
     "a": 2,
-    "why": "Các hàm toán học như pow, sqrt được khai báo trong math.h."
+    "why": "Các hàm toán học như pow, sqrt được khai báo trong math.h.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 59
+        }
+      ]
+    }
   },
   {
     "id": "C2-023",
@@ -972,7 +1560,16 @@
       "Bắt buộc phải lồng hàm"
     ],
     "a": 1,
-    "why": "Có thể gọi hàm từ hàm khác, nhưng định nghĩa hàm lồng không thuộc C chuẩn."
+    "why": "Có thể gọi hàm từ hàm khác, nhưng định nghĩa hàm lồng không thuộc C chuẩn.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 22
+        }
+      ]
+    }
   },
   {
     "id": "C2-024",
@@ -987,7 +1584,16 @@
       "2"
     ],
     "a": 0,
-    "why": "Chia nguyên bỏ phần thập phân, hướng về 0."
+    "why": "Chia nguyên bỏ phần thập phân, hướng về 0.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 28
+        }
+      ]
+    }
   },
   {
     "id": "C2-025",
@@ -1002,7 +1608,16 @@
       "0"
     ],
     "a": 0,
-    "why": "11 chia 3 dư 2."
+    "why": "11 chia 3 dư 2.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 28
+        }
+      ]
+    }
   },
   {
     "id": "C2-026",
@@ -1017,7 +1632,16 @@
       "11"
     ],
     "a": 1,
-    "why": "Có toán hạng thực nên phép chia là chia số thực."
+    "why": "Có toán hạng thực nên phép chia là chia số thực.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 28
+        }
+      ]
+    }
   },
   {
     "id": "C2-027",
@@ -1032,7 +1656,16 @@
       "(5,5)"
     ],
     "a": 2,
-    "why": "Hậu tố x++ dùng giá trị cũ cho y rồi mới tăng x."
+    "why": "Hậu tố x++ dùng giá trị cũ cho y rồi mới tăng x.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 27
+        }
+      ]
+    }
   },
   {
     "id": "C2-028",
@@ -1047,7 +1680,16 @@
       "(5,5)"
     ],
     "a": 1,
-    "why": "Tiền tố ++x tăng x trước rồi lấy giá trị mới."
+    "why": "Tiền tố ++x tăng x trước rồi lấy giá trị mới.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 27
+        }
+      ]
+    }
   },
   {
     "id": "C2-029",
@@ -1062,7 +1704,16 @@
       "9"
     ],
     "a": 1,
-    "why": "Nhân được ưu tiên trước cộng."
+    "why": "Nhân được ưu tiên trước cộng.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 41
+        }
+      ]
+    }
   },
   {
     "id": "C2-030",
@@ -1077,7 +1728,16 @@
       "Chỉ con trỏ"
     ],
     "a": 1,
-    "why": "% tính phần dư của phép chia trên các kiểu số nguyên."
+    "why": "% tính phần dư của phép chia trên các kiểu số nguyên.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 28
+        }
+      ]
+    }
   },
   {
     "id": "C2-031",
@@ -1092,7 +1752,16 @@
       "21"
     ],
     "a": 2,
-    "why": "a+=3 tương đương a=a+3."
+    "why": "a+=3 tương đương a=a+3.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 36
+        }
+      ]
+    }
   },
   {
     "id": "C2-032",
@@ -1107,7 +1776,16 @@
       "!"
     ],
     "a": 1,
-    "why": "& là AND bit, && là AND logic."
+    "why": "& là AND bit, && là AND logic.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 29
+        }
+      ]
+    }
   },
   {
     "id": "C2-033",
@@ -1122,7 +1800,16 @@
       "&&"
     ],
     "a": 0,
-    "why": "^ thực hiện XOR trên các bit tương ứng."
+    "why": "^ thực hiện XOR trên các bit tương ứng.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 29
+        }
+      ]
+    }
   },
   {
     "id": "C2-034",
@@ -1137,7 +1824,16 @@
       "7"
     ],
     "a": 1,
-    "why": "0101 & 0011 = 0001."
+    "why": "0101 & 0011 = 0001.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 29
+        }
+      ]
+    }
   },
   {
     "id": "C2-035",
@@ -1152,7 +1848,16 @@
       "10"
     ],
     "a": 2,
-    "why": "0101 | 0010 = 0111."
+    "why": "0101 | 0010 = 0111.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 29
+        }
+      ]
+    }
   },
   {
     "id": "C2-036",
@@ -1167,7 +1872,16 @@
       "24"
     ],
     "a": 2,
-    "why": "Dịch trái 2 bit tương đương nhân 4 khi không tràn phần có nghĩa."
+    "why": "Dịch trái 2 bit tương đương nhân 4 khi không tràn phần có nghĩa.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 29
+        }
+      ]
+    }
   },
   {
     "id": "C2-037",
@@ -1182,7 +1896,16 @@
       "==="
     ],
     "a": 1,
-    "why": "== so sánh; = gán."
+    "why": "== so sánh; = gán.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 31
+        }
+      ]
+    }
   },
   {
     "id": "C2-038",
@@ -1197,7 +1920,16 @@
       "Không hợp lệ"
     ],
     "a": 1,
-    "why": "Hai toán hạng bằng nhau nên điều kiện khác nhau là sai."
+    "why": "Hai toán hạng bằng nhau nên điều kiện khác nhau là sai.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 31
+        }
+      ]
+    }
   },
   {
     "id": "C2-039",
@@ -1212,7 +1944,16 @@
       "Mọi số thực"
     ],
     "a": 1,
-    "why": "0 là sai, mọi giá trị số khác 0 là đúng."
+    "why": "0 là sai, mọi giá trị số khác 0 là đúng.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 55
+        }
+      ]
+    }
   },
   {
     "id": "C2-040",
@@ -1227,7 +1968,16 @@
       "Không xác định"
     ],
     "a": 1,
-    "why": "Vế đầu đúng, vế sau sai; AND trả về 0."
+    "why": "Vế đầu đúng, vế sau sai; AND trả về 0.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 32
+        }
+      ]
+    }
   },
   {
     "id": "C2-041",
@@ -1242,7 +1992,16 @@
       "2"
     ],
     "a": 1,
-    "why": "5>2 đúng (1); phủ định ! nhận 0."
+    "why": "5>2 đúng (1); phủ định ! nhận 0.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 32
+        }
+      ]
+    }
   },
   {
     "id": "C2-042",
@@ -1252,12 +2011,25 @@
     "q": "Khác biệt nào đúng giữa `&&` và `&`?",
     "opts": [
       "Cả hai luôn giống nhau",
-      "&& là AND logic và có cơ chế ngắn mạch; & là AND bit",
+      "&& là AND logic; & là AND theo từng bit",
       "& dùng cho xâu ký tự",
       "&& là phép gán"
     ],
     "a": 1,
-    "why": "Hai toán tử có ngữ nghĩa và mức ưu tiên khác nhau."
+    "why": "Slide 29 giới thiệu & theo bit, slide 32 giới thiệu && trong phép logic.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 32
+        },
+        {
+          "chapter": 2,
+          "slide": 29
+        }
+      ]
+    }
   },
   {
     "id": "C2-043",
@@ -1272,7 +2044,16 @@
       "20"
     ],
     "a": 2,
-    "why": "Điều kiện đúng nên chọn biểu thức trước dấu hai chấm."
+    "why": "Điều kiện đúng nên chọn biểu thức trước dấu hai chấm.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 34
+        }
+      ]
+    }
   },
   {
     "id": "C2-044",
@@ -1287,7 +2068,16 @@
       "#a"
     ],
     "a": 1,
-    "why": "&a cho địa chỉ của biến a."
+    "why": "&a cho địa chỉ của biến a.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 38
+        }
+      ]
+    }
   },
   {
     "id": "C2-045",
@@ -1302,7 +2092,16 @@
       "Không hợp lệ"
     ],
     "a": 1,
-    "why": "Ép a sang float khiến phép chia diễn ra theo kiểu số thực."
+    "why": "Ép a sang float khiến phép chia diễn ra theo kiểu số thực.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 39
+        }
+      ]
+    }
   },
   {
     "id": "C2-046",
@@ -1317,7 +2116,16 @@
       "x=3, a=2"
     ],
     "a": 1,
-    "why": "a++ đưa a thành 3; sau đó b=3+3=6; biểu thức dấu phẩy nhận giá trị cuối là 6."
+    "why": "a++ đưa a thành 3; sau đó b=3+3=6; biểu thức dấu phẩy nhận giá trị cuối là 6.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 37
+        }
+      ]
+    }
   },
   {
     "id": "C2-047",
@@ -1332,7 +2140,16 @@
       "Cả hai nhận 0"
     ],
     "a": 1,
-    "why": "Toán tử gán kết hợp từ phải sang trái."
+    "why": "Toán tử gán kết hợp từ phải sang trái.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 35
+        }
+      ]
+    }
   },
   {
     "id": "C2-048",
@@ -1347,7 +2164,16 @@
       "< >"
     ],
     "a": 2,
-    "why": "Dấu ngoặc nhọn nhóm nhiều khai báo/lệnh thành một khối."
+    "why": "Dấu ngoặc nhọn nhóm nhiều khai báo/lệnh thành một khối.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 42
+        }
+      ]
+    }
   },
   {
     "id": "C2-049",
@@ -1362,7 +2188,16 @@
       "Chỉ trên Windows"
     ],
     "a": 0,
-    "why": "Tên biến trong phạm vi gần hơn có ưu tiên khi tra cứu."
+    "why": "Tên biến trong phạm vi gần hơn có ưu tiên khi tra cứu.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 44
+        }
+      ]
+    }
   },
   {
     "id": "C2-050",
@@ -1377,7 +2212,16 @@
       "struct"
     ],
     "a": 1,
-    "why": "char lưu một đơn vị ký tự/byte."
+    "why": "char lưu một đơn vị ký tự/byte.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 50
+        }
+      ]
+    }
   },
   {
     "id": "C2-051",
@@ -1392,22 +2236,16 @@
       "Xâu chỉ chứa chuỗi rỗng"
     ],
     "a": 1,
-    "why": "Dấu nháy đơn biểu diễn hằng ký tự; nháy kép biểu diễn chuỗi."
-  },
-  {
-    "id": "C2-052",
-    "chapter": 2,
-    "topic": "2.3 Kiểu dữ liệu",
-    "level": "Hiểu",
-    "q": "Về kích thước `int` trong C chuẩn, khẳng định nào đúng?",
-    "opts": [
-      "Luôn bằng 2 byte trên mọi máy",
-      "Luôn bằng 4 byte trên mọi máy",
-      "Phụ thuộc triển khai và phải thỏa giới hạn tối thiểu theo chuẩn",
-      "Luôn bằng 8 byte"
-    ],
-    "a": 2,
-    "why": "Slide có ví dụ môi trường int=2 byte, không phải quy tắc chung của C chuẩn."
+    "why": "Dấu nháy đơn biểu diễn hằng ký tự; nháy kép biểu diễn chuỗi.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 20
+        }
+      ]
+    }
   },
   {
     "id": "C2-053",
@@ -1422,7 +2260,16 @@
       "1250"
     ],
     "a": 2,
-    "why": "1.25×10² = 125."
+    "why": "1.25×10² = 125.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 54
+        }
+      ]
+    }
   },
   {
     "id": "C2-054",
@@ -1437,7 +2284,16 @@
       "renametype"
     ],
     "a": 0,
-    "why": "typedef định nghĩa tên kiểu mới từ một kiểu hiện có."
+    "why": "typedef định nghĩa tên kiểu mới từ một kiểu hiện có.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 62
+        }
+      ]
+    }
   },
   {
     "id": "C2-055",
@@ -1452,7 +2308,16 @@
       "#load stdio"
     ],
     "a": 2,
-    "why": "stdio.h khai báo printf, scanf và nhiều hàm I/O chuẩn."
+    "why": "stdio.h khai báo printf, scanf và nhiều hàm I/O chuẩn.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 58
+        }
+      ]
+    }
   },
   {
     "id": "C2-056",
@@ -1467,7 +2332,16 @@
       "function tong()"
     ],
     "a": 0,
-    "why": "Nguyên mẫu kết thúc dấu ;, mô tả kiểu trả về và danh sách tham số."
+    "why": "Nguyên mẫu kết thúc dấu ;, mô tả kiểu trả về và danh sách tham số.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 63
+        }
+      ]
+    }
   },
   {
     "id": "C2-057",
@@ -1482,7 +2356,16 @@
       "Xóa mọi tệp header"
     ],
     "a": 1,
-    "why": "Compiler cần biết khai báo hàm tại điểm lời gọi."
+    "why": "Compiler cần biết khai báo hàm tại điểm lời gọi.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 63
+        }
+      ]
+    }
   },
   {
     "id": "C2-058",
@@ -1497,7 +2380,16 @@
       "\" \""
     ],
     "a": 1,
-    "why": "Câu lệnh trong hàm được nhóm trong khối { }."
+    "why": "Câu lệnh trong hàm được nhóm trong khối { }.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 65
+        }
+      ]
+    }
   },
   {
     "id": "C2-059",
@@ -1512,7 +2404,16 @@
       "** nội dung"
     ],
     "a": 0,
-    "why": "// là cú pháp chú thích một dòng trong C99 và các chuẩn mới hơn."
+    "why": "// là cú pháp chú thích một dòng trong C99 và các chuẩn mới hơn.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 70
+        }
+      ]
+    }
   },
   {
     "id": "C2-060",
@@ -1527,7 +2428,16 @@
       "# ... #"
     ],
     "a": 1,
-    "why": "/* mở và */ đóng phần chú thích khối."
+    "why": "/* mở và */ đóng phần chú thích khối.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 70
+        }
+      ]
+    }
   },
   {
     "id": "C2-061",
@@ -1542,7 +2452,16 @@
       "Gọi lại main"
     ],
     "a": 0,
-    "why": "main trả về giá trị nguyên thông báo trạng thái kết thúc."
+    "why": "main trả về giá trị nguyên thông báo trạng thái kết thúc.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 65
+        }
+      ]
+    }
   },
   {
     "id": "C2-062",
@@ -1557,7 +2476,16 @@
       "<script>Hi</script>"
     ],
     "a": 0,
-    "why": "Đoạn C chuẩn có stdio.h, main và printf."
+    "why": "Đoạn C chuẩn có stdio.h, main và printf.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 68
+        }
+      ]
+    }
   },
   {
     "id": "C3-001",
@@ -1572,7 +2500,16 @@
       "string.h"
     ],
     "a": 2,
-    "why": "stdio là viết tắt standard input/output."
+    "why": "stdio là viết tắt standard input/output.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 4
+        }
+      ]
+    }
   },
   {
     "id": "C3-002",
@@ -1587,7 +2524,16 @@
       "strlen"
     ],
     "a": 1,
-    "why": "printf là hàm xuất định dạng."
+    "why": "printf là hàm xuất định dạng.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 5
+        }
+      ]
+    }
   },
   {
     "id": "C3-003",
@@ -1602,7 +2548,16 @@
       "Kết thúc xâu"
     ],
     "a": 1,
-    "why": "%d yêu cầu hiển thị đối số tương ứng như số nguyên thập phân có dấu."
+    "why": "%d yêu cầu hiển thị đối số tương ứng như số nguyên thập phân có dấu.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 9
+        }
+      ]
+    }
   },
   {
     "id": "C3-004",
@@ -1617,7 +2572,16 @@
       "%d"
     ],
     "a": 1,
-    "why": "%c xuất ký tự theo mã tương ứng."
+    "why": "%c xuất ký tự theo mã tương ứng.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 9
+        }
+      ]
+    }
   },
   {
     "id": "C3-005",
@@ -1632,7 +2596,16 @@
       "%o"
     ],
     "a": 0,
-    "why": "%s đọc các byte đến ký tự kết thúc '\\0'."
+    "why": "%s đọc các byte đến ký tự kết thúc '\\0'.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 11
+        }
+      ]
+    }
   },
   {
     "id": "C3-006",
@@ -1647,7 +2620,16 @@
       "%f"
     ],
     "a": 1,
-    "why": "%u dành cho unsigned int trong các đối số phù hợp."
+    "why": "%u dành cho unsigned int trong các đối số phù hợp.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 9
+        }
+      ]
+    }
   },
   {
     "id": "C3-007",
@@ -1662,7 +2644,16 @@
       "Hệ 16"
     ],
     "a": 3,
-    "why": "%x biểu diễn số hệ 16 với chữ a–f thường."
+    "why": "%x biểu diễn số hệ 16 với chữ a–f thường.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 9
+        }
+      ]
+    }
   },
   {
     "id": "C3-008",
@@ -1677,7 +2668,16 @@
       "Hệ 16"
     ],
     "a": 1,
-    "why": "o là octal (bát phân)."
+    "why": "o là octal (bát phân).",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 9
+        }
+      ]
+    }
   },
   {
     "id": "C3-009",
@@ -1692,7 +2692,16 @@
       "Cấu trúc"
     ],
     "a": 0,
-    "why": "Đối số float được tự nâng lên double khi truyền qua printf."
+    "why": "Đối số float được tự nâng lên double khi truyền qua printf.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 11
+        }
+      ]
+    }
   },
   {
     "id": "C3-010",
@@ -1707,7 +2716,16 @@
       "Kết thúc chương trình"
     ],
     "a": 1,
-    "why": "\\n biểu diễn ký tự xuống dòng."
+    "why": "\\n biểu diễn ký tự xuống dòng.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 8
+        }
+      ]
+    }
   },
   {
     "id": "C3-011",
@@ -1722,22 +2740,16 @@
       "Ký tự kết thúc xâu"
     ],
     "a": 0,
-    "why": "\\t là horizontal tab."
-  },
-  {
-    "id": "C3-012",
-    "chapter": 3,
-    "topic": "3.1 Thư viện và printf",
-    "level": "Vận dụng",
-    "q": "Cách xuất một dấu phần trăm bằng printf là gì?",
-    "opts": [
-      "printf(\"%\");",
-      "printf(\"%%\");",
-      "printf(\"\\\\%\");",
-      "printf(\"%d\");"
-    ],
-    "a": 1,
-    "why": "%% biểu diễn ký tự phần trăm trong xâu định dạng."
+    "why": "\\t là horizontal tab.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 8
+        }
+      ]
+    }
   },
   {
     "id": "C3-013",
@@ -1752,7 +2764,16 @@
       "Không in gì"
     ],
     "a": 1,
-    "why": "Đối số là biểu thức nên được tính trước rồi định dạng."
+    "why": "Đối số là biểu thức nên được tính trước rồi định dạng.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 12
+        }
+      ]
+    }
   },
   {
     "id": "C3-014",
@@ -1767,7 +2788,16 @@
       "3"
     ],
     "a": 3,
-    "why": "Độ rộng tối thiểu 5, số 42 chiếm 2 ký tự nên thêm 3 dấu cách."
+    "why": "Độ rộng tối thiểu 5, số 42 chiếm 2 ký tự nên thêm 3 dấu cách.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 13
+        }
+      ]
+    }
   },
   {
     "id": "C3-015",
@@ -1782,7 +2812,16 @@
       "\"00042!\""
     ],
     "a": 1,
-    "why": "Dấu - khiến căn trái trong vùng tối thiểu 5 ký tự."
+    "why": "Dấu - khiến căn trái trong vùng tối thiểu 5 ký tự.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 18
+        }
+      ]
+    }
   },
   {
     "id": "C3-016",
@@ -1797,7 +2836,16 @@
       "9"
     ],
     "a": 2,
-    "why": "%.2f hiển thị hai chữ số thập phân; 9.126 làm tròn thành 9.13. (Mốc 9.125 trong slide có thể là trường hợp làm tròn sát ranh giới.)"
+    "why": "%.2f hiển thị hai chữ số thập phân; 9.126 làm tròn thành 9.13. (Mốc 9.125 trong slide có thể là trường hợp làm tròn sát ranh giới.)",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 15
+        }
+      ]
+    }
   },
   {
     "id": "C3-017",
@@ -1812,7 +2860,16 @@
       "Chỉ in 12"
     ],
     "a": 1,
-    "why": "Trường width quy định tối thiểu, không cắt nội dung."
+    "why": "Trường width quy định tối thiểu, không cắt nội dung.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 17
+        }
+      ]
+    }
   },
   {
     "id": "C3-018",
@@ -1827,7 +2884,16 @@
       "Tổng số dòng chương trình"
     ],
     "a": 1,
-    "why": "Đặc tả sai kiểu có thể dẫn đến hành vi không xác định."
+    "why": "Đặc tả sai kiểu có thể dẫn đến hành vi không xác định.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 6
+        }
+      ]
+    }
   },
   {
     "id": "C3-019",
@@ -1842,7 +2908,16 @@
       "strcpy"
     ],
     "a": 1,
-    "why": "scanf đọc và chuyển đổi dữ liệu theo đặc tả."
+    "why": "scanf đọc và chuyển đổi dữ liệu theo đặc tả.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 19
+        }
+      ]
+    }
   },
   {
     "id": "C3-020",
@@ -1857,7 +2932,16 @@
       "scanf(n, \"%d\");"
     ],
     "a": 1,
-    "why": "scanf cần địa chỉ vùng nhớ của biến đích."
+    "why": "scanf cần địa chỉ vùng nhớ của biến đích.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 19
+        }
+      ]
+    }
   },
   {
     "id": "C3-021",
@@ -1872,7 +2956,16 @@
       "scanf(\"%d\", &x);"
     ],
     "a": 0,
-    "why": "Trong scanf, %f cần float*; %lf cần double*."
+    "why": "Trong scanf, %f cần float*; %lf cần double*.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 21
+        }
+      ]
+    }
   },
   {
     "id": "C3-022",
@@ -1887,22 +2980,16 @@
       "scanf(\"%c\", &d);"
     ],
     "a": 2,
-    "why": "Trong scanf, %lf nhận double*."
-  },
-  {
-    "id": "C3-023",
-    "chapter": 3,
-    "topic": "3.1 scanf và nhập dữ liệu",
-    "level": "Hiểu",
-    "q": "Cách viết `scanf(\" %c\", &c);` với một dấu cách trước `%c` có tác dụng gì?",
-    "opts": [
-      "In ra một dấu cách",
-      "Bỏ qua các ký tự khoảng trắng trước khi đọc ký tự",
-      "Đọc luôn hai ký tự",
-      "Bắt buộc c là số thực"
-    ],
-    "a": 1,
-    "why": "Khoảng trắng trong định dạng scanf bỏ qua khoảng trắng đầu vào, kể cả newline."
+    "why": "Trong scanf, %lf nhận double*.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 22
+        }
+      ]
+    }
   },
   {
     "id": "C3-024",
@@ -1917,7 +3004,16 @@
       "Vì thiếu dấu ; sau main"
     ],
     "a": 0,
-    "why": "Đặc tả %c đọc ngay ký tự tiếp theo, bao gồm Enter."
+    "why": "Đặc tả %c đọc ngay ký tự tiếp theo, bao gồm Enter.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 26
+        }
+      ]
+    }
   },
   {
     "id": "C3-025",
@@ -1932,22 +3028,16 @@
       "printf(\"%d%d\", &a, &b);"
     ],
     "a": 0,
-    "why": "Hai đặc tả %d tương ứng hai địa chỉ int."
-  },
-  {
-    "id": "C3-026",
-    "chapter": 3,
-    "topic": "3.1 scanf và nhập dữ liệu",
-    "level": "Hiểu",
-    "q": "Với `scanf(\"%d\", &n);`, giá trị trả về 1 thường có nghĩa gì?",
-    "opts": [
-      "Đọc và gán thành công một mục dữ liệu",
-      "n chắc chắn bằng 1",
-      "Không đọc được gì",
-      "Chương trình kết thúc"
-    ],
-    "a": 0,
-    "why": "Kiến thức nền tảng: scanf trả về số trường gán thành công (hoặc EOF)."
+    "why": "Hai đặc tả %d tương ứng hai địa chỉ int.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 21
+        }
+      ]
+    }
   },
   {
     "id": "C3-027",
@@ -1962,7 +3052,16 @@
       "Chỉ khi dk bằng 1 đúng nghĩa toán học"
     ],
     "a": 1,
-    "why": "Trong C, mọi số khác 0 được xem là true."
+    "why": "Trong C, mọi số khác 0 được xem là true.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 33
+        }
+      ]
+    }
   },
   {
     "id": "C3-028",
@@ -1977,7 +3076,16 @@
       "Bắt buộc phải có trong mọi if"
     ],
     "a": 0,
-    "why": "else biểu diễn nhánh còn lại."
+    "why": "else biểu diễn nhánh còn lại.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 33
+        }
+      ]
+    }
   },
   {
     "id": "C3-029",
@@ -1992,7 +3100,16 @@
       "Không in"
     ],
     "a": 0,
-    "why": "8 chia 2 dư 0 nên vào nhánh đúng."
+    "why": "8 chia 2 dư 0 nên vào nhánh đúng.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 34
+        }
+      ]
+    }
   },
   {
     "id": "C3-030",
@@ -2007,7 +3124,16 @@
       "Lỗi cú pháp"
     ],
     "a": 1,
-    "why": "(x=0) là phép gán có giá trị 0 nên điều kiện sai. Nhớ phân biệt = với ==."
+    "why": "(x=0) là phép gán có giá trị 0 nên điều kiện sai. Nhớ phân biệt = với ==.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 33
+        }
+      ]
+    }
   },
   {
     "id": "C3-031",
@@ -2022,7 +3148,16 @@
       "Không lệnh nào"
     ],
     "a": 0,
-    "why": "Muốn điều khiển nhiều lệnh phải nhóm chúng bằng khối { }."
+    "why": "Muốn điều khiển nhiều lệnh phải nhóm chúng bằng khối { }.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 33
+        }
+      ]
+    }
   },
   {
     "id": "C3-032",
@@ -2037,7 +3172,16 @@
       "Lỗi cú pháp"
     ],
     "a": 1,
-    "why": "Các nhánh thuộc một chuỗi lựa chọn thay thế nhau."
+    "why": "Các nhánh thuộc một chuỗi lựa chọn thay thế nhau.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 39
+        }
+      ]
+    }
   },
   {
     "id": "C3-033",
@@ -2052,7 +3196,16 @@
       "0"
     ],
     "a": 1,
-    "why": "Điều kiện sai nên toán tử điều kiện chọn b."
+    "why": "Điều kiện sai nên toán tử điều kiện chọn b.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 2,
+          "slide": 34
+        }
+      ]
+    }
   },
   {
     "id": "C3-034",
@@ -2067,7 +3220,16 @@
       "Chỉ mảng"
     ],
     "a": 1,
-    "why": "Biểu thức điều khiển switch cần có kiểu nguyên sau các phép chuyển đổi hợp lệ."
+    "why": "Biểu thức điều khiển switch cần có kiểu nguyên sau các phép chuyển đổi hợp lệ.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 43
+        }
+      ]
+    }
   },
   {
     "id": "C3-035",
@@ -2082,7 +3244,16 @@
       "Quay về đầu switch"
     ],
     "a": 0,
-    "why": "break ngăn thực thi rơi tiếp vào case phía sau."
+    "why": "break ngăn thực thi rơi tiếp vào case phía sau.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 41
+        }
+      ]
+    }
   },
   {
     "id": "C3-036",
@@ -2097,7 +3268,16 @@
       "Tự động trở về main"
     ],
     "a": 1,
-    "why": "Khi không có lệnh chuyển điều khiển, dòng chạy đi tiếp qua nhãn case."
+    "why": "Khi không có lệnh chuyển điều khiển, dòng chạy đi tiếp qua nhãn case.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 45
+        }
+      ]
+    }
   },
   {
     "id": "C3-037",
@@ -2112,7 +3292,16 @@
       "C"
     ],
     "a": 2,
-    "why": "B chạy rồi rơi xuống case 3, in tiếp C."
+    "why": "B chạy rồi rơi xuống case 3, in tiếp C.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 45
+        }
+      ]
+    }
   },
   {
     "id": "C3-038",
@@ -2127,7 +3316,16 @@
       "Khai báo biến toàn cục"
     ],
     "a": 1,
-    "why": "default là nhánh dự phòng, không bắt buộc có."
+    "why": "default là nhánh dự phòng, không bắt buộc có.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 41
+        }
+      ]
+    }
   },
   {
     "id": "C3-039",
@@ -2142,7 +3340,16 @@
       "Chỉ hợp lệ khi có break"
     ],
     "a": 1,
-    "why": "Không được có hai case trùng giá trị trong cùng switch."
+    "why": "Không được có hai case trùng giá trị trong cùng switch.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 44
+        }
+      ]
+    }
   },
   {
     "id": "C3-040",
@@ -2157,7 +3364,16 @@
       "Chỉ khi đã printf x"
     ],
     "a": 1,
-    "why": "switch không nhận trực tiếp biểu thức số thực."
+    "why": "switch không nhận trực tiếp biểu thức số thực.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 43
+        }
+      ]
+    }
   },
   {
     "id": "C3-041",
@@ -2172,7 +3388,16 @@
       "Nhập, xuất, in kết quả"
     ],
     "a": 1,
-    "why": "Đây là mô hình vòng for cơ bản."
+    "why": "Đây là mô hình vòng for cơ bản.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 50
+        }
+      ]
+    }
   },
   {
     "id": "C3-042",
@@ -2187,7 +3412,16 @@
       "0000"
     ],
     "a": 0,
-    "why": "i nhận 0,1,2,3 rồi dừng khi bằng 4."
+    "why": "i nhận 0,1,2,3 rồi dừng khi bằng 4.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 53
+        }
+      ]
+    }
   },
   {
     "id": "C3-043",
@@ -2202,7 +3436,16 @@
       "15"
     ],
     "a": 2,
-    "why": "1+2+3+4=10."
+    "why": "1+2+3+4=10.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 54
+        }
+      ]
+    }
   },
   {
     "id": "C3-044",
@@ -2217,7 +3460,16 @@
       "Không chạy"
     ],
     "a": 1,
-    "why": "for(;;) là vòng lặp vô hạn thông dụng."
+    "why": "for(;;) là vòng lặp vô hạn thông dụng.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 52
+        }
+      ]
+    }
   },
   {
     "id": "C3-045",
@@ -2232,7 +3484,16 @@
       "036"
     ],
     "a": 1,
-    "why": "i lần lượt 0,2,4."
+    "why": "i lần lượt 0,2,4.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 53
+        }
+      ]
+    }
   },
   {
     "id": "C3-046",
@@ -2247,7 +3508,16 @@
       "9"
     ],
     "a": 2,
-    "why": "Vòng ngoài 3 lần, vòng trong mỗi lượt 2 lần: 3×2=6."
+    "why": "Vòng ngoài 3 lần, vòng trong mỗi lượt 2 lần: 3×2=6.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 53
+        }
+      ]
+    }
   },
   {
     "id": "C3-047",
@@ -2262,7 +3532,16 @@
       "Không kiểm tra"
     ],
     "a": 1,
-    "why": "Vòng while có thể không chạy lần nào."
+    "why": "Vòng while có thể không chạy lần nào.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 56
+        }
+      ]
+    }
   },
   {
     "id": "C3-048",
@@ -2277,7 +3556,16 @@
       "6"
     ],
     "a": 2,
-    "why": "Điều kiện sai ngay từ đầu nên thân không chạy."
+    "why": "Điều kiện sai ngay từ đầu nên thân không chạy.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 56
+        }
+      ]
+    }
   },
   {
     "id": "C3-049",
@@ -2292,7 +3580,16 @@
       "8"
     ],
     "a": 3,
-    "why": "i: 1→2→4→8, khi 8<5 sai."
+    "why": "i: 1→2→4→8, khi 8<5 sai.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 56
+        }
+      ]
+    }
   },
   {
     "id": "C3-050",
@@ -2307,7 +3604,16 @@
       "do while chỉ dành cho mảng"
     ],
     "a": 0,
-    "why": "do while kiểm tra điều kiện sau khi chạy thân."
+    "why": "do while kiểm tra điều kiện sau khi chạy thân.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 61
+        }
+      ]
+    }
   },
   {
     "id": "C3-051",
@@ -2322,7 +3628,16 @@
       "Không xác định"
     ],
     "a": 1,
-    "why": "Thân chạy một lần dù điều kiện sai."
+    "why": "Thân chạy một lần dù điều kiện sai.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 61
+        }
+      ]
+    }
   },
   {
     "id": "C3-052",
@@ -2337,7 +3652,16 @@
       "Dấu `?`"
     ],
     "a": 0,
-    "why": "Cú pháp `do { ... } while (dk);` có chấm phẩy cuối."
+    "why": "Cú pháp `do { ... } while (dk);` có chấm phẩy cuối.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 61
+        }
+      ]
+    }
   },
   {
     "id": "C3-053",
@@ -2352,7 +3676,16 @@
       "Chỉ struct"
     ],
     "a": 1,
-    "why": "break thoát khỏi switch hoặc vòng lặp gần nhất chứa nó."
+    "why": "break thoát khỏi switch hoặc vòng lặp gần nhất chứa nó.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 67
+        }
+      ]
+    }
   },
   {
     "id": "C3-054",
@@ -2367,7 +3700,16 @@
       "Khai báo biến"
     ],
     "a": 1,
-    "why": "continue bỏ phần còn lại của lượt lặp hiện tại."
+    "why": "continue bỏ phần còn lại của lượt lặp hiện tại.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 67
+        }
+      ]
+    }
   },
   {
     "id": "C3-055",
@@ -2382,7 +3724,16 @@
       "24"
     ],
     "a": 1,
-    "why": "Bỏ in i=2, vẫn lặp các giá trị khác."
+    "why": "Bỏ in i=2, vẫn lặp các giá trị khác.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 67
+        }
+      ]
+    }
   },
   {
     "id": "C3-056",
@@ -2397,7 +3748,16 @@
       "345"
     ],
     "a": 0,
-    "why": "Khi i=3, break thoát vòng lặp trước printf."
+    "why": "Khi i=3, break thoát vòng lặp trước printf.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 67
+        }
+      ]
+    }
   },
   {
     "id": "C3-057",
@@ -2412,7 +3772,16 @@
       "Nhánh default"
     ],
     "a": 1,
-    "why": "Sau continue, biểu thức cập nhật của for vẫn được thực hiện."
+    "why": "Sau continue, biểu thức cập nhật của for vẫn được thực hiện.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 67
+        }
+      ]
+    }
   },
   {
     "id": "C3-058",
@@ -2427,7 +3796,16 @@
       "Kết thúc vòng lặp ở mọi hàm"
     ],
     "a": 0,
-    "why": "goto điều hướng tới nhãn trong thân cùng hàm."
+    "why": "goto điều hướng tới nhãn trong thân cùng hàm.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 68
+        }
+      ]
+    }
   },
   {
     "id": "C3-059",
@@ -2442,7 +3820,16 @@
       "Có ký tự xuống dòng"
     ],
     "a": 0,
-    "why": "Muốn chứng minh tính dừng phải theo dõi điều kiện và cập nhật biến điều khiển."
+    "why": "Muốn chứng minh tính dừng phải theo dõi điều kiện và cập nhật biến điều khiển.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 66
+        }
+      ]
+    }
   },
   {
     "id": "C3-060",
@@ -2457,7 +3844,16 @@
       "Lỗi cú pháp"
     ],
     "a": 2,
-    "why": "i không thay đổi nên điều kiện i<3 luôn đúng."
+    "why": "i không thay đổi nên điều kiện i<3 luôn đúng.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 66
+        }
+      ]
+    }
   },
   {
     "id": "C3-061",
@@ -2472,7 +3868,16 @@
       "21"
     ],
     "a": 1,
-    "why": "21−14=7; 14−7=7; kết quả là 7."
+    "why": "21−14=7; 14−7=7; kết quả là 7.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 3,
+          "slide": 59
+        }
+      ]
+    }
   },
   {
     "id": "C4-001",
@@ -2487,7 +3892,16 @@
       "Chỉ dùng để chứa một số nguyên"
     ],
     "a": 0,
-    "why": "Mảng gom các phần tử cùng kiểu dưới một tên chung."
+    "why": "Mảng gom các phần tử cùng kiểu dưới một tên chung.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 4
+        }
+      ]
+    }
   },
   {
     "id": "C4-002",
@@ -2502,7 +3916,16 @@
       "Tùy tên biến"
     ],
     "a": 1,
-    "why": "Chỉ số mảng C bắt đầu từ 0."
+    "why": "Chỉ số mảng C bắt đầu từ 0.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 9
+        }
+      ]
+    }
   },
   {
     "id": "C4-003",
@@ -2517,7 +3940,16 @@
       "−1 đến 3"
     ],
     "a": 2,
-    "why": "Mảng có 5 phần tử, vị trí 0,1,2,3,4."
+    "why": "Mảng có 5 phần tử, vị trí 0,1,2,3,4.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 10
+        }
+      ]
+    }
   },
   {
     "id": "C4-004",
@@ -2532,7 +3964,16 @@
       "array<int> a;"
     ],
     "a": 1,
-    "why": "Cú pháp khai báo cơ bản: `kiểu tên[kích_thước];`."
+    "why": "Cú pháp khai báo cơ bản: `kiểu tên[kích_thước];`.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 5
+        }
+      ]
+    }
   },
   {
     "id": "C4-005",
@@ -2547,7 +3988,16 @@
       "12"
     ],
     "a": 3,
-    "why": "Số phần tử của mảng 2 chiều bằng tích 3×4."
+    "why": "Số phần tử của mảng 2 chiều bằng tích 3×4.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 5
+        }
+      ]
+    }
   },
   {
     "id": "C4-006",
@@ -2562,7 +4012,16 @@
       "3 hàng, 3 cột"
     ],
     "a": 0,
-    "why": "Chỉ số đầu ứng với hàng, chỉ số sau ứng với cột."
+    "why": "Chỉ số đầu ứng với hàng, chỉ số sau ứng với cột.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 5
+        }
+      ]
+    }
   },
   {
     "id": "C4-007",
@@ -2577,7 +4036,16 @@
       "1"
     ],
     "a": 1,
-    "why": "Chỉ số 1 là phần tử thứ hai."
+    "why": "Chỉ số 1 là phần tử thứ hai.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 7
+        }
+      ]
+    }
   },
   {
     "id": "C4-008",
@@ -2592,7 +4060,16 @@
       "5"
     ],
     "a": 1,
-    "why": "Mảng khởi tạo một phần tự động đặt phần tử còn lại bằng 0."
+    "why": "Mảng khởi tạo một phần tự động đặt phần tử còn lại bằng 0.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 7
+        }
+      ]
+    }
   },
   {
     "id": "C4-009",
@@ -2607,7 +4084,16 @@
       "Không xác định"
     ],
     "a": 1,
-    "why": "Kích thước được suy ra từ số phần tử khởi tạo."
+    "why": "Kích thước được suy ra từ số phần tử khởi tạo.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 7
+        }
+      ]
+    }
   },
   {
     "id": "C4-010",
@@ -2622,7 +4108,16 @@
       "Tự tạo phần tử mới"
     ],
     "a": 1,
-    "why": "Các chỉ số hợp lệ chỉ từ 0 đến 2."
+    "why": "Các chỉ số hợp lệ chỉ từ 0 đến 2.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 10
+        }
+      ]
+    }
   },
   {
     "id": "C4-011",
@@ -2637,7 +4132,16 @@
       "%a[2]"
     ],
     "a": 0,
-    "why": "Phần tử thứ ba có chỉ số 2, & lấy địa chỉ."
+    "why": "Phần tử thứ ba có chỉ số 2, & lấy địa chỉ.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 11
+        }
+      ]
+    }
   },
   {
     "id": "C4-012",
@@ -2652,7 +4156,16 @@
       "Tên thư viện"
     ],
     "a": 1,
-    "why": "Trong phần lớn ngữ cảnh, biểu thức mảng chuyển thành con trỏ phần tử đầu."
+    "why": "Trong phần lớn ngữ cảnh, biểu thức mảng chuyển thành con trỏ phần tử đầu.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 11
+        }
+      ]
+    }
   },
   {
     "id": "C4-013",
@@ -2667,7 +4180,16 @@
       "Hợp lệ nếu a có 3 phần tử"
     ],
     "a": 1,
-    "why": "Không thể gán trực tiếp toàn bộ mảng bằng dấu =."
+    "why": "Không thể gán trực tiếp toàn bộ mảng bằng dấu =.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 12
+        }
+      ]
+    }
   },
   {
     "id": "C4-014",
@@ -2682,7 +4204,16 @@
       "printf(\"%s\",a)"
     ],
     "a": 0,
-    "why": "Cần copy từng phần tử, hoặc dùng kỹ thuật phù hợp như memcpy với điều kiện đúng."
+    "why": "Cần copy từng phần tử, hoặc dùng kỹ thuật phù hợp như memcpy với điều kiện đúng.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 12
+        }
+      ]
+    }
   },
   {
     "id": "C4-015",
@@ -2697,7 +4228,16 @@
       "20"
     ],
     "a": 2,
-    "why": "1+3+5+7=16."
+    "why": "1+3+5+7=16.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 18
+        }
+      ]
+    }
   },
   {
     "id": "C4-016",
@@ -2712,7 +4252,16 @@
       "18"
     ],
     "a": 2,
-    "why": "Duyệt mảng để tìm max, nhận 9."
+    "why": "Duyệt mảng để tìm max, nhận 9.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 18
+        }
+      ]
+    }
   },
   {
     "id": "C4-017",
@@ -2727,7 +4276,16 @@
       "9"
     ],
     "a": 2,
-    "why": "Duyệt và cộng 3 phần tử: 1+2+3=6."
+    "why": "Duyệt và cộng 3 phần tử: 1+2+3=6.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 18
+        }
+      ]
+    }
   },
   {
     "id": "C4-018",
@@ -2742,7 +4300,16 @@
       "4"
     ],
     "a": 2,
-    "why": "Hàng thứ hai, cột thứ nhất chứa 3."
+    "why": "Hàng thứ hai, cột thứ nhất chứa 3.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 7
+        }
+      ]
+    }
   },
   {
     "id": "C4-019",
@@ -2757,7 +4324,16 @@
       "9"
     ],
     "a": 1,
-    "why": "Phép gán chép giá trị phần tử a[2]=4 vào a[0]."
+    "why": "Phép gán chép giá trị phần tử a[2]=4 vào a[0].",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 10
+        }
+      ]
+    }
   },
   {
     "id": "C4-020",
@@ -2772,7 +4348,20 @@
       "Tìm địa chỉ phần tử cuối"
     ],
     "a": 0,
-    "why": "Kích thước toàn mảng chia kích thước một phần tử cho số phần tử; không áp dụng nguyên dạng khi a đã là tham số con trỏ."
+    "why": "Kích thước toàn mảng chia kích thước một phần tử cho số phần tử; không áp dụng nguyên dạng khi a đã là tham số con trỏ.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 9
+        },
+        {
+          "chapter": 4,
+          "slide": 5
+        }
+      ]
+    }
   },
   {
     "id": "C4-021",
@@ -2787,7 +4376,16 @@
       "48"
     ],
     "a": 2,
-    "why": "2×3×4=24 byte, theo giả thiết kích thước int."
+    "why": "2×3×4=24 byte, theo giả thiết kích thước int.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 9
+        }
+      ]
+    }
   },
   {
     "id": "C4-022",
@@ -2802,52 +4400,16 @@
       "Gán a=0"
     ],
     "a": 0,
-    "why": "Vòng lặp quét từng phần tử với định dạng phù hợp."
-  },
-  {
-    "id": "C4-023",
-    "chapter": 4,
-    "topic": "4.1 Mảng",
-    "level": "Hiểu",
-    "q": "Với `float a[2][3]`, `scanf(\"%f\", &a[1][2]);` có hợp lệ theo C chuẩn không?",
-    "opts": [
-      "Không, vì mảng hai chiều không lấy được địa chỉ phần tử",
-      "Có, nếu chỉ số hợp lệ và kiểu phù hợp",
-      "Chỉ hợp lệ nếu a là mảng char",
-      "Chỉ hợp lệ khi dùng gets"
-    ],
-    "a": 1,
-    "why": "Lưu ý sửa một chỗ trong slide: hoàn toàn có thể lấy địa chỉ phần tử mảng nhiều chiều bằng &a[i][j]."
-  },
-  {
-    "id": "C4-024",
-    "chapter": 4,
-    "topic": "4.1 Mảng",
-    "level": "Vận dụng",
-    "q": "Thuật toán tìm kiếm tuyến tính phần tử x trong mảng n phần tử có độ phức tạp tệ nhất thường là gì?",
-    "opts": [
-      "O(1)",
-      "O(log n)",
-      "O(n)",
-      "O(n²)"
-    ],
-    "a": 2,
-    "why": "Có thể phải kiểm tra đến n phần tử."
-  },
-  {
-    "id": "C4-025",
-    "chapter": 4,
-    "topic": "4.1 Mảng",
-    "level": "Vận dụng",
-    "q": "Sắp xếp lựa chọn (selection sort) n phần tử có độ phức tạp thời gian điển hình là gì?",
-    "opts": [
-      "O(1)",
-      "O(log n)",
-      "O(n)",
-      "O(n²)"
-    ],
-    "a": 3,
-    "why": "Tổng các lượt so sánh xấp xỉ n(n−1)/2."
+    "why": "Vòng lặp quét từng phần tử với định dạng phù hợp.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 13
+        }
+      ]
+    }
   },
   {
     "id": "C4-026",
@@ -2862,7 +4424,16 @@
       "' '"
     ],
     "a": 1,
-    "why": "NUL ('\\0') đánh dấu cuối xâu; không tính vào độ dài logic."
+    "why": "NUL ('\\0') đánh dấu cuối xâu; không tính vào độ dài logic.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 20
+        }
+      ]
+    }
   },
   {
     "id": "C4-027",
@@ -2877,7 +4448,16 @@
       "'A' là mảng hai ký tự"
     ],
     "a": 1,
-    "why": "Chuỗi \"A\" cần chỗ cho hai phần tử char kể cả NUL."
+    "why": "Chuỗi \"A\" cần chỗ cho hai phần tử char kể cả NUL.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 20
+        }
+      ]
+    }
   },
   {
     "id": "C4-028",
@@ -2892,7 +4472,16 @@
       "'\\0' xuất hiện đầu tiên"
     ],
     "a": 0,
-    "why": "3 ký tự nội dung cộng ký tự kết thúc."
+    "why": "3 ký tự nội dung cộng ký tự kết thúc.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 21
+        }
+      ]
+    }
   },
   {
     "id": "C4-029",
@@ -2907,7 +4496,16 @@
       "Không xác định"
     ],
     "a": 1,
-    "why": "Năm ký tự H,E,L,L,O; ký tự '\\0' không tính vào strlen."
+    "why": "Năm ký tự H,E,L,L,O; ký tự '\\0' không tính vào strlen.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 20
+        }
+      ]
+    }
   },
   {
     "id": "C4-030",
@@ -2922,7 +4520,16 @@
       "Không xác định"
     ],
     "a": 1,
-    "why": "Dấu cách cũng là một ký tự nằm trong xâu."
+    "why": "Dấu cách cũng là một ký tự nằm trong xâu.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 29
+        }
+      ]
+    }
   },
   {
     "id": "C4-031",
@@ -2937,7 +4544,16 @@
       "'\\0'"
     ],
     "a": 2,
-    "why": "Chỉ số 0=C, 1=A, 2=T, 3=NUL."
+    "why": "Chỉ số 0=C, 1=A, 2=T, 3=NUL.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 24
+        }
+      ]
+    }
   },
   {
     "id": "C4-032",
@@ -2952,7 +4568,16 @@
       "Không có ký tự kết thúc"
     ],
     "a": 0,
-    "why": "Xâu rỗng vẫn có một ký tự '\\0' để đánh dấu kết thúc."
+    "why": "Xâu rỗng vẫn có một ký tự '\\0' để đánh dấu kết thúc.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 20
+        }
+      ]
+    }
   },
   {
     "id": "C4-033",
@@ -2967,7 +4592,16 @@
       "stdlib.h"
     ],
     "a": 1,
-    "why": "Các hàm xử lý chuỗi chuẩn C thường ở string.h."
+    "why": "Các hàm xử lý chuỗi chuẩn C thường ở string.h.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 29
+        }
+      ]
+    }
   },
   {
     "id": "C4-034",
@@ -2982,7 +4616,16 @@
       "Số chữ cái in hoa"
     ],
     "a": 1,
-    "why": "strlen trả về độ dài xâu, không kể NUL."
+    "why": "strlen trả về độ dài xâu, không kể NUL.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 29
+        }
+      ]
+    }
   },
   {
     "id": "C4-035",
@@ -2997,7 +4640,16 @@
       "Đổi src sang số"
     ],
     "a": 1,
-    "why": "dst phải đủ chỗ để chứa toàn bộ src và NUL."
+    "why": "dst phải đủ chỗ để chứa toàn bộ src và NUL.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 29
+        }
+      ]
+    }
   },
   {
     "id": "C4-036",
@@ -3012,7 +4664,16 @@
       "Chuyển thành chữ hoa"
     ],
     "a": 0,
-    "why": "dst phải đủ dung lượng cho cả hai chuỗi và NUL."
+    "why": "dst phải đủ dung lượng cho cả hai chuỗi và NUL.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 29
+        }
+      ]
+    }
   },
   {
     "id": "C4-037",
@@ -3027,7 +4688,16 @@
       "So sánh thất bại"
     ],
     "a": 1,
-    "why": "strcmp so sánh theo thứ tự ký tự, bằng nhau trả về 0."
+    "why": "strcmp so sánh theo thứ tự ký tự, bằng nhau trả về 0.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 30
+        }
+      ]
+    }
   },
   {
     "id": "C4-038",
@@ -3042,7 +4712,20 @@
       "Nối hai chuỗi"
     ],
     "a": 1,
-    "why": "Dùng strcmp để so sánh nội dung xâu, không dùng ==."
+    "why": "Dùng strcmp để so sánh nội dung xâu, không dùng ==.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 30
+        },
+        {
+          "chapter": 4,
+          "slide": 11
+        }
+      ]
+    }
   },
   {
     "id": "C4-039",
@@ -3057,7 +4740,16 @@
       "time.h"
     ],
     "a": 0,
-    "why": "ctype.h chứa các hàm kiểm tra và chuyển đổi ký tự."
+    "why": "ctype.h chứa các hàm kiểm tra và chuyển đổi ký tự.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 27
+        }
+      ]
+    }
   },
   {
     "id": "C4-040",
@@ -3072,22 +4764,16 @@
       "strcmp"
     ],
     "a": 1,
-    "why": "isdigit kiểm tra ký tự thuộc tập chữ số 0–9 (theo miền ký tự phù hợp)."
-  },
-  {
-    "id": "C4-041",
-    "chapter": 4,
-    "topic": "4.2 Xâu ký tự",
-    "level": "Hiểu",
-    "q": "Hàm `isspace` kiểm tra những gì?",
-    "opts": [
-      "Chỉ ký tự dấu cách ' '",
-      "Các ký tự khoảng trắng như space, tab, newline",
-      "Chỉ chữ cái",
-      "Chỉ số âm"
-    ],
-    "a": 1,
-    "why": "Slide mô tả chưa đầy đủ: isspace còn nhận nhiều dạng whitespace khác."
+    "why": "isdigit kiểm tra ký tự thuộc tập chữ số 0–9 (theo miền ký tự phù hợp).",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 28
+        }
+      ]
+    }
   },
   {
     "id": "C4-042",
@@ -3102,7 +4788,16 @@
       "'C'"
     ],
     "a": 1,
-    "why": "toupper chuyển chữ thường sang chữ hoa."
+    "why": "toupper chuyển chữ thường sang chữ hoa.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 27
+        }
+      ]
+    }
   },
   {
     "id": "C4-043",
@@ -3117,22 +4812,16 @@
       "0 trong mọi trường hợp"
     ],
     "a": 0,
-    "why": "atoi chuyển chuỗi số nguyên thập phân thành int."
-  },
-  {
-    "id": "C4-044",
-    "chapter": 4,
-    "topic": "4.2 Xâu ký tự",
-    "level": "Nhớ",
-    "q": "`atof(\"2.5\")` thông thường cho kết quả gì?",
-    "opts": [
-      "2",
-      "2.5 kiểu double",
-      "\"2.5\"",
-      "25"
-    ],
-    "a": 1,
-    "why": "Theo C chuẩn, atof có kiểu trả về double; slide ghi float là chưa chính xác."
+    "why": "atoi chuyển chuỗi số nguyên thập phân thành int.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 31
+        }
+      ]
+    }
   },
   {
     "id": "C4-045",
@@ -3147,22 +4836,16 @@
       "Vì s không phải con trỏ"
     ],
     "a": 0,
-    "why": "Đọc chuỗi gồm khoảng trắng nên dùng fgets với giới hạn độ dài."
-  },
-  {
-    "id": "C4-046",
-    "chapter": 4,
-    "topic": "4.2 Xâu ký tự",
-    "level": "Hiểu",
-    "q": "Hàm nào an toàn hơn `gets` để đọc một dòng vào mảng char kích thước cố định?",
-    "opts": [
-      "fgets",
-      "strcat",
-      "strcpy",
-      "atoi"
-    ],
-    "a": 0,
-    "why": "gets đã bị loại khỏi C11 do không kiểm soát được độ dài đầu vào."
+    "why": "Đọc chuỗi gồm khoảng trắng nên dùng fgets với giới hạn độ dài.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 26
+        }
+      ]
+    }
   },
   {
     "id": "C4-047",
@@ -3177,7 +4860,16 @@
       "strcpy(\"%s\",s);"
     ],
     "a": 0,
-    "why": "%s in dữ liệu đến byte NUL; đảm bảo s là xâu hợp lệ."
+    "why": "%s in dữ liệu đến byte NUL; đảm bảo s là xâu hợp lệ.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 25
+        }
+      ]
+    }
   },
   {
     "id": "C4-048",
@@ -3192,37 +4884,16 @@
       "Có, nếu đặt trong if"
     ],
     "a": 1,
-    "why": "Cần strcpy hoặc gán phần tử riêng; lưu ý kiểm soát kích thước."
-  },
-  {
-    "id": "C4-049",
-    "chapter": 4,
-    "topic": "4.2 Xâu ký tự",
-    "level": "Hiểu",
-    "q": "Hàm nào KHÔNG thuộc thư viện chuẩn C dù xuất hiện trong ví dụ của slide?",
-    "opts": [
-      "strlen",
-      "strcmp",
-      "strrev",
-      "strcat"
-    ],
-    "a": 2,
-    "why": "strrev thường là phần mở rộng của một số trình dịch, không thuộc ISO C."
-  },
-  {
-    "id": "C4-050",
-    "chapter": 4,
-    "topic": "4.2 Xâu ký tự",
-    "level": "Hiểu",
-    "q": "Dùng `fflush(stdin)` để xóa bộ đệm bàn phím theo ISO C có đảm bảo đúng trên mọi compiler không?",
-    "opts": [
-      "Có, được chuẩn hóa cho mọi input stream",
-      "Không, hành vi không được ISO C định nghĩa cho input stream",
-      "Có, vì sscanf là như vậy",
-      "Chỉ cần khi in số thực"
-    ],
-    "a": 1,
-    "why": "Bài giảng dùng ví dụ cũ; nên xử lý đầu vào bằng fgets/định dạng hợp lý."
+    "why": "Cần strcpy hoặc gán phần tử riêng; lưu ý kiểm soát kích thước.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 26
+        }
+      ]
+    }
   },
   {
     "id": "C4-051",
@@ -3237,7 +4908,16 @@
       "\"C\""
     ],
     "a": 1,
-    "why": "strcat thêm C vào sau AB rồi kết thúc bằng NUL."
+    "why": "strcat thêm C vào sau AB rồi kết thúc bằng NUL.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 29
+        }
+      ]
+    }
   },
   {
     "id": "C4-052",
@@ -3252,7 +4932,16 @@
       "\"XYZ\""
     ],
     "a": 0,
-    "why": "Thay phần tử chỉ số 1 từ Y thành A."
+    "why": "Thay phần tử chỉ số 1 từ Y thành A.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 24
+        }
+      ]
+    }
   },
   {
     "id": "C4-053",
@@ -3267,7 +4956,16 @@
       "Biên dịch chương trình"
     ],
     "a": 0,
-    "why": "Các trường struct có tên và kiểu riêng."
+    "why": "Các trường struct có tên và kiểu riêng.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 36
+        }
+      ]
+    }
   },
   {
     "id": "C4-054",
@@ -3282,7 +4980,16 @@
       "int struct Point;"
     ],
     "a": 0,
-    "why": "Định nghĩa kiểu struct dùng cặp ngoặc nhọn và chấm phẩy cuối."
+    "why": "Định nghĩa kiểu struct dùng cặp ngoặc nhọn và chấm phẩy cuối.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 36
+        }
+      ]
+    }
   },
   {
     "id": "C4-055",
@@ -3297,7 +5004,16 @@
       "d struct Date;"
     ],
     "a": 1,
-    "why": "Trong C, không có typedef thì cần viết `struct Date`."
+    "why": "Trong C, không có typedef thì cần viết `struct Date`.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 37
+        }
+      ]
+    }
   },
   {
     "id": "C4-056",
@@ -3312,7 +5028,16 @@
       "Không hợp lệ"
     ],
     "a": 1,
-    "why": "Dấu chấm truy cập trường y của biến p."
+    "why": "Dấu chấm truy cập trường y của biến p.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 41
+        }
+      ]
+    }
   },
   {
     "id": "C4-057",
@@ -3327,7 +5052,16 @@
       "%"
     ],
     "a": 0,
-    "why": "Dùng `tên_biến.tên_trường`."
+    "why": "Dùng `tên_biến.tên_trường`.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 41
+        }
+      ]
+    }
   },
   {
     "id": "C4-058",
@@ -3342,7 +5076,16 @@
       "typedef sv SinhVien;"
     ],
     "a": 0,
-    "why": "typedef đặt tên kiểu SinhVien, sử dụng trực tiếp như int/float."
+    "why": "typedef đặt tên kiểu SinhVien, sử dụng trực tiếp như int/float.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 40
+        }
+      ]
+    }
   },
   {
     "id": "C4-059",
@@ -3357,7 +5100,16 @@
       "Chỉ trong C++"
     ],
     "a": 1,
-    "why": "Mỗi phần tử mảng là một biến cấu trúc."
+    "why": "Mỗi phần tử mảng là một biến cấu trúc.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 42
+        }
+      ]
+    }
   },
   {
     "id": "C4-060",
@@ -3372,7 +5124,16 @@
       "4"
     ],
     "a": 2,
-    "why": "Lấy phần tử chỉ số 1 rồi truy cập trường x."
+    "why": "Lấy phần tử chỉ số 1 rồi truy cập trường x.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 42
+        }
+      ]
+    }
   },
   {
     "id": "C4-061",
@@ -3387,7 +5148,16 @@
       "Chỉ nếu có hàm copy riêng"
     ],
     "a": 1,
-    "why": "Khác mảng: struct có phép gán toàn bộ khi hai biến tương thích kiểu."
+    "why": "Khác mảng: struct có phép gán toàn bộ khi hai biến tương thích kiểu.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 43
+        }
+      ]
+    }
   },
   {
     "id": "C4-062",
@@ -3402,7 +5172,20 @@
       "Có nếu sv là biến toàn cục"
     ],
     "a": 1,
-    "why": "Trường mảng vẫn tuân theo quy tắc không gán mảng bằng =."
+    "why": "Trường mảng vẫn tuân theo quy tắc không gán mảng bằng =.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 26
+        },
+        {
+          "chapter": 4,
+          "slide": 43
+        }
+      ]
+    }
   },
   {
     "id": "C4-063",
@@ -3417,22 +5200,16 @@
       "Không xác định"
     ],
     "a": 2,
-    "why": "Phép gán struct sao chép giá trị của các trường."
-  },
-  {
-    "id": "C4-064",
-    "chapter": 4,
-    "topic": "4.3 Cấu trúc struct",
-    "level": "Hiểu",
-    "q": "Với một con trỏ `p` trỏ đến struct, toán tử nào thường truy cập trường `x`?",
-    "opts": [
-      "p.x",
-      "p->x",
-      "p[x]",
-      "&p.x"
-    ],
-    "a": 1,
-    "why": "Đây là kiến thức nền mở rộng: p->x tương đương (*p).x."
+    "why": "Phép gán struct sao chép giá trị của các trường.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 43
+        }
+      ]
+    }
   },
   {
     "id": "C4-065",
@@ -3447,7 +5224,16 @@
       "Một char"
     ],
     "a": 0,
-    "why": "Bài giảng sử dụng ví dụ kiểu ngaythang."
+    "why": "Bài giảng sử dụng ví dụ kiểu ngaythang.",
+    "source": {
+      "category": "A",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 36
+        }
+      ]
+    }
   },
   {
     "id": "C4-066",
@@ -3462,7 +5248,16 @@
       "0"
     ],
     "a": 1,
-    "why": "Các trường khởi tạo theo thứ tự khai báo: d=1, m=2, y=2026."
+    "why": "Các trường khởi tạo theo thứ tự khai báo: d=1, m=2, y=2026.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 41
+        }
+      ]
+    }
   },
   {
     "id": "C4-067",
@@ -3477,7 +5272,20 @@
       "printf(\"%d\", &a[i].id);"
     ],
     "a": 0,
-    "why": "Truy cập trường rồi lấy địa chỉ trường bằng &."
+    "why": "Truy cập trường rồi lấy địa chỉ trường bằng &.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 46
+        },
+        {
+          "chapter": 4,
+          "slide": 41
+        }
+      ]
+    }
   },
   {
     "id": "C4-068",
@@ -3492,6 +5300,15 @@
       "Vì struct không cần khai báo"
     ],
     "a": 0,
-    "why": "struct dùng để nhóm nhiều thuộc tính khác kiểu của cùng đối tượng."
+    "why": "struct dùng để nhóm nhiều thuộc tính khác kiểu của cùng đối tượng.",
+    "source": {
+      "category": "B",
+      "references": [
+        {
+          "chapter": 4,
+          "slide": 45
+        }
+      ]
+    }
   }
 ]

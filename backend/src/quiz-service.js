@@ -18,23 +18,30 @@ const shuffle = items => {
 };
 
 export function createQuizService({ bankPath, statePath }) {
-  const bank = JSON.parse(fs.readFileSync(bankPath, 'utf8'));
+  const bank = JSON.parse(fs.readFileSync(bankPath, 'utf8')).filter(q => ['A', 'B'].includes(q.source?.category));
   const byId = new Map(bank.map(q => [q.id, q]));
   if (byId.size !== bank.length) throw new Error('ID câu hỏi bị trùng');
   for (const q of bank) {
-    if (!CHAPTERS.includes(q.chapter) || !Array.isArray(q.opts) || q.opts.length !== 4
+    if (!CHAPTERS.includes(q.chapter) || !['A', 'B'].includes(q.source?.category) || !Array.isArray(q.source.references) || !q.source.references.length || !q.source.references.every(r => Number.isInteger(r.slide) && r.slide >= 1 && CHAPTERS.includes(r.chapter)) || !Array.isArray(q.opts) || q.opts.length !== 4
         || !Number.isInteger(q.a) || q.a < 0 || q.a > 3) {
       throw new Error('Ngân hàng câu hỏi không hợp lệ: ' + q.id);
     }
   }
   const groups = Object.fromEntries(CHAPTERS.map(c => [c, bank.filter(q => q.chapter === c).map(q => q.id)]));
   if (CHAPTERS.some(c => groups[c].length < EACH)) throw new Error('Mỗi chương cần ít nhất 10 câu hỏi');
+  // Khi ngân hàng A/B thay đổi, bỏ hàng đợi và đề cũ để không hồi sinh câu đã loại.
+  const bankSignature = crypto.createHash('sha256').update(bank.map(q => q.id).join('|')).digest('hex');
   const fresh = () => ({
+    bankSignature,
     serial: 0,
     pools: Object.fromEntries(CHAPTERS.map(c => [c, { cycle: 1, remaining: shuffle(groups[c]) }])),
     exams: {}
   });
   let state = fs.existsSync(statePath) ? JSON.parse(fs.readFileSync(statePath, 'utf8')) : fresh();
+  if (state.bankSignature !== bankSignature) {
+    // Giữ thứ tự mã đề nhưng bỏ dữ liệu trạng thái từ ngân hàng chưa kiểm duyệt.
+    state = { ...fresh(), serial: Number.isInteger(state.serial) ? state.serial : 0 };
+  }
   fs.mkdirSync(path.dirname(statePath), { recursive: true });
 
   const save = next => {
@@ -77,13 +84,13 @@ export function createQuizService({ bankPath, statePath }) {
         selectedIndex: choice, correctIndex, isCorrect: choice === correctIndex, explanation: q.why
       };
       if (feedback) { answered++; if (feedback.isCorrect) correct++; }
-      return { id: q.id, chapter: q.chapter, topic: q.topic, level: q.level,
+      return { id: q.id, chapter: q.chapter, topic: q.topic, level: q.level, source: q.source,
         prompt: q.q, choices: entry.order.map(i => q.opts[i]), ...(feedback && {feedback}) };
     });
     return { code: exam.code, createdAt: exam.createdAt, finishedAt: exam.finishedAt,
       total: 40, answered, correct, questions };
   }
-  const meta = () => ({ bankTotal: bank.length, examSize: 40, perChapter: EACH, generatedExams: state.serial,
+  const meta = () => ({ bankTotal: bank.length, sourcePolicy: 'slide-A-B-only', examSize: 40, perChapter: EACH, generatedExams: state.serial,
     chapters: Object.fromEntries(CHAPTERS.map(c => [c, {
       total: groups[c].length, remaining: state.pools[c].remaining.length, cycle: state.pools[c].cycle
     }])) });

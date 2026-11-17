@@ -34,7 +34,7 @@ function render() {
   $('bar').style.width=(exam.answered/40*100)+'%';
   $('number').textContent='Câu '+(pos+1)+' / 40 · Chương '+q.chapter;
   $('score').textContent='Đã làm '+exam.answered+'/40 · Đúng '+exam.correct;
-  $('topic').textContent=(q.topic||'Chương '+q.chapter)+' · '+(q.level||'');
+  $('topic').textContent=(q.topic||'Chương '+q.chapter)+' · Loại '+(q.source?.category||'?')+' · '+(q.level||'');
   $('prompt').textContent=q.prompt;
   $('choices').innerHTML='';
   q.choices.forEach((answer,i)=>{
@@ -50,7 +50,8 @@ function render() {
   if(fb){
     $('feedback').className='feedback '+(fb.isCorrect?'good':'bad');
     $('feedback').innerHTML='<strong>'+(fb.isCorrect?'✓ Chính xác!':'✗ Chưa đúng. Đáp án: '+ 'ABCD'[fb.correctIndex])+'</strong>'+
-      '<div>'+escapeHTML(fb.explanation||'')+'</div>';
+      '<div>'+escapeHTML(fb.explanation||'')+'</div>'+
+      '<div style="margin-top:10px;font-size:13px;opacity:.8">Nguồn: '+escapeHTML((q.source?.references||[]).map(r=>'Chương '+r.chapter+' · slide '+r.slide).join('; '))+'</div>';
   }
   $('prev').disabled=pos===0;
   $('next').textContent=pos===39?'Xem kết quả →':'Câu tiếp →';
