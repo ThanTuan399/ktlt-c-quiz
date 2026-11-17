@@ -1,0 +1,3497 @@
+[
+  {
+    "id": "C1-001",
+    "chapter": 1,
+    "topic": "1.1 Chương trình máy tính",
+    "level": "Nhớ",
+    "q": "Theo giáo trình, máy tính giải quyết bài toán chủ yếu bằng cách nào?",
+    "opts": [
+      "Tự suy nghĩ độc lập như con người",
+      "Xử lý thông tin theo chương trình lập sẵn",
+      "Chỉ lưu trữ dữ liệu",
+      "Chỉ thực hiện phép tính cộng"
+    ],
+    "a": 1,
+    "why": "Chương trình là chuỗi chỉ thị để máy thực hiện nhiệm vụ."
+  },
+  {
+    "id": "C1-002",
+    "chapter": 1,
+    "topic": "1.1 Chương trình máy tính",
+    "level": "Hiểu",
+    "q": "Trình tự phù hợp nhất khi giải bài toán bằng máy tính là gì?",
+    "opts": [
+      "Chương trình → bài toán → giải thuật → thực hiện",
+      "Bài toán → giải thuật → chương trình → dịch sang mã máy → thực hiện",
+      "Mã máy → giải thuật → bài toán",
+      "Dịch mã máy → viết yêu cầu"
+    ],
+    "a": 1,
+    "why": "Đầu tiên xác định đầu vào/đầu ra, tìm cách xử lý, viết rồi dịch chương trình để chạy."
+  },
+  {
+    "id": "C1-003",
+    "chapter": 1,
+    "topic": "1.1 Chương trình máy tính",
+    "level": "Nhớ",
+    "q": "Một chương trình máy tính là gì?",
+    "opts": [
+      "Tập hợp câu lệnh theo một trật tự để thực hiện nhiệm vụ",
+      "Mọi dữ liệu chưa qua xử lý",
+      "Một sơ đồ không có hành động",
+      "Thiết bị vật lý"
+    ],
+    "a": 0,
+    "why": "Một chương trình thường là tập hợp câu lệnh/chỉ thị và dữ liệu liên quan."
+  },
+  {
+    "id": "C1-004",
+    "chapter": 1,
+    "topic": "1.1 Chương trình máy tính",
+    "level": "Hiểu",
+    "q": "Khi mô tả bài toán, Input và Output lần lượt là gì?",
+    "opts": [
+      "Kết quả và giải thuật",
+      "Dữ liệu đầu vào và kết quả cần nhận",
+      "Ngôn ngữ và trình dịch",
+      "Bộ nhớ và CPU"
+    ],
+    "a": 1,
+    "why": "Xác định Input/Output là bước đầu của việc mô hình hóa bài toán."
+  },
+  {
+    "id": "C1-005",
+    "chapter": 1,
+    "topic": "1.2 Giải thuật",
+    "level": "Nhớ",
+    "q": "Giải thuật là gì?",
+    "opts": [
+      "Dãy thao tác hữu hạn, xác định, có thể thực hiện để thu kết quả",
+      "Một bản vẽ giao diện",
+      "Chỉ một phép tính toán",
+      "Mã máy đã biên dịch"
+    ],
+    "a": 0,
+    "why": "Giải thuật mô tả quy trình xử lý trên dữ liệu."
+  },
+  {
+    "id": "C1-006",
+    "chapter": 1,
+    "topic": "1.2 Giải thuật",
+    "level": "Nhớ",
+    "q": "Thuộc tính nào yêu cầu giải thuật phải kết thúc sau số bước hữu hạn?",
+    "opts": [
+      "Tính xác định",
+      "Tính hữu hạn",
+      "Tính khả chuyển",
+      "Tính hướng đối tượng"
+    ],
+    "a": 1,
+    "why": "Tính hữu hạn bảo đảm quá trình không kéo dài vô tận."
+  },
+  {
+    "id": "C1-007",
+    "chapter": 1,
+    "topic": "1.2 Giải thuật",
+    "level": "Hiểu",
+    "q": "Tính xác định của giải thuật có nghĩa gì?",
+    "opts": [
+      "Mỗi bước rõ ràng, cùng đầu vào có cùng kết quả theo quy trình xác định",
+      "Luôn dùng ít bộ nhớ nhất",
+      "Luôn có một vòng lặp",
+      "Phải viết bằng ngôn ngữ C"
+    ],
+    "a": 0,
+    "why": "Cần phân biệt tính xác định với tính hiệu quả."
+  },
+  {
+    "id": "C1-008",
+    "chapter": 1,
+    "topic": "1.2 Giải thuật",
+    "level": "Nhớ",
+    "q": "Tiêu chí nào thuộc tính hiệu quả của giải thuật?",
+    "opts": [
+      "Dễ cài đặt, dùng tài nguyên hợp lý và thực hiện nhanh",
+      "Bắt buộc có lưu đồ",
+      "Chỉ sử dụng phép cộng",
+      "Bắt buộc viết bằng Pascal"
+    ],
+    "a": 0,
+    "why": "Tính hiệu quả liên quan thời gian, bộ nhớ và sự đơn giản."
+  },
+  {
+    "id": "C1-009",
+    "chapter": 1,
+    "topic": "1.2 Giải thuật",
+    "level": "Nhớ",
+    "q": "Ba cách diễn đạt giải thuật trong bài giảng là gì?",
+    "opts": [
+      "Văn bản, biểu đồ tròn, cơ sở dữ liệu",
+      "Ngôn ngữ tự nhiên, lưu đồ, giả mã",
+      "Hình ảnh, CSS, HTML",
+      "Mã máy, mạng máy tính, sơ đồ ER"
+    ],
+    "a": 1,
+    "why": "Cả ba đều giúp mô tả một quy trình trước hoặc trong khi viết code."
+  },
+  {
+    "id": "C1-010",
+    "chapter": 1,
+    "topic": "1.2 Giải thuật",
+    "level": "Hiểu",
+    "q": "Trong lưu đồ, khối hình thoi thường dùng cho việc gì?",
+    "opts": [
+      "Biểu diễn điều kiện và nhánh lựa chọn",
+      "Bắt đầu/kết thúc",
+      "Nhập hoặc xuất",
+      "Gán giá trị đơn giản"
+    ],
+    "a": 0,
+    "why": "Đây là kiến thức nền tảng mở rộng từ phần lưu đồ của giáo trình."
+  },
+  {
+    "id": "C1-011",
+    "chapter": 1,
+    "topic": "1.2 Giải thuật",
+    "level": "Hiểu",
+    "q": "Giả mã khác chương trình C ở điểm nào?",
+    "opts": [
+      "Giả mã phải biên dịch được",
+      "Giả mã mô tả thuật toán, không nhất thiết tuân thủ cú pháp C",
+      "Giả mã chỉ viết bằng số nhị phân",
+      "Giả mã không có vòng lặp"
+    ],
+    "a": 1,
+    "why": "Giả mã kết hợp cấu trúc điều khiển với ngôn ngữ tự nhiên."
+  },
+  {
+    "id": "C1-012",
+    "chapter": 1,
+    "topic": "1.2 Giải thuật",
+    "level": "Nhớ",
+    "q": "Mô-đun hóa bài toán là gì?",
+    "opts": [
+      "Biến mọi biến thành biến toàn cục",
+      "Chia bài toán lớn thành các bài toán con",
+      "Xóa mọi lệnh lặp",
+      "Nối tất cả mã vào một hàm duy nhất"
+    ],
+    "a": 1,
+    "why": "Mô-đun hóa giúp tổ chức lời giải thành các phần nhỏ."
+  },
+  {
+    "id": "C1-013",
+    "chapter": 1,
+    "topic": "1.2 Giải thuật",
+    "level": "Nhớ",
+    "q": "Tinh chỉnh từng bước thường phát triển mô tả theo hướng nào?",
+    "opts": [
+      "Mã máy → mô tả tùy ý",
+      "Ngôn ngữ tự nhiên → giả mã → ngôn ngữ lập trình",
+      "Lưu đồ → màn hình → CPU",
+      "Kết quả → dữ liệu → yêu cầu"
+    ],
+    "a": 1,
+    "why": "Mô tả ban đầu khái quát, sau được cụ thể hóa dần."
+  },
+  {
+    "id": "C1-014",
+    "chapter": 1,
+    "topic": "1.2 Giải thuật",
+    "level": "Hiểu",
+    "q": "Trong thuật toán Euclid dạng phép trừ, nếu a > b thì bước tiếp theo là gì?",
+    "opts": [
+      "Thay a bằng a − b",
+      "Thay b bằng a − b",
+      "Thay a bằng a + b",
+      "Kết thúc ngay"
+    ],
+    "a": 0,
+    "why": "Thuật toán lặp trừ số nhỏ khỏi số lớn đến khi hai số bằng nhau."
+  },
+  {
+    "id": "C1-015",
+    "chapter": 1,
+    "topic": "1.2 Giải thuật",
+    "level": "Vận dụng",
+    "q": "Với Euclid dạng trừ, UCLN của 18 và 12 là bao nhiêu?",
+    "opts": [
+      "3",
+      "6",
+      "12",
+      "18"
+    ],
+    "a": 1,
+    "why": "18−12=6; sau đó 12−6=6, kết thúc với UCLN=6."
+  },
+  {
+    "id": "C1-016",
+    "chapter": 1,
+    "topic": "1.2 Giải thuật",
+    "level": "Hiểu",
+    "q": "Trong sắp xếp lựa chọn tăng dần, bước i làm gì?",
+    "opts": [
+      "Chọn phần tử lớn nhất đưa về cuối ở mọi bước",
+      "Chọn phần tử nhỏ nhất của đoạn chưa sắp xếp và đưa về vị trí i",
+      "Đổi chỗ ngẫu nhiên",
+      "Chia mảng thành hai mảng mới"
+    ],
+    "a": 1,
+    "why": "Giáo trình dùng thuật toán chọn phần tử nhỏ nhất lần lượt."
+  },
+  {
+    "id": "C1-017",
+    "chapter": 1,
+    "topic": "1.2 Giải thuật",
+    "level": "Vận dụng",
+    "q": "Sắp xếp lựa chọn tăng dần mảng [5, 2, 4], sau lượt đầu tiên nhận được gì?",
+    "opts": [
+      "[2, 5, 4]",
+      "[4, 2, 5]",
+      "[5, 4, 2]",
+      "[2, 4, 5]"
+    ],
+    "a": 0,
+    "why": "Chọn 2 nhỏ nhất và đổi chỗ với phần tử đầu là 5."
+  },
+  {
+    "id": "C1-018",
+    "chapter": 1,
+    "topic": "1.2 Giải thuật",
+    "level": "Nhớ",
+    "q": "Hai tiêu chí chủ yếu để đánh giá độ phức tạp giải thuật là gì?",
+    "opts": [
+      "Độ đẹp giao diện và màu sắc",
+      "Thời gian và dung lượng bộ nhớ",
+      "Số lượng tệp và số trang",
+      "Số hàm và số chú thích"
+    ],
+    "a": 1,
+    "why": "Giáo trình nhấn mạnh thời gian và không gian bộ nhớ."
+  },
+  {
+    "id": "C1-019",
+    "chapter": 1,
+    "topic": "1.2 Giải thuật",
+    "level": "Hiểu",
+    "q": "Ý nghĩa của ký hiệu O(g(n)) trong bài giảng là gì?",
+    "opts": [
+      "Giới hạn trên về tốc độ tăng theo kích thước đầu vào (với hệ số hằng số)",
+      "Số giây chạy luôn đúng bằng g(n)",
+      "Số lỗi biên dịch",
+      "Dung lượng ổ cứng cố định"
+    ],
+    "a": 0,
+    "why": "Big-O so sánh bậc tăng trưởng, không phải thời gian giây cụ thể."
+  },
+  {
+    "id": "C1-020",
+    "chapter": 1,
+    "topic": "1.2 Giải thuật",
+    "level": "Vận dụng",
+    "q": "Độ phức tạp của T(n) = 3n² + 5n + 100 theo bậc Big-O chặt thường dùng là gì?",
+    "opts": [
+      "O(1)",
+      "O(n)",
+      "O(n²)",
+      "O(2ⁿ)"
+    ],
+    "a": 2,
+    "why": "Bỏ hệ số hằng, chỉ giữ hạng bậc cao nhất."
+  },
+  {
+    "id": "C1-021",
+    "chapter": 1,
+    "topic": "1.2 Giải thuật",
+    "level": "Hiểu",
+    "q": "Với hai đoạn tuần tự O(n²) và O(n), độ phức tạp tổng thường là gì?",
+    "opts": [
+      "O(n³)",
+      "O(n²)",
+      "O(2ⁿ)",
+      "O(1)"
+    ],
+    "a": 1,
+    "why": "Quy tắc cộng: giữ độ phức tạp trội hơn."
+  },
+  {
+    "id": "C1-022",
+    "chapter": 1,
+    "topic": "1.2 Giải thuật",
+    "level": "Vận dụng",
+    "q": "Hai vòng for lồng nhau, mỗi vòng chạy n lần, thao tác trong thân O(1), có độ phức tạp gì?",
+    "opts": [
+      "O(log n)",
+      "O(n)",
+      "O(n²)",
+      "O(n!)"
+    ],
+    "a": 2,
+    "why": "Có n×n lần thực hiện thao tác hằng số."
+  },
+  {
+    "id": "C1-023",
+    "chapter": 1,
+    "topic": "1.2 Giải thuật",
+    "level": "Vận dụng",
+    "q": "Vòng for chạy i=0 đến n-1 và mỗi lượt tăng i thêm 1 có độ phức tạp thời gian gì?",
+    "opts": [
+      "O(1)",
+      "O(n)",
+      "O(n²)",
+      "O(2ⁿ)"
+    ],
+    "a": 1,
+    "why": "Số lần lặp tỉ lệ thuận với n."
+  },
+  {
+    "id": "C1-024",
+    "chapter": 1,
+    "topic": "1.2 Giải thuật",
+    "level": "Hiểu",
+    "q": "Mức tăng nào thường chậm hơn khi n đủ lớn?",
+    "opts": [
+      "O(n²)",
+      "O(n log n)",
+      "O(2ⁿ)",
+      "O(n!)"
+    ],
+    "a": 1,
+    "why": "n log n tăng chậm hơn n², hàm mũ, giai thừa."
+  },
+  {
+    "id": "C1-025",
+    "chapter": 1,
+    "topic": "1.2 Giải thuật",
+    "level": "Hiểu",
+    "q": "Tại sao thời gian chạy đo bằng giây trên hai máy không phải thước đo thuần túy cho bản thân thuật toán?",
+    "opts": [
+      "Vì thuật toán không chạy trên máy",
+      "Vì phụ thuộc phần cứng, trình dịch, môi trường",
+      "Vì Big-O là số âm",
+      "Vì dữ liệu đầu vào không tồn tại"
+    ],
+    "a": 1,
+    "why": "Để đánh giá bậc tăng trưởng, thường xét số phép toán theo n."
+  },
+  {
+    "id": "C1-026",
+    "chapter": 1,
+    "topic": "1.2 Giải thuật",
+    "level": "Vận dụng",
+    "q": "Đoạn lệnh thực hiện đúng 8 phép cộng, độc lập với n, có độ phức tạp thời gian gì?",
+    "opts": [
+      "O(1)",
+      "O(n)",
+      "O(log n)",
+      "O(n²)"
+    ],
+    "a": 0,
+    "why": "Số thao tác không tăng theo kích thước đầu vào."
+  },
+  {
+    "id": "C1-027",
+    "chapter": 1,
+    "topic": "1.3 Ngôn ngữ lập trình",
+    "level": "Nhớ",
+    "q": "Ngôn ngữ nào được CPU thực thi trực tiếp?",
+    "opts": [
+      "Ngôn ngữ C",
+      "Python",
+      "Ngôn ngữ máy",
+      "Ngôn ngữ tự nhiên"
+    ],
+    "a": 2,
+    "why": "Các chương trình khác cần được chuyển sang chỉ thị máy ở một giai đoạn nào đó."
+  },
+  {
+    "id": "C1-028",
+    "chapter": 1,
+    "topic": "1.3 Ngôn ngữ lập trình",
+    "level": "Nhớ",
+    "q": "Công cụ chuyển hợp ngữ sang mã máy gọi là gì?",
+    "opts": [
+      "Assembler (trình hợp dịch)",
+      "Linker",
+      "Debugger",
+      "Text editor"
+    ],
+    "a": 0,
+    "why": "Assembler dịch mã lệnh hợp ngữ sang chỉ thị máy."
+  },
+  {
+    "id": "C1-029",
+    "chapter": 1,
+    "topic": "1.3 Ngôn ngữ lập trình",
+    "level": "Hiểu",
+    "q": "Đặc điểm thường gặp của ngôn ngữ lập trình bậc cao là gì?",
+    "opts": [
+      "Lệ thuộc tuyệt đối kiến trúc CPU",
+      "Gần ngôn ngữ toán học/tự nhiên, dễ đọc và sửa hơn",
+      "Chỉ có số 0 và 1",
+      "Không cần bất kỳ khâu chuyển đổi nào"
+    ],
+    "a": 1,
+    "why": "Bài giảng nhấn mạnh tính dễ đọc, dễ viết, khả chuyển hơn."
+  },
+  {
+    "id": "C1-030",
+    "chapter": 1,
+    "topic": "1.3 Ngôn ngữ lập trình",
+    "level": "Nhớ",
+    "q": "Trình thông dịch theo mô tả cơ bản trong slide có đặc điểm gì?",
+    "opts": [
+      "Dịch và thực thi từng lệnh trong quá trình chạy",
+      "Luôn tạo file mã máy cố định",
+      "Chỉ dành cho hợp ngữ",
+      "Không thể phát hiện lỗi"
+    ],
+    "a": 0,
+    "why": "Mô hình cơ bản là dịch/thực thi từng phần, không tạo object file như compiler truyền thống."
+  },
+  {
+    "id": "C1-031",
+    "chapter": 1,
+    "topic": "1.3 Ngôn ngữ lập trình",
+    "level": "Nhớ",
+    "q": "Trình biên dịch theo mô tả cơ bản có vai trò gì?",
+    "opts": [
+      "Dịch chương trình nguồn thành mã đối tượng để liên kết",
+      "Chỉ trang trí giao diện",
+      "Lưu tệp văn bản thuần túy",
+      "Thay bàn phím"
+    ],
+    "a": 0,
+    "why": "Compiler tạo mã đối tượng, linker kết hợp tạo chương trình thực thi."
+  },
+  {
+    "id": "C1-032",
+    "chapter": 1,
+    "topic": "1.3 Ngôn ngữ lập trình",
+    "level": "Hiểu",
+    "q": "Phân biệt compiler và linker: cách nói nào đúng?",
+    "opts": [
+      "Compiler liên kết mọi thư viện còn linker chỉ sửa chính tả",
+      "Compiler dịch mã nguồn; linker ghép các thành phần và giải quyết liên kết",
+      "Cả hai chỉ chạy được Python",
+      "Linker luôn chạy trước compiler"
+    ],
+    "a": 1,
+    "why": "Đây là luồng xây dựng chương trình trình bày ở mục 1.4."
+  },
+  {
+    "id": "C1-033",
+    "chapter": 1,
+    "topic": "1.4 Môi trường và quy trình",
+    "level": "Nhớ",
+    "q": "IDE thường tích hợp những gì?",
+    "opts": [
+      "Trình soạn thảo, công cụ biên dịch, gỡ lỗi và chạy thử",
+      "Chỉ phần mềm xem video",
+      "Chỉ hệ quản trị cơ sở dữ liệu",
+      "Chỉ cửa sổ dòng lệnh"
+    ],
+    "a": 0,
+    "why": "IDE hỗ trợ nhiều công cụ phát triển trong một môi trường."
+  },
+  {
+    "id": "C1-034",
+    "chapter": 1,
+    "topic": "1.4 Môi trường và quy trình",
+    "level": "Hiểu",
+    "q": "Có bắt buộc phải dùng IDE để lập trình C không?",
+    "opts": [
+      "Có, mọi chương trình C đều cần Eclipse",
+      "Không, có thể dùng trình soạn thảo và compiler riêng",
+      "Có, vì C không có compiler",
+      "Chỉ khi dùng Linux"
+    ],
+    "a": 1,
+    "why": "Giáo trình nêu IDE không phải điều kiện bắt buộc."
+  },
+  {
+    "id": "C1-035",
+    "chapter": 1,
+    "topic": "1.4 Môi trường và quy trình",
+    "level": "Nhớ",
+    "q": "Ba bước xây dựng chương trình trong bài giảng theo thứ tự là gì?",
+    "opts": [
+      "Chạy thử → soạn → biên dịch",
+      "Soạn thảo → biên dịch/liên kết → chạy thử",
+      "Biên dịch → chạy thử → thiết kế",
+      "Thiết kế web → lưu ảnh → xuất PDF"
+    ],
+    "a": 1,
+    "why": "Sau biên dịch và liên kết mới có chương trình để kiểm thử."
+  },
+  {
+    "id": "C1-036",
+    "chapter": 1,
+    "topic": "1.4 Môi trường và quy trình",
+    "level": "Hiểu",
+    "q": "Phần mở rộng thường dùng cho tệp mã nguồn C là gì?",
+    "opts": [
+      ".exe",
+      ".c",
+      ".class",
+      ".html"
+    ],
+    "a": 1,
+    "why": "Tệp .c lưu mã nguồn; .exe thường là tệp thực thi trên Windows."
+  },
+  {
+    "id": "C1-037",
+    "chapter": 1,
+    "topic": "1.4 Môi trường và quy trình",
+    "level": "Hiểu",
+    "q": "Chương trình chạy được nhưng tính sai kết quả: điều nên làm là gì?",
+    "opts": [
+      "Chỉ đổi màu nền",
+      "Kiểm tra dữ liệu thử, giải thuật và logic rồi sửa/chạy lại",
+      "Coi như chắc chắn đúng",
+      "Xóa trình biên dịch"
+    ],
+    "a": 1,
+    "why": "Lỗi logic thường không bị compiler phát hiện."
+  },
+  {
+    "id": "C1-038",
+    "chapter": 1,
+    "topic": "1.5 Phương pháp lập trình",
+    "level": "Nhớ",
+    "q": "Lập trình tuyến tính/phi cấu trúc theo giáo trình thường có đặc trưng gì?",
+    "opts": [
+      "Chia nhỏ thành nhiều hàm độc lập",
+      "Các lệnh tập trung ở chương trình chính, dữ liệu toàn cục",
+      "Chỉ dùng các đối tượng và kế thừa",
+      "Không có dữ liệu"
+    ],
+    "a": 1,
+    "why": "Slide so sánh cách tổ chức tuyến tính với lập trình cấu trúc."
+  },
+  {
+    "id": "C1-039",
+    "chapter": 1,
+    "topic": "1.5 Phương pháp lập trình",
+    "level": "Nhớ",
+    "q": "Lập trình cấu trúc chủ yếu tổ chức chương trình như thế nào?",
+    "opts": [
+      "Thành các hàm/chương trình con có nhiệm vụ riêng",
+      "Thành các đoạn lệnh ngẫu nhiên",
+      "Chỉ chứa một biến toàn cục",
+      "Không dùng cấu trúc điều khiển"
+    ],
+    "a": 0,
+    "why": "Tính mô-đun và tái sử dụng là điểm mạnh của phương pháp cấu trúc."
+  },
+  {
+    "id": "C1-040",
+    "chapter": 1,
+    "topic": "1.5 Phương pháp lập trình",
+    "level": "Hiểu",
+    "q": "Ý nào mô tả lập trình hướng đối tượng?",
+    "opts": [
+      "Chỉ dùng phép toán nhị phân",
+      "Kết hợp dữ liệu và thao tác vào đối tượng/lớp, hỗ trợ tái sử dụng",
+      "Không cần dữ liệu",
+      "Chỉ dùng ngôn ngữ máy"
+    ],
+    "a": 1,
+    "why": "OOP tập trung vào đối tượng và khả năng bảo trì, mở rộng."
+  },
+  {
+    "id": "C1-041",
+    "chapter": 1,
+    "topic": "1.5 Phương pháp lập trình",
+    "level": "Hiểu",
+    "q": "Vì sao tách một chương trình lớn thành các hàm nhỏ có ích?",
+    "opts": [
+      "Làm tăng bắt buộc mọi biến toàn cục",
+      "Dễ kiểm thử, tái sử dụng, bảo trì",
+      "Bảo đảm mọi thuật toán O(1)",
+      "Loại bỏ nhu cầu viết thuật toán"
+    ],
+    "a": 1,
+    "why": "Chia chức năng rõ ràng giúp cô lập lỗi và tổ chức mã tốt."
+  },
+  {
+    "id": "C1-042",
+    "chapter": 1,
+    "topic": "1.5 Phương pháp lập trình",
+    "level": "Vận dụng",
+    "q": "Khi xây dựng chương trình quản lý điểm, tách nhập điểm, tính trung bình và in kết quả thành hàm là ví dụ của gì?",
+    "opts": [
+      "Lập trình mô-đun/cấu trúc",
+      "Lập trình mã máy thuần túy",
+      "Chỉ thiết kế giao diện",
+      "Không phải lập trình"
+    ],
+    "a": 0,
+    "why": "Mỗi phần thực hiện một chức năng và có thể được gọi lại."
+  },
+  {
+    "id": "C2-001",
+    "chapter": 2,
+    "topic": "2.1 Lịch sử và đặc điểm",
+    "level": "Nhớ",
+    "q": "Ai được xem là người sáng tạo chính của ngôn ngữ C tại Bell Labs?",
+    "opts": [
+      "Guido van Rossum",
+      "Dennis Ritchie",
+      "James Gosling",
+      "Bjarne Stroustrup"
+    ],
+    "a": 1,
+    "why": "Dennis Ritchie phát triển C cùng cộng sự ở Bell Labs."
+  },
+  {
+    "id": "C2-002",
+    "chapter": 2,
+    "topic": "2.1 Lịch sử và đặc điểm",
+    "level": "Nhớ",
+    "q": "Ngôn ngữ C phát triển chủ yếu từ những ngôn ngữ tiền thân nào?",
+    "opts": [
+      "Java và C++",
+      "B và BCPL",
+      "Python và PHP",
+      "HTML và CSS"
+    ],
+    "a": 1,
+    "why": "Giáo trình nêu ngôn ngữ B và BCPL."
+  },
+  {
+    "id": "C2-003",
+    "chapter": 2,
+    "topic": "2.1 Lịch sử và đặc điểm",
+    "level": "Nhớ",
+    "q": "Năm nào được coi là giai đoạn sáng tạo nổi bật của C trong thời kỳ 1969–1973?",
+    "opts": [
+      "1950",
+      "1972",
+      "1989",
+      "2011"
+    ],
+    "a": 1,
+    "why": "Slide chương 2 nhấn mạnh năm 1972."
+  },
+  {
+    "id": "C2-004",
+    "chapter": 2,
+    "topic": "2.1 Lịch sử và đặc điểm",
+    "level": "Nhớ",
+    "q": "Cùng Brian Kernighan, Ritchie xuất bản cuốn The C Programming Language vào năm nào?",
+    "opts": [
+      "1960",
+      "1978",
+      "1999",
+      "2011"
+    ],
+    "a": 1,
+    "why": "Đây là mốc lịch sử thường được hỏi về C."
+  },
+  {
+    "id": "C2-005",
+    "chapter": 2,
+    "topic": "2.1 Lịch sử và đặc điểm",
+    "level": "Nhớ",
+    "q": "Chuẩn ANSI C còn được gọi là C89 gắn với năm nào?",
+    "opts": [
+      "1972",
+      "1978",
+      "1989",
+      "2011"
+    ],
+    "a": 2,
+    "why": "ANSI chuẩn hóa C năm 1989."
+  },
+  {
+    "id": "C2-006",
+    "chapter": 2,
+    "topic": "2.1 Lịch sử và đặc điểm",
+    "level": "Hiểu",
+    "q": "Vì sao C thường được dùng làm ngôn ngữ lập trình hệ thống?",
+    "opts": [
+      "Vì C chỉ chạy trên web",
+      "Vì C có công cụ thao tác dữ liệu, bộ nhớ và có tính khả chuyển",
+      "Vì C không có kiểu dữ liệu",
+      "Vì C chỉ dùng để trình chiếu"
+    ],
+    "a": 1,
+    "why": "C được dùng để viết thành phần hệ thống và chương trình yêu cầu kiểm soát tài nguyên."
+  },
+  {
+    "id": "C2-007",
+    "chapter": 2,
+    "topic": "2.1 Lịch sử và đặc điểm",
+    "level": "Nhớ",
+    "q": "Đặc trưng về tổ chức chương trình C trong slide là gì?",
+    "opts": [
+      "Không có hàm",
+      "Có cấu trúc, chia thành hàm và khối lệnh",
+      "Chỉ chứa lệnh máy nhị phân",
+      "Chỉ chạy trong trình duyệt"
+    ],
+    "a": 1,
+    "why": "Ngôn ngữ C hỗ trợ lập trình có cấu trúc."
+  },
+  {
+    "id": "C2-008",
+    "chapter": 2,
+    "topic": "2.2 Môi trường lập trình",
+    "level": "Nhớ",
+    "q": "IDE viết tắt của cụm từ nào?",
+    "opts": [
+      "Integrated Development Environment",
+      "Internet Data Encoder",
+      "Internal Design Engine",
+      "Integrated Digital Email"
+    ],
+    "a": 0,
+    "why": "IDE là môi trường phát triển tích hợp."
+  },
+  {
+    "id": "C2-009",
+    "chapter": 2,
+    "topic": "2.2 Môi trường lập trình",
+    "level": "Hiểu",
+    "q": "Đâu là một trình biên dịch/chuỗi công cụ C phổ biến?",
+    "opts": [
+      "GCC",
+      "Photoshop",
+      "PowerPoint",
+      "Chrome"
+    ],
+    "a": 0,
+    "why": "GCC hỗ trợ biên dịch chương trình C (dùng gcc cho C)."
+  },
+  {
+    "id": "C2-010",
+    "chapter": 2,
+    "topic": "2.2 Môi trường lập trình",
+    "level": "Hiểu",
+    "q": "Có thể biên dịch C mà không mở IDE không?",
+    "opts": [
+      "Không bao giờ",
+      "Có, dùng compiler và trình soạn thảo riêng",
+      "Chỉ khi chưa viết main",
+      "Chỉ khi dùng Windows XP"
+    ],
+    "a": 1,
+    "why": "IDE là công cụ hỗ trợ, không phải yêu cầu của ngôn ngữ."
+  },
+  {
+    "id": "C2-011",
+    "chapter": 2,
+    "topic": "2.3 Từ khóa và định danh",
+    "level": "Nhớ",
+    "q": "Từ khóa (keyword) trong C là gì?",
+    "opts": [
+      "Tên do lập trình viên đặt tùy ý",
+      "Từ dành riêng có ý nghĩa cú pháp xác định",
+      "Tên tệp dữ liệu",
+      "Nội dung chú thích"
+    ],
+    "a": 1,
+    "why": "Không được lấy keyword làm tên biến hoặc hàm."
+  },
+  {
+    "id": "C2-012",
+    "chapter": 2,
+    "topic": "2.3 Từ khóa và định danh",
+    "level": "Vận dụng",
+    "q": "Tên biến nào hợp lệ trong C?",
+    "opts": [
+      "2diem",
+      "diem trung binh",
+      "_diem2",
+      "float"
+    ],
+    "a": 2,
+    "why": "Tên bắt đầu bằng chữ hoặc _, sau đó có thể có chữ, số, _; không trùng từ khóa."
+  },
+  {
+    "id": "C2-013",
+    "chapter": 2,
+    "topic": "2.3 Từ khóa và định danh",
+    "level": "Vận dụng",
+    "q": "Tên nào là từ khóa của C?",
+    "opts": [
+      "tongDiem",
+      "while",
+      "Printf",
+      "diem_1"
+    ],
+    "a": 1,
+    "why": "while là từ khóa; C phân biệt chữ hoa/thường."
+  },
+  {
+    "id": "C2-014",
+    "chapter": 2,
+    "topic": "2.3 Từ khóa và định danh",
+    "level": "Hiểu",
+    "q": "Trong C, hai tên biến `Diem` và `diem` có quan hệ gì?",
+    "opts": [
+      "Là một tên",
+      "Là hai tên khác nhau",
+      "Đều là từ khóa",
+      "Cả hai không hợp lệ"
+    ],
+    "a": 1,
+    "why": "Ngôn ngữ C phân biệt chữ hoa và chữ thường."
+  },
+  {
+    "id": "C2-015",
+    "chapter": 2,
+    "topic": "2.3 Hằng và biến",
+    "level": "Nhớ",
+    "q": "Khai báo hằng bằng tiền xử lý thường có dạng nào?",
+    "opts": [
+      "#define MAX 100",
+      "#define MAX = 100;",
+      "int #define MAX",
+      "const(MAX,100)"
+    ],
+    "a": 0,
+    "why": "#define dùng phép thay thế macro, không đặt dấu = như phép gán."
+  },
+  {
+    "id": "C2-016",
+    "chapter": 2,
+    "topic": "2.3 Hằng và biến",
+    "level": "Nhớ",
+    "q": "Khai báo hằng có kiểu đúng là gì?",
+    "opts": [
+      "constant 10 PI;",
+      "const float PI = 3.14f;",
+      "#const PI 3.14",
+      "PI const float;"
+    ],
+    "a": 1,
+    "why": "C có từ khóa const để tạo đối tượng chỉ đọc qua tên đó."
+  },
+  {
+    "id": "C2-017",
+    "chapter": 2,
+    "topic": "2.3 Hằng và biến",
+    "level": "Hiểu",
+    "q": "Khác biệt căn bản của biến và hằng trong giới thiệu C là gì?",
+    "opts": [
+      "Biến đổi giá trị được, hằng không nên bị thay đổi",
+      "Biến luôn ở ổ cứng",
+      "Hằng không có tên",
+      "Hằng chỉ chứa ký tự"
+    ],
+    "a": 0,
+    "why": "Biến chứa giá trị có thể cập nhật, còn đối tượng const không thể gán lại theo cách thông thường."
+  },
+  {
+    "id": "C2-018",
+    "chapter": 2,
+    "topic": "2.3 Hằng và biến",
+    "level": "Vận dụng",
+    "q": "Dòng nào khai báo và khởi tạo hai biến nguyên a và b?",
+    "opts": [
+      "int a=4, b=5;",
+      "integer a := 4; b := 5;",
+      "a,b int 4,5",
+      "int (a=4,b=5)"
+    ],
+    "a": 0,
+    "why": "Cú pháp C: kiểu, danh sách biến và dấu chấm phẩy kết thúc lệnh khai báo."
+  },
+  {
+    "id": "C2-019",
+    "chapter": 2,
+    "topic": "2.3 Hằng và biến",
+    "level": "Hiểu",
+    "q": "`int a; float x, y=2.5f;` khẳng định nào chắc chắn đúng?",
+    "opts": [
+      "Cả x và y đều được khởi tạo 2.5",
+      "Chỉ y được khởi tạo rõ ràng là 2.5",
+      "Cả a và x đều tự động bằng 0 trong mọi phạm vi",
+      "a và y cùng kiểu dữ liệu"
+    ],
+    "a": 1,
+    "why": "Ở đây chỉ có y được khởi tạo tường minh; giá trị ban đầu của biến cục bộ chưa khởi tạo không xác định."
+  },
+  {
+    "id": "C2-020",
+    "chapter": 2,
+    "topic": "2.3 Hàm và biểu thức",
+    "level": "Nhớ",
+    "q": "Hàm bắt đầu thực thi chương trình C thông thường là gì?",
+    "opts": [
+      "start()",
+      "program()",
+      "main()",
+      "print()"
+    ],
+    "a": 2,
+    "why": "main là điểm vào của chương trình C lưu trú thông thường."
+  },
+  {
+    "id": "C2-021",
+    "chapter": 2,
+    "topic": "2.3 Hàm và biểu thức",
+    "level": "Hiểu",
+    "q": "Một biểu thức C được tạo thành chủ yếu từ gì?",
+    "opts": [
+      "Toán hạng và toán tử",
+      "Chỉ từ khóa if",
+      "Chỉ tên hàm main",
+      "Chỉ chuỗi ký tự"
+    ],
+    "a": 0,
+    "why": "Ví dụ a + b*2 là biểu thức gồm toán hạng a, b, 2 và toán tử."
+  },
+  {
+    "id": "C2-022",
+    "chapter": 2,
+    "topic": "2.3 Hàm và biểu thức",
+    "level": "Nhớ",
+    "q": "Trong C, lời gọi `pow(2,3)` thường cần tệp tiêu đề nào?",
+    "opts": [
+      "stdio.h",
+      "string.h",
+      "math.h",
+      "ctype.h"
+    ],
+    "a": 2,
+    "why": "Các hàm toán học như pow, sqrt được khai báo trong math.h."
+  },
+  {
+    "id": "C2-023",
+    "chapter": 2,
+    "topic": "2.3 Hàm và biểu thức",
+    "level": "Hiểu",
+    "q": "Theo C chuẩn, có thể định nghĩa một hàm mới nằm ngay trong thân một hàm khác không?",
+    "opts": [
+      "Có, tùy ý",
+      "Không, hàm C chuẩn không lồng định nghĩa",
+      "Chỉ khi hàm đó trả về int",
+      "Bắt buộc phải lồng hàm"
+    ],
+    "a": 1,
+    "why": "Có thể gọi hàm từ hàm khác, nhưng định nghĩa hàm lồng không thuộc C chuẩn."
+  },
+  {
+    "id": "C2-024",
+    "chapter": 2,
+    "topic": "2.3 Toán tử số học",
+    "level": "Vận dụng",
+    "q": "Giá trị của biểu thức C `11 / 3` với cả hai toán hạng int là gì?",
+    "opts": [
+      "3",
+      "3.6667",
+      "4",
+      "2"
+    ],
+    "a": 0,
+    "why": "Chia nguyên bỏ phần thập phân, hướng về 0."
+  },
+  {
+    "id": "C2-025",
+    "chapter": 2,
+    "topic": "2.3 Toán tử số học",
+    "level": "Vận dụng",
+    "q": "Giá trị của `11 % 3` là gì?",
+    "opts": [
+      "2",
+      "3",
+      "3.66",
+      "0"
+    ],
+    "a": 0,
+    "why": "11 chia 3 dư 2."
+  },
+  {
+    "id": "C2-026",
+    "chapter": 2,
+    "topic": "2.3 Toán tử số học",
+    "level": "Vận dụng",
+    "q": "Giá trị của `11.0 / 3` xấp xỉ bao nhiêu?",
+    "opts": [
+      "3",
+      "3.6667",
+      "2",
+      "11"
+    ],
+    "a": 1,
+    "why": "Có toán hạng thực nên phép chia là chia số thực."
+  },
+  {
+    "id": "C2-027",
+    "chapter": 2,
+    "topic": "2.3 Toán tử số học",
+    "level": "Vận dụng",
+    "q": "Cho `int x=5; int y=x++;`, sau hai lệnh, cặp (x,y) bằng gì?",
+    "opts": [
+      "(5,6)",
+      "(6,6)",
+      "(6,5)",
+      "(5,5)"
+    ],
+    "a": 2,
+    "why": "Hậu tố x++ dùng giá trị cũ cho y rồi mới tăng x."
+  },
+  {
+    "id": "C2-028",
+    "chapter": 2,
+    "topic": "2.3 Toán tử số học",
+    "level": "Vận dụng",
+    "q": "Cho `int x=5; int y=++x;`, cặp (x,y) là gì?",
+    "opts": [
+      "(5,6)",
+      "(6,6)",
+      "(6,5)",
+      "(5,5)"
+    ],
+    "a": 1,
+    "why": "Tiền tố ++x tăng x trước rồi lấy giá trị mới."
+  },
+  {
+    "id": "C2-029",
+    "chapter": 2,
+    "topic": "2.3 Toán tử số học",
+    "level": "Vận dụng",
+    "q": "Biểu thức `2 + 3 * 4` có giá trị bao nhiêu?",
+    "opts": [
+      "20",
+      "14",
+      "24",
+      "9"
+    ],
+    "a": 1,
+    "why": "Nhân được ưu tiên trước cộng."
+  },
+  {
+    "id": "C2-030",
+    "chapter": 2,
+    "topic": "2.3 Toán tử số học",
+    "level": "Hiểu",
+    "q": "Phép toán `%` trong C được dùng với loại toán hạng nào?",
+    "opts": [
+      "Chỉ số thực",
+      "Số nguyên",
+      "Chỉ ký tự chuỗi",
+      "Chỉ con trỏ"
+    ],
+    "a": 1,
+    "why": "% tính phần dư của phép chia trên các kiểu số nguyên."
+  },
+  {
+    "id": "C2-031",
+    "chapter": 2,
+    "topic": "2.3 Toán tử số học",
+    "level": "Vận dụng",
+    "q": "Cho `int a=7; a+=3;` giá trị a là bao nhiêu?",
+    "opts": [
+      "3",
+      "7",
+      "10",
+      "21"
+    ],
+    "a": 2,
+    "why": "a+=3 tương đương a=a+3."
+  },
+  {
+    "id": "C2-032",
+    "chapter": 2,
+    "topic": "2.3 Toán tử bit",
+    "level": "Nhớ",
+    "q": "Toán tử nào thực hiện AND theo từng bit?",
+    "opts": [
+      "&&",
+      "&",
+      "||",
+      "!"
+    ],
+    "a": 1,
+    "why": "& là AND bit, && là AND logic."
+  },
+  {
+    "id": "C2-033",
+    "chapter": 2,
+    "topic": "2.3 Toán tử bit",
+    "level": "Nhớ",
+    "q": "Toán tử XOR (hoặc loại trừ) theo bit là gì?",
+    "opts": [
+      "^",
+      "||",
+      "!=",
+      "&&"
+    ],
+    "a": 0,
+    "why": "^ thực hiện XOR trên các bit tương ứng."
+  },
+  {
+    "id": "C2-034",
+    "chapter": 2,
+    "topic": "2.3 Toán tử bit",
+    "level": "Vận dụng",
+    "q": "Với các số nguyên không dấu, `5 & 3` bằng bao nhiêu?",
+    "opts": [
+      "0",
+      "1",
+      "5",
+      "7"
+    ],
+    "a": 1,
+    "why": "0101 & 0011 = 0001."
+  },
+  {
+    "id": "C2-035",
+    "chapter": 2,
+    "topic": "2.3 Toán tử bit",
+    "level": "Vận dụng",
+    "q": "Với số nguyên không dấu, `5 | 2` bằng bao nhiêu?",
+    "opts": [
+      "1",
+      "5",
+      "7",
+      "10"
+    ],
+    "a": 2,
+    "why": "0101 | 0010 = 0111."
+  },
+  {
+    "id": "C2-036",
+    "chapter": 2,
+    "topic": "2.3 Toán tử bit",
+    "level": "Vận dụng",
+    "q": "`3u << 2` bằng bao nhiêu (giả sử kiểu unsigned đủ rộng)?",
+    "opts": [
+      "3",
+      "6",
+      "12",
+      "24"
+    ],
+    "a": 2,
+    "why": "Dịch trái 2 bit tương đương nhân 4 khi không tràn phần có nghĩa."
+  },
+  {
+    "id": "C2-037",
+    "chapter": 2,
+    "topic": "2.3 Toán tử quan hệ",
+    "level": "Nhớ",
+    "q": "Toán tử kiểm tra bằng nhau trong C là gì?",
+    "opts": [
+      "=",
+      "==",
+      ":=",
+      "==="
+    ],
+    "a": 1,
+    "why": "== so sánh; = gán."
+  },
+  {
+    "id": "C2-038",
+    "chapter": 2,
+    "topic": "2.3 Toán tử quan hệ",
+    "level": "Vận dụng",
+    "q": "Giá trị logic của `7 != 7` trong C là gì?",
+    "opts": [
+      "1 (đúng)",
+      "0 (sai)",
+      "7",
+      "Không hợp lệ"
+    ],
+    "a": 1,
+    "why": "Hai toán hạng bằng nhau nên điều kiện khác nhau là sai."
+  },
+  {
+    "id": "C2-039",
+    "chapter": 2,
+    "topic": "2.3 Toán tử logic",
+    "level": "Hiểu",
+    "q": "Giá trị nào được xem là false trong điều kiện C truyền thống?",
+    "opts": [
+      "Mọi số âm",
+      "Chỉ giá trị 0",
+      "Mọi số khác 1",
+      "Mọi số thực"
+    ],
+    "a": 1,
+    "why": "0 là sai, mọi giá trị số khác 0 là đúng."
+  },
+  {
+    "id": "C2-040",
+    "chapter": 2,
+    "topic": "2.3 Toán tử logic",
+    "level": "Vận dụng",
+    "q": "`(3 > 1) && (2 == 5)` cho kết quả gì?",
+    "opts": [
+      "1",
+      "0",
+      "3",
+      "Không xác định"
+    ],
+    "a": 1,
+    "why": "Vế đầu đúng, vế sau sai; AND trả về 0."
+  },
+  {
+    "id": "C2-041",
+    "chapter": 2,
+    "topic": "2.3 Toán tử logic",
+    "level": "Vận dụng",
+    "q": "`!(5 > 2)` trả về gì?",
+    "opts": [
+      "1",
+      "0",
+      "5",
+      "2"
+    ],
+    "a": 1,
+    "why": "5>2 đúng (1); phủ định ! nhận 0."
+  },
+  {
+    "id": "C2-042",
+    "chapter": 2,
+    "topic": "2.3 Toán tử logic",
+    "level": "Hiểu",
+    "q": "Khác biệt nào đúng giữa `&&` và `&`?",
+    "opts": [
+      "Cả hai luôn giống nhau",
+      "&& là AND logic và có cơ chế ngắn mạch; & là AND bit",
+      "& dùng cho xâu ký tự",
+      "&& là phép gán"
+    ],
+    "a": 1,
+    "why": "Hai toán tử có ngữ nghĩa và mức ưu tiên khác nhau."
+  },
+  {
+    "id": "C2-043",
+    "chapter": 2,
+    "topic": "2.3 Toán tử đặc biệt",
+    "level": "Vận dụng",
+    "q": "Giá trị của `4 > 2 ? 10 : 20` là gì?",
+    "opts": [
+      "4",
+      "2",
+      "10",
+      "20"
+    ],
+    "a": 2,
+    "why": "Điều kiện đúng nên chọn biểu thức trước dấu hai chấm."
+  },
+  {
+    "id": "C2-044",
+    "chapter": 2,
+    "topic": "2.3 Toán tử đặc biệt",
+    "level": "Hiểu",
+    "q": "Phép lấy địa chỉ một biến `a` trong C là gì?",
+    "opts": [
+      "*a",
+      "&a",
+      "%a",
+      "#a"
+    ],
+    "a": 1,
+    "why": "&a cho địa chỉ của biến a."
+  },
+  {
+    "id": "C2-045",
+    "chapter": 2,
+    "topic": "2.3 Toán tử đặc biệt",
+    "level": "Vận dụng",
+    "q": "Với `int a=5,b=2;`, `(float)a/b` có giá trị nào?",
+    "opts": [
+      "2",
+      "2.5",
+      "3",
+      "Không hợp lệ"
+    ],
+    "a": 1,
+    "why": "Ép a sang float khiến phép chia diễn ra theo kiểu số thực."
+  },
+  {
+    "id": "C2-046",
+    "chapter": 2,
+    "topic": "2.3 Toán tử đặc biệt",
+    "level": "Vận dụng",
+    "q": "Cho `int a=2,b=3,x; x=(a++, b=a+b);`, x và a bằng gì?",
+    "opts": [
+      "x=5, a=3",
+      "x=6, a=3",
+      "x=5, a=2",
+      "x=3, a=2"
+    ],
+    "a": 1,
+    "why": "a++ đưa a thành 3; sau đó b=3+3=6; biểu thức dấu phẩy nhận giá trị cuối là 6."
+  },
+  {
+    "id": "C2-047",
+    "chapter": 2,
+    "topic": "2.3 Toán tử đặc biệt",
+    "level": "Hiểu",
+    "q": "`x = y = 8;` khi x, y là int có tác dụng gì?",
+    "opts": [
+      "Chỉ x nhận 8",
+      "Cả x và y nhận 8",
+      "Cả hai không hợp lệ",
+      "Cả hai nhận 0"
+    ],
+    "a": 1,
+    "why": "Toán tử gán kết hợp từ phải sang trái."
+  },
+  {
+    "id": "C2-048",
+    "chapter": 2,
+    "topic": "2.3 Toán tử đặc biệt",
+    "level": "Hiểu",
+    "q": "Khối lệnh trong C được đặt trong cặp ký hiệu nào?",
+    "opts": [
+      "[ ]",
+      "( )",
+      "{ }",
+      "< >"
+    ],
+    "a": 2,
+    "why": "Dấu ngoặc nhọn nhóm nhiều khai báo/lệnh thành một khối."
+  },
+  {
+    "id": "C2-049",
+    "chapter": 2,
+    "topic": "2.3 Toán tử đặc biệt",
+    "level": "Hiểu",
+    "q": "Một biến cục bộ khai báo trong khối bên trong có thể che khuất biến cùng tên ở khối ngoài không?",
+    "opts": [
+      "Có",
+      "Không bao giờ",
+      "Chỉ khi biến ngoài là const",
+      "Chỉ trên Windows"
+    ],
+    "a": 0,
+    "why": "Tên biến trong phạm vi gần hơn có ưu tiên khi tra cứu."
+  },
+  {
+    "id": "C2-050",
+    "chapter": 2,
+    "topic": "2.3 Kiểu dữ liệu",
+    "level": "Nhớ",
+    "q": "Trong C, kiểu nào dùng lưu ký tự đơn?",
+    "opts": [
+      "int[]",
+      "char",
+      "double",
+      "struct"
+    ],
+    "a": 1,
+    "why": "char lưu một đơn vị ký tự/byte."
+  },
+  {
+    "id": "C2-051",
+    "chapter": 2,
+    "topic": "2.3 Kiểu dữ liệu",
+    "level": "Nhớ",
+    "q": "Ký tự `'A'` và xâu `\"A\"` khác nhau chủ yếu ở đâu?",
+    "opts": [
+      "Hoàn toàn giống nhau",
+      "Một bên là hằng ký tự, bên kia là xâu kết thúc bằng '\\0'",
+      "Cả hai đều là số thực",
+      "Xâu chỉ chứa chuỗi rỗng"
+    ],
+    "a": 1,
+    "why": "Dấu nháy đơn biểu diễn hằng ký tự; nháy kép biểu diễn chuỗi."
+  },
+  {
+    "id": "C2-052",
+    "chapter": 2,
+    "topic": "2.3 Kiểu dữ liệu",
+    "level": "Hiểu",
+    "q": "Về kích thước `int` trong C chuẩn, khẳng định nào đúng?",
+    "opts": [
+      "Luôn bằng 2 byte trên mọi máy",
+      "Luôn bằng 4 byte trên mọi máy",
+      "Phụ thuộc triển khai và phải thỏa giới hạn tối thiểu theo chuẩn",
+      "Luôn bằng 8 byte"
+    ],
+    "a": 2,
+    "why": "Slide có ví dụ môi trường int=2 byte, không phải quy tắc chung của C chuẩn."
+  },
+  {
+    "id": "C2-053",
+    "chapter": 2,
+    "topic": "2.3 Kiểu dữ liệu",
+    "level": "Vận dụng",
+    "q": "Giá trị của hằng số thực `1.25e2` là bao nhiêu?",
+    "opts": [
+      "0.0125",
+      "12.5",
+      "125",
+      "1250"
+    ],
+    "a": 2,
+    "why": "1.25×10² = 125."
+  },
+  {
+    "id": "C2-054",
+    "chapter": 2,
+    "topic": "2.3 Kiểu dữ liệu",
+    "level": "Nhớ",
+    "q": "Từ khóa cho phép đặt tên mới (bí danh) cho kiểu dữ liệu là gì?",
+    "opts": [
+      "typedef",
+      "type",
+      "alias",
+      "renametype"
+    ],
+    "a": 0,
+    "why": "typedef định nghĩa tên kiểu mới từ một kiểu hiện có."
+  },
+  {
+    "id": "C2-055",
+    "chapter": 2,
+    "topic": "2.4 Cấu trúc chương trình",
+    "level": "Nhớ",
+    "q": "Chỉ thị đưa thư viện nhập/xuất chuẩn vào mã nguồn là gì?",
+    "opts": [
+      "using stdio;",
+      "import stdio;",
+      "#include <stdio.h>",
+      "#load stdio"
+    ],
+    "a": 2,
+    "why": "stdio.h khai báo printf, scanf và nhiều hàm I/O chuẩn."
+  },
+  {
+    "id": "C2-056",
+    "chapter": 2,
+    "topic": "2.4 Cấu trúc chương trình",
+    "level": "Hiểu",
+    "q": "Thành phần nào là nguyên mẫu hàm hợp lệ?",
+    "opts": [
+      "int tong(int a, int b);",
+      "int tong(int a, int b) = 0;",
+      "tong(a,b) int;",
+      "function tong()"
+    ],
+    "a": 0,
+    "why": "Nguyên mẫu kết thúc dấu ;, mô tả kiểu trả về và danh sách tham số."
+  },
+  {
+    "id": "C2-057",
+    "chapter": 2,
+    "topic": "2.4 Cấu trúc chương trình",
+    "level": "Hiểu",
+    "q": "Khi định nghĩa hàm bên dưới main và gọi hàm trong main, giải pháp C chuẩn thường dùng là gì?",
+    "opts": [
+      "Không cần quan tâm gì",
+      "Khai báo nguyên mẫu trước lời gọi",
+      "Đổi tên hàm main",
+      "Xóa mọi tệp header"
+    ],
+    "a": 1,
+    "why": "Compiler cần biết khai báo hàm tại điểm lời gọi."
+  },
+  {
+    "id": "C2-058",
+    "chapter": 2,
+    "topic": "2.4 Cấu trúc chương trình",
+    "level": "Nhớ",
+    "q": "Phần thân hàm `main` được bao trong dấu gì?",
+    "opts": [
+      "< >",
+      "{ }",
+      "[ ]",
+      "\" \""
+    ],
+    "a": 1,
+    "why": "Câu lệnh trong hàm được nhóm trong khối { }."
+  },
+  {
+    "id": "C2-059",
+    "chapter": 2,
+    "topic": "2.4 Cấu trúc chương trình",
+    "level": "Nhớ",
+    "q": "Trong C, cách viết chú thích một dòng là gì?",
+    "opts": [
+      "// nội dung",
+      "# nội dung",
+      "<!-- nội dung -->",
+      "** nội dung"
+    ],
+    "a": 0,
+    "why": "// là cú pháp chú thích một dòng trong C99 và các chuẩn mới hơn."
+  },
+  {
+    "id": "C2-060",
+    "chapter": 2,
+    "topic": "2.4 Cấu trúc chương trình",
+    "level": "Nhớ",
+    "q": "Chú thích khối trong C sử dụng ký hiệu nào?",
+    "opts": [
+      "(* ... *)",
+      "/* ... */",
+      "<!-- ... -->",
+      "# ... #"
+    ],
+    "a": 1,
+    "why": "/* mở và */ đóng phần chú thích khối."
+  },
+  {
+    "id": "C2-061",
+    "chapter": 2,
+    "topic": "2.4 Cấu trúc chương trình",
+    "level": "Hiểu",
+    "q": "Trong `int main(void) { return 0; }`, `return 0;` thông thường biểu thị gì?",
+    "opts": [
+      "Chương trình trả về mã kết thúc thành công cho môi trường",
+      "In số 0 ra màn hình",
+      "Xóa mọi biến toàn cục",
+      "Gọi lại main"
+    ],
+    "a": 0,
+    "why": "main trả về giá trị nguyên thông báo trạng thái kết thúc."
+  },
+  {
+    "id": "C2-062",
+    "chapter": 2,
+    "topic": "2.4 Cấu trúc chương trình",
+    "level": "Vận dụng",
+    "q": "Đâu là đoạn lệnh C đầy đủ hợp lệ để in 'Hi'?",
+    "opts": [
+      "#include <stdio.h>\nint main(void){ printf(\"Hi\"); return 0; }",
+      "main { print(\"Hi\") }",
+      "public static void main(){ cout << \"Hi\"; }",
+      "<script>Hi</script>"
+    ],
+    "a": 0,
+    "why": "Đoạn C chuẩn có stdio.h, main và printf."
+  },
+  {
+    "id": "C3-001",
+    "chapter": 3,
+    "topic": "3.1 Thư viện và printf",
+    "level": "Nhớ",
+    "q": "Thư viện tiêu đề chứa khai báo `printf` và `scanf` là gì?",
+    "opts": [
+      "math.h",
+      "ctype.h",
+      "stdio.h",
+      "string.h"
+    ],
+    "a": 2,
+    "why": "stdio là viết tắt standard input/output."
+  },
+  {
+    "id": "C3-002",
+    "chapter": 3,
+    "topic": "3.1 Thư viện và printf",
+    "level": "Nhớ",
+    "q": "Hàm nào xuất dữ liệu theo định dạng ra đầu ra chuẩn?",
+    "opts": [
+      "scanf",
+      "printf",
+      "fopen",
+      "strlen"
+    ],
+    "a": 1,
+    "why": "printf là hàm xuất định dạng."
+  },
+  {
+    "id": "C3-003",
+    "chapter": 3,
+    "topic": "3.1 Thư viện và printf",
+    "level": "Hiểu",
+    "q": "Trong `printf(\"Tong=%d\", x);`, `%d` có vai trò gì?",
+    "opts": [
+      "Đọc một giá trị từ bàn phím",
+      "Đặc tả hiển thị số nguyên",
+      "Đặt tên biến",
+      "Kết thúc xâu"
+    ],
+    "a": 1,
+    "why": "%d yêu cầu hiển thị đối số tương ứng như số nguyên thập phân có dấu."
+  },
+  {
+    "id": "C3-004",
+    "chapter": 3,
+    "topic": "3.1 Thư viện và printf",
+    "level": "Nhớ",
+    "q": "Đặc tả `printf` nào để xuất một ký tự?",
+    "opts": [
+      "%s",
+      "%c",
+      "%f",
+      "%d"
+    ],
+    "a": 1,
+    "why": "%c xuất ký tự theo mã tương ứng."
+  },
+  {
+    "id": "C3-005",
+    "chapter": 3,
+    "topic": "3.1 Thư viện và printf",
+    "level": "Nhớ",
+    "q": "Đặc tả `printf` nào để xuất một xâu ký tự?",
+    "opts": [
+      "%s",
+      "%c",
+      "%u",
+      "%o"
+    ],
+    "a": 0,
+    "why": "%s đọc các byte đến ký tự kết thúc '\\0'."
+  },
+  {
+    "id": "C3-006",
+    "chapter": 3,
+    "topic": "3.1 Thư viện và printf",
+    "level": "Nhớ",
+    "q": "Trong `printf`, đặc tả nào in số nguyên không dấu hệ 10?",
+    "opts": [
+      "%d",
+      "%u",
+      "%x",
+      "%f"
+    ],
+    "a": 1,
+    "why": "%u dành cho unsigned int trong các đối số phù hợp."
+  },
+  {
+    "id": "C3-007",
+    "chapter": 3,
+    "topic": "3.1 Thư viện và printf",
+    "level": "Nhớ",
+    "q": "Trong `printf`, `%x` dùng để hiển thị số theo hệ nào?",
+    "opts": [
+      "Hệ 2",
+      "Hệ 8",
+      "Hệ 10",
+      "Hệ 16"
+    ],
+    "a": 3,
+    "why": "%x biểu diễn số hệ 16 với chữ a–f thường."
+  },
+  {
+    "id": "C3-008",
+    "chapter": 3,
+    "topic": "3.1 Thư viện và printf",
+    "level": "Nhớ",
+    "q": "Trong `printf`, `%o` hiển thị theo hệ nào?",
+    "opts": [
+      "Hệ 2",
+      "Hệ 8",
+      "Hệ 10",
+      "Hệ 16"
+    ],
+    "a": 1,
+    "why": "o là octal (bát phân)."
+  },
+  {
+    "id": "C3-009",
+    "chapter": 3,
+    "topic": "3.1 Thư viện và printf",
+    "level": "Nhớ",
+    "q": "`printf` dùng `%f` để xuất kiểu số nào?",
+    "opts": [
+      "Số thực (đối số double sau biến đổi mặc định)",
+      "Con trỏ hàm",
+      "Chuỗi",
+      "Cấu trúc"
+    ],
+    "a": 0,
+    "why": "Đối số float được tự nâng lên double khi truyền qua printf."
+  },
+  {
+    "id": "C3-010",
+    "chapter": 3,
+    "topic": "3.1 Thư viện và printf",
+    "level": "Nhớ",
+    "q": "Ký tự điều khiển `\\n` thường có ý nghĩa gì?",
+    "opts": [
+      "Tab",
+      "Xuống dòng",
+      "In dấu nháy kép",
+      "Kết thúc chương trình"
+    ],
+    "a": 1,
+    "why": "\\n biểu diễn ký tự xuống dòng."
+  },
+  {
+    "id": "C3-011",
+    "chapter": 3,
+    "topic": "3.1 Thư viện và printf",
+    "level": "Nhớ",
+    "q": "Ký tự điều khiển `\\t` thường làm gì?",
+    "opts": [
+      "Tab ngang",
+      "Thoát chương trình",
+      "In dấu %",
+      "Ký tự kết thúc xâu"
+    ],
+    "a": 0,
+    "why": "\\t là horizontal tab."
+  },
+  {
+    "id": "C3-012",
+    "chapter": 3,
+    "topic": "3.1 Thư viện và printf",
+    "level": "Vận dụng",
+    "q": "Cách xuất một dấu phần trăm bằng printf là gì?",
+    "opts": [
+      "printf(\"%\");",
+      "printf(\"%%\");",
+      "printf(\"\\\\%\");",
+      "printf(\"%d\");"
+    ],
+    "a": 1,
+    "why": "%% biểu diễn ký tự phần trăm trong xâu định dạng."
+  },
+  {
+    "id": "C3-013",
+    "chapter": 3,
+    "topic": "3.1 Thư viện và printf",
+    "level": "Vận dụng",
+    "q": "`printf(\"%d\", 3+4);` hiển thị gì?",
+    "opts": [
+      "3+4",
+      "7",
+      "34",
+      "Không in gì"
+    ],
+    "a": 1,
+    "why": "Đối số là biểu thức nên được tính trước rồi định dạng."
+  },
+  {
+    "id": "C3-014",
+    "chapter": 3,
+    "topic": "3.1 Thư viện và printf",
+    "level": "Vận dụng",
+    "q": "`printf(\"%5d\", 42);` có bao nhiêu dấu cách đứng trước 42?",
+    "opts": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "a": 3,
+    "why": "Độ rộng tối thiểu 5, số 42 chiếm 2 ký tự nên thêm 3 dấu cách."
+  },
+  {
+    "id": "C3-015",
+    "chapter": 3,
+    "topic": "3.1 Thư viện và printf",
+    "level": "Vận dụng",
+    "q": "`printf(\"%-5d!\", 42);` cho chuỗi hiển thị nào?",
+    "opts": [
+      "\"   42!\"",
+      "\"42   !\"",
+      "\"42!\"",
+      "\"00042!\""
+    ],
+    "a": 1,
+    "why": "Dấu - khiến căn trái trong vùng tối thiểu 5 ký tự."
+  },
+  {
+    "id": "C3-016",
+    "chapter": 3,
+    "topic": "3.1 Thư viện và printf",
+    "level": "Vận dụng",
+    "q": "`printf(\"%.2f\", 9.126);` theo định dạng của bài giảng in ra gì?",
+    "opts": [
+      "9.125000",
+      "9.12",
+      "9.13",
+      "9"
+    ],
+    "a": 2,
+    "why": "%.2f hiển thị hai chữ số thập phân; 9.126 làm tròn thành 9.13. (Mốc 9.125 trong slide có thể là trường hợp làm tròn sát ranh giới.)"
+  },
+  {
+    "id": "C3-017",
+    "chapter": 3,
+    "topic": "3.1 Thư viện và printf",
+    "level": "Hiểu",
+    "q": "Nếu độ rộng tối thiểu `%2d` nhỏ hơn số chữ số cần in (ví dụ 12345), điều gì xảy ra?",
+    "opts": [
+      "Giá trị bị cắt bớt",
+      "Hệ thống vẫn in đủ chữ số",
+      "Lỗi cú pháp",
+      "Chỉ in 12"
+    ],
+    "a": 1,
+    "why": "Trường width quy định tối thiểu, không cắt nội dung."
+  },
+  {
+    "id": "C3-018",
+    "chapter": 3,
+    "topic": "3.1 Thư viện và printf",
+    "level": "Hiểu",
+    "q": "Số lượng và kiểu đối số của `printf` cần phù hợp với cái gì?",
+    "opts": [
+      "Tên tệp nguồn",
+      "Các đặc tả trong xâu định dạng",
+      "Số dấu chú thích",
+      "Tổng số dòng chương trình"
+    ],
+    "a": 1,
+    "why": "Đặc tả sai kiểu có thể dẫn đến hành vi không xác định."
+  },
+  {
+    "id": "C3-019",
+    "chapter": 3,
+    "topic": "3.1 scanf và nhập dữ liệu",
+    "level": "Nhớ",
+    "q": "Hàm nào đọc dữ liệu theo định dạng từ bàn phím?",
+    "opts": [
+      "printf",
+      "scanf",
+      "puts",
+      "strcpy"
+    ],
+    "a": 1,
+    "why": "scanf đọc và chuyển đổi dữ liệu theo đặc tả."
+  },
+  {
+    "id": "C3-020",
+    "chapter": 3,
+    "topic": "3.1 scanf và nhập dữ liệu",
+    "level": "Vận dụng",
+    "q": "Với `int n;`, câu lệnh nhập n nào đúng?",
+    "opts": [
+      "scanf(\"%d\", n);",
+      "scanf(\"%d\", &n);",
+      "printf(\"%d\", &n);",
+      "scanf(n, \"%d\");"
+    ],
+    "a": 1,
+    "why": "scanf cần địa chỉ vùng nhớ của biến đích."
+  },
+  {
+    "id": "C3-021",
+    "chapter": 3,
+    "topic": "3.1 scanf và nhập dữ liệu",
+    "level": "Vận dụng",
+    "q": "Với `float x;`, câu lệnh nhập x nào đúng?",
+    "opts": [
+      "scanf(\"%f\", &x);",
+      "scanf(\"%lf\", &x);",
+      "scanf(\"%f\", x);",
+      "scanf(\"%d\", &x);"
+    ],
+    "a": 0,
+    "why": "Trong scanf, %f cần float*; %lf cần double*."
+  },
+  {
+    "id": "C3-022",
+    "chapter": 3,
+    "topic": "3.1 scanf và nhập dữ liệu",
+    "level": "Vận dụng",
+    "q": "Với `double d;`, câu lệnh nhập d nào đúng?",
+    "opts": [
+      "scanf(\"%f\", &d);",
+      "scanf(\"%d\", &d);",
+      "scanf(\"%lf\", &d);",
+      "scanf(\"%c\", &d);"
+    ],
+    "a": 2,
+    "why": "Trong scanf, %lf nhận double*."
+  },
+  {
+    "id": "C3-023",
+    "chapter": 3,
+    "topic": "3.1 scanf và nhập dữ liệu",
+    "level": "Hiểu",
+    "q": "Cách viết `scanf(\" %c\", &c);` với một dấu cách trước `%c` có tác dụng gì?",
+    "opts": [
+      "In ra một dấu cách",
+      "Bỏ qua các ký tự khoảng trắng trước khi đọc ký tự",
+      "Đọc luôn hai ký tự",
+      "Bắt buộc c là số thực"
+    ],
+    "a": 1,
+    "why": "Khoảng trắng trong định dạng scanf bỏ qua khoảng trắng đầu vào, kể cả newline."
+  },
+  {
+    "id": "C3-024",
+    "chapter": 3,
+    "topic": "3.1 scanf và nhập dữ liệu",
+    "level": "Hiểu",
+    "q": "Vì sao `scanf(\"%c\", &c)` sau một lần nhập số có thể đọc phải `\\n` còn sót?",
+    "opts": [
+      "Vì %c không tự bỏ qua khoảng trắng",
+      "Vì c bắt buộc là int",
+      "Vì printf sai",
+      "Vì thiếu dấu ; sau main"
+    ],
+    "a": 0,
+    "why": "Đặc tả %c đọc ngay ký tự tiếp theo, bao gồm Enter."
+  },
+  {
+    "id": "C3-025",
+    "chapter": 3,
+    "topic": "3.1 scanf và nhập dữ liệu",
+    "level": "Vận dụng",
+    "q": "Nhập hai biến `int a,b;` bằng một lệnh nào đúng?",
+    "opts": [
+      "scanf(\"%d%d\", &a, &b);",
+      "scanf(\"%f%f\", &a, &b);",
+      "scanf(\"%d%d\", a, b);",
+      "printf(\"%d%d\", &a, &b);"
+    ],
+    "a": 0,
+    "why": "Hai đặc tả %d tương ứng hai địa chỉ int."
+  },
+  {
+    "id": "C3-026",
+    "chapter": 3,
+    "topic": "3.1 scanf và nhập dữ liệu",
+    "level": "Hiểu",
+    "q": "Với `scanf(\"%d\", &n);`, giá trị trả về 1 thường có nghĩa gì?",
+    "opts": [
+      "Đọc và gán thành công một mục dữ liệu",
+      "n chắc chắn bằng 1",
+      "Không đọc được gì",
+      "Chương trình kết thúc"
+    ],
+    "a": 0,
+    "why": "Kiến thức nền tảng: scanf trả về số trường gán thành công (hoặc EOF)."
+  },
+  {
+    "id": "C3-027",
+    "chapter": 3,
+    "topic": "3.2 Cấu trúc if",
+    "level": "Nhớ",
+    "q": "Cấu trúc `if (dk) lenh;` chạy lệnh khi nào?",
+    "opts": [
+      "Khi dk=0",
+      "Khi dk khác 0",
+      "Luôn chạy",
+      "Chỉ khi dk bằng 1 đúng nghĩa toán học"
+    ],
+    "a": 1,
+    "why": "Trong C, mọi số khác 0 được xem là true."
+  },
+  {
+    "id": "C3-028",
+    "chapter": 3,
+    "topic": "3.2 Cấu trúc if",
+    "level": "Nhớ",
+    "q": "Vai trò của `else` trong `if ... else` là gì?",
+    "opts": [
+      "Nhánh chạy khi điều kiện if sai",
+      "Nhánh luôn chạy trước if",
+      "Kết thúc hàm",
+      "Bắt buộc phải có trong mọi if"
+    ],
+    "a": 0,
+    "why": "else biểu diễn nhánh còn lại."
+  },
+  {
+    "id": "C3-029",
+    "chapter": 3,
+    "topic": "3.2 Cấu trúc if",
+    "level": "Vận dụng",
+    "q": "Cho `int x=8; if(x%2==0) printf(\"C\"); else printf(\"L\");` in gì?",
+    "opts": [
+      "C",
+      "L",
+      "CL",
+      "Không in"
+    ],
+    "a": 0,
+    "why": "8 chia 2 dư 0 nên vào nhánh đúng."
+  },
+  {
+    "id": "C3-030",
+    "chapter": 3,
+    "topic": "3.2 Cấu trúc if",
+    "level": "Vận dụng",
+    "q": "Cho `int x=2; if(x=0) printf(\"A\"); else printf(\"B\");`, kết quả là gì?",
+    "opts": [
+      "A",
+      "B",
+      "AB",
+      "Lỗi cú pháp"
+    ],
+    "a": 1,
+    "why": "(x=0) là phép gán có giá trị 0 nên điều kiện sai. Nhớ phân biệt = với ==."
+  },
+  {
+    "id": "C3-031",
+    "chapter": 3,
+    "topic": "3.2 Cấu trúc if",
+    "level": "Hiểu",
+    "q": "Không có dấu `{}`, một câu lệnh `if` điều khiển bao nhiêu lệnh theo sau trực tiếp?",
+    "opts": [
+      "Một lệnh (statement)",
+      "Mọi lệnh còn lại trong hàm",
+      "Hai lệnh tùy ý",
+      "Không lệnh nào"
+    ],
+    "a": 0,
+    "why": "Muốn điều khiển nhiều lệnh phải nhóm chúng bằng khối { }."
+  },
+  {
+    "id": "C3-032",
+    "chapter": 3,
+    "topic": "3.2 Cấu trúc if",
+    "level": "Hiểu",
+    "q": "Trong chuỗi `if ... else if ... else`, nếu điều kiện đầu tiên đúng thì sao?",
+    "opts": [
+      "Vẫn kiểm tra mọi else if",
+      "Chạy nhánh đầu tương ứng và bỏ các nhánh else còn lại",
+      "Bắt buộc chạy nhánh else",
+      "Lỗi cú pháp"
+    ],
+    "a": 1,
+    "why": "Các nhánh thuộc một chuỗi lựa chọn thay thế nhau."
+  },
+  {
+    "id": "C3-033",
+    "chapter": 3,
+    "topic": "3.2 Cấu trúc if",
+    "level": "Vận dụng",
+    "q": "Giá trị biến m với `int a=3,b=5; int m = a>b ? a : b;` là gì?",
+    "opts": [
+      "3",
+      "5",
+      "8",
+      "0"
+    ],
+    "a": 1,
+    "why": "Điều kiện sai nên toán tử điều kiện chọn b."
+  },
+  {
+    "id": "C3-034",
+    "chapter": 3,
+    "topic": "3.2 Cấu trúc switch",
+    "level": "Nhớ",
+    "q": "`switch` dùng để lựa chọn theo kiểu biểu thức nào trong C thông dụng?",
+    "opts": [
+      "Chỉ số thực float",
+      "Kiểu số nguyên hoặc ký tự/tương đương số nguyên",
+      "Chỉ xâu ký tự",
+      "Chỉ mảng"
+    ],
+    "a": 1,
+    "why": "Biểu thức điều khiển switch cần có kiểu nguyên sau các phép chuyển đổi hợp lệ."
+  },
+  {
+    "id": "C3-035",
+    "chapter": 3,
+    "topic": "3.2 Cấu trúc switch",
+    "level": "Hiểu",
+    "q": "Tác dụng của `break` trong một `case` của `switch` là gì?",
+    "opts": [
+      "Thoát khỏi switch chứa nó",
+      "Bỏ qua compile",
+      "Tăng biến điều khiển",
+      "Quay về đầu switch"
+    ],
+    "a": 0,
+    "why": "break ngăn thực thi rơi tiếp vào case phía sau."
+  },
+  {
+    "id": "C3-036",
+    "chapter": 3,
+    "topic": "3.2 Cấu trúc switch",
+    "level": "Hiểu",
+    "q": "Nếu không có `break` sau một `case` trong switch thì điều gì có thể xảy ra?",
+    "opts": [
+      "Luôn lỗi cú pháp",
+      "Thực thi tiếp các case phía sau (fall-through)",
+      "Tự động thoát switch",
+      "Tự động trở về main"
+    ],
+    "a": 1,
+    "why": "Khi không có lệnh chuyển điều khiển, dòng chạy đi tiếp qua nhãn case."
+  },
+  {
+    "id": "C3-037",
+    "chapter": 3,
+    "topic": "3.2 Cấu trúc switch",
+    "level": "Vận dụng",
+    "q": "`switch(2){case 1:printf(\"A\");break;case 2:printf(\"B\");case 3:printf(\"C\");break;}` in gì?",
+    "opts": [
+      "A",
+      "B",
+      "BC",
+      "C"
+    ],
+    "a": 2,
+    "why": "B chạy rồi rơi xuống case 3, in tiếp C."
+  },
+  {
+    "id": "C3-038",
+    "chapter": 3,
+    "topic": "3.2 Cấu trúc switch",
+    "level": "Nhớ",
+    "q": "Vai trò của nhánh `default` trong switch là gì?",
+    "opts": [
+      "Bắt buộc chạy đầu tiên",
+      "Xử lý khi không khớp nhãn case nào",
+      "Tự động dừng mọi vòng for",
+      "Khai báo biến toàn cục"
+    ],
+    "a": 1,
+    "why": "default là nhánh dự phòng, không bắt buộc có."
+  },
+  {
+    "id": "C3-039",
+    "chapter": 3,
+    "topic": "3.2 Cấu trúc switch",
+    "level": "Hiểu",
+    "q": "Hai nhãn `case 1:` xuất hiện trùng nhau trong cùng một switch thì sao?",
+    "opts": [
+      "Hoàn toàn hợp lệ",
+      "Vi phạm: các giá trị case phải phân biệt",
+      "Chỉ chạy nhãn thứ hai",
+      "Chỉ hợp lệ khi có break"
+    ],
+    "a": 1,
+    "why": "Không được có hai case trùng giá trị trong cùng switch."
+  },
+  {
+    "id": "C3-040",
+    "chapter": 3,
+    "topic": "3.2 Cấu trúc switch",
+    "level": "Hiểu",
+    "q": "Có thể dùng `switch` trực tiếp với biến `float x` không?",
+    "opts": [
+      "Có, luôn được",
+      "Không theo quy tắc kiểu biểu thức switch của C",
+      "Chỉ khi x>0",
+      "Chỉ khi đã printf x"
+    ],
+    "a": 1,
+    "why": "switch không nhận trực tiếp biểu thức số thực."
+  },
+  {
+    "id": "C3-041",
+    "chapter": 3,
+    "topic": "3.2 Vòng lặp for",
+    "level": "Nhớ",
+    "q": "Ba phần trong `for(khoi_tao; dieu_kien; cap_nhat)` lần lượt dùng để làm gì?",
+    "opts": [
+      "Ghi tệp, mở tệp, đóng tệp",
+      "Khởi tạo, kiểm tra tiếp tục, cập nhật",
+      "Biên dịch, liên kết, gỡ lỗi",
+      "Nhập, xuất, in kết quả"
+    ],
+    "a": 1,
+    "why": "Đây là mô hình vòng for cơ bản."
+  },
+  {
+    "id": "C3-042",
+    "chapter": 3,
+    "topic": "3.2 Vòng lặp for",
+    "level": "Vận dụng",
+    "q": "`for(int i=0; i<4; i++) printf(\"%d\",i);` in gì?",
+    "opts": [
+      "0123",
+      "1234",
+      "01234",
+      "0000"
+    ],
+    "a": 0,
+    "why": "i nhận 0,1,2,3 rồi dừng khi bằng 4."
+  },
+  {
+    "id": "C3-043",
+    "chapter": 3,
+    "topic": "3.2 Vòng lặp for",
+    "level": "Vận dụng",
+    "q": "`int s=0; for(int i=1;i<=4;i++) s+=i;` cuối cùng s bằng bao nhiêu?",
+    "opts": [
+      "4",
+      "6",
+      "10",
+      "15"
+    ],
+    "a": 2,
+    "why": "1+2+3+4=10."
+  },
+  {
+    "id": "C3-044",
+    "chapter": 3,
+    "topic": "3.2 Vòng lặp for",
+    "level": "Hiểu",
+    "q": "Vòng lặp `for(;;)` nếu không có break/return bên trong thường có tính chất gì?",
+    "opts": [
+      "Chạy một lần",
+      "Điều kiện vắng mặt được hiểu là luôn đúng",
+      "Không hợp lệ",
+      "Không chạy"
+    ],
+    "a": 1,
+    "why": "for(;;) là vòng lặp vô hạn thông dụng."
+  },
+  {
+    "id": "C3-045",
+    "chapter": 3,
+    "topic": "3.2 Vòng lặp for",
+    "level": "Vận dụng",
+    "q": "`for(int i=0;i<6;i+=2) printf(\"%d\",i);` in gì?",
+    "opts": [
+      "012345",
+      "024",
+      "246",
+      "036"
+    ],
+    "a": 1,
+    "why": "i lần lượt 0,2,4."
+  },
+  {
+    "id": "C3-046",
+    "chapter": 3,
+    "topic": "3.2 Vòng lặp for",
+    "level": "Vận dụng",
+    "q": "Với `int x=0; for(int i=0;i<3;i++) for(int j=0;j<2;j++) x++;` x bằng gì?",
+    "opts": [
+      "3",
+      "5",
+      "6",
+      "9"
+    ],
+    "a": 2,
+    "why": "Vòng ngoài 3 lần, vòng trong mỗi lượt 2 lần: 3×2=6."
+  },
+  {
+    "id": "C3-047",
+    "chapter": 3,
+    "topic": "3.2 Vòng lặp while",
+    "level": "Nhớ",
+    "q": "Trong `while(dk)` điều kiện được kiểm tra khi nào?",
+    "opts": [
+      "Sau khi thực hiện thân",
+      "Trước mỗi lần thực hiện thân",
+      "Chỉ một lần khi biên dịch",
+      "Không kiểm tra"
+    ],
+    "a": 1,
+    "why": "Vòng while có thể không chạy lần nào."
+  },
+  {
+    "id": "C3-048",
+    "chapter": 3,
+    "topic": "3.2 Vòng lặp while",
+    "level": "Vận dụng",
+    "q": "`int x=5; while(x<3){x++;}` cuối cùng x bằng bao nhiêu?",
+    "opts": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "a": 2,
+    "why": "Điều kiện sai ngay từ đầu nên thân không chạy."
+  },
+  {
+    "id": "C3-049",
+    "chapter": 3,
+    "topic": "3.2 Vòng lặp while",
+    "level": "Vận dụng",
+    "q": "`int i=1; while(i<5) i*=2;` cuối cùng i bằng bao nhiêu?",
+    "opts": [
+      "2",
+      "4",
+      "5",
+      "8"
+    ],
+    "a": 3,
+    "why": "i: 1→2→4→8, khi 8<5 sai."
+  },
+  {
+    "id": "C3-050",
+    "chapter": 3,
+    "topic": "3.2 do while",
+    "level": "Nhớ",
+    "q": "Điểm khác biệt chính của `do ... while` so với `while` là gì?",
+    "opts": [
+      "Thân do while chạy ít nhất một lần",
+      "do while không có điều kiện",
+      "do while không dùng dấu ;",
+      "do while chỉ dành cho mảng"
+    ],
+    "a": 0,
+    "why": "do while kiểm tra điều kiện sau khi chạy thân."
+  },
+  {
+    "id": "C3-051",
+    "chapter": 3,
+    "topic": "3.2 do while",
+    "level": "Vận dụng",
+    "q": "`int x=5; do{x++;}while(x<3);` cuối cùng x bằng bao nhiêu?",
+    "opts": [
+      "5",
+      "6",
+      "3",
+      "Không xác định"
+    ],
+    "a": 1,
+    "why": "Thân chạy một lần dù điều kiện sai."
+  },
+  {
+    "id": "C3-052",
+    "chapter": 3,
+    "topic": "3.2 do while",
+    "level": "Nhớ",
+    "q": "Ký hiệu nào bắt buộc sau `while(dk)` của câu lệnh do while?",
+    "opts": [
+      "Dấu `;`",
+      "Dấu `#`",
+      "Dấu `:`",
+      "Dấu `?`"
+    ],
+    "a": 0,
+    "why": "Cú pháp `do { ... } while (dk);` có chấm phẩy cuối."
+  },
+  {
+    "id": "C3-053",
+    "chapter": 3,
+    "topic": "3.2 break và continue",
+    "level": "Nhớ",
+    "q": "`break` hợp lệ trong những cấu trúc nào?",
+    "opts": [
+      "Chỉ if",
+      "switch và các vòng lặp",
+      "Chỉ hàm main",
+      "Chỉ struct"
+    ],
+    "a": 1,
+    "why": "break thoát khỏi switch hoặc vòng lặp gần nhất chứa nó."
+  },
+  {
+    "id": "C3-054",
+    "chapter": 3,
+    "topic": "3.2 break và continue",
+    "level": "Nhớ",
+    "q": "`continue` có thể sử dụng trực tiếp trong cấu trúc nào?",
+    "opts": [
+      "switch không nằm trong vòng lặp",
+      "for, while và do while",
+      "struct",
+      "Khai báo biến"
+    ],
+    "a": 1,
+    "why": "continue bỏ phần còn lại của lượt lặp hiện tại."
+  },
+  {
+    "id": "C3-055",
+    "chapter": 3,
+    "topic": "3.2 break và continue",
+    "level": "Vận dụng",
+    "q": "`for(int i=1;i<=4;i++){if(i==2) continue;printf(\"%d\",i);}` in gì?",
+    "opts": [
+      "1234",
+      "134",
+      "12",
+      "24"
+    ],
+    "a": 1,
+    "why": "Bỏ in i=2, vẫn lặp các giá trị khác."
+  },
+  {
+    "id": "C3-056",
+    "chapter": 3,
+    "topic": "3.2 break và continue",
+    "level": "Vận dụng",
+    "q": "`for(int i=1;i<=5;i++){if(i==3) break;printf(\"%d\",i);}` in gì?",
+    "opts": [
+      "12",
+      "123",
+      "1245",
+      "345"
+    ],
+    "a": 0,
+    "why": "Khi i=3, break thoát vòng lặp trước printf."
+  },
+  {
+    "id": "C3-057",
+    "chapter": 3,
+    "topic": "3.2 break và continue",
+    "level": "Hiểu",
+    "q": "`continue` trong vòng for chuyển điều khiển đến đâu trước khi kiểm tra điều kiện?",
+    "opts": [
+      "Thẳng ra khỏi hàm",
+      "Bước cập nhật của for",
+      "Đầu file chương trình",
+      "Nhánh default"
+    ],
+    "a": 1,
+    "why": "Sau continue, biểu thức cập nhật của for vẫn được thực hiện."
+  },
+  {
+    "id": "C3-058",
+    "chapter": 3,
+    "topic": "3.2 goto và lỗi lặp",
+    "level": "Nhớ",
+    "q": "`goto nhan;` có tác dụng gì?",
+    "opts": [
+      "Nhảy tới nhãn cùng hàm",
+      "Tạo kiểu dữ liệu mới",
+      "Gọi một hàm ở tệp khác",
+      "Kết thúc vòng lặp ở mọi hàm"
+    ],
+    "a": 0,
+    "why": "goto điều hướng tới nhãn trong thân cùng hàm."
+  },
+  {
+    "id": "C3-059",
+    "chapter": 3,
+    "topic": "3.2 goto và lỗi lặp",
+    "level": "Hiểu",
+    "q": "Nguyên nhân trực tiếp dễ dẫn đến vòng lặp vô hạn là gì?",
+    "opts": [
+      "Biến điều khiển không thay đổi để điều kiện có thể thành sai",
+      "Có hàm printf trong vòng lặp",
+      "Có một dấu cách trong chương trình",
+      "Có ký tự xuống dòng"
+    ],
+    "a": 0,
+    "why": "Muốn chứng minh tính dừng phải theo dõi điều kiện và cập nhật biến điều khiển."
+  },
+  {
+    "id": "C3-060",
+    "chapter": 3,
+    "topic": "3.2 goto và lỗi lặp",
+    "level": "Vận dụng",
+    "q": "`int i=0; while(i<3) printf(\"A\");` mô tả đúng nhất là gì?",
+    "opts": [
+      "In A ba lần",
+      "In A một lần",
+      "Tiếp tục in A không dừng theo logic của mã",
+      "Lỗi cú pháp"
+    ],
+    "a": 2,
+    "why": "i không thay đổi nên điều kiện i<3 luôn đúng."
+  },
+  {
+    "id": "C3-061",
+    "chapter": 3,
+    "topic": "3.2 goto và lỗi lặp",
+    "level": "Vận dụng",
+    "q": "Xác định UCLN bằng thuật toán trừ với a=21,b=14 sẽ in gì khi kết thúc?",
+    "opts": [
+      "3",
+      "7",
+      "14",
+      "21"
+    ],
+    "a": 1,
+    "why": "21−14=7; 14−7=7; kết quả là 7."
+  },
+  {
+    "id": "C4-001",
+    "chapter": 4,
+    "topic": "4.1 Mảng",
+    "level": "Nhớ",
+    "q": "Mảng trong C có đặc điểm nào?",
+    "opts": [
+      "Tập phần tử cùng kiểu, lưu liên tiếp, truy cập qua chỉ số",
+      "Tập phần tử bắt buộc khác kiểu",
+      "Mọi phần tử luôn có tên riêng",
+      "Chỉ dùng để chứa một số nguyên"
+    ],
+    "a": 0,
+    "why": "Mảng gom các phần tử cùng kiểu dưới một tên chung."
+  },
+  {
+    "id": "C4-002",
+    "chapter": 4,
+    "topic": "4.1 Mảng",
+    "level": "Nhớ",
+    "q": "Phần tử đầu tiên của mảng C có chỉ số là bao nhiêu?",
+    "opts": [
+      "1",
+      "0",
+      "−1",
+      "Tùy tên biến"
+    ],
+    "a": 1,
+    "why": "Chỉ số mảng C bắt đầu từ 0."
+  },
+  {
+    "id": "C4-003",
+    "chapter": 4,
+    "topic": "4.1 Mảng",
+    "level": "Vận dụng",
+    "q": "Với `int a[5];`, chỉ số hợp lệ của a là gì?",
+    "opts": [
+      "1 đến 5",
+      "0 đến 5",
+      "0 đến 4",
+      "−1 đến 3"
+    ],
+    "a": 2,
+    "why": "Mảng có 5 phần tử, vị trí 0,1,2,3,4."
+  },
+  {
+    "id": "C4-004",
+    "chapter": 4,
+    "topic": "4.1 Mảng",
+    "level": "Nhớ",
+    "q": "Khai báo nào là mảng nguyên một chiều gồm 10 phần tử?",
+    "opts": [
+      "int a(10);",
+      "int a[10];",
+      "int[10] a;",
+      "array<int> a;"
+    ],
+    "a": 1,
+    "why": "Cú pháp khai báo cơ bản: `kiểu tên[kích_thước];`."
+  },
+  {
+    "id": "C4-005",
+    "chapter": 4,
+    "topic": "4.1 Mảng",
+    "level": "Vận dụng",
+    "q": "`float a[3][4];` chứa tổng cộng bao nhiêu phần tử float?",
+    "opts": [
+      "3",
+      "4",
+      "7",
+      "12"
+    ],
+    "a": 3,
+    "why": "Số phần tử của mảng 2 chiều bằng tích 3×4."
+  },
+  {
+    "id": "C4-006",
+    "chapter": 4,
+    "topic": "4.1 Mảng",
+    "level": "Hiểu",
+    "q": "Mảng 2 chiều `int m[2][3]` gồm bao nhiêu hàng và cột theo quy ước thường dùng?",
+    "opts": [
+      "2 hàng, 3 cột",
+      "3 hàng, 2 cột",
+      "2 hàng, 2 cột",
+      "3 hàng, 3 cột"
+    ],
+    "a": 0,
+    "why": "Chỉ số đầu ứng với hàng, chỉ số sau ứng với cột."
+  },
+  {
+    "id": "C4-007",
+    "chapter": 4,
+    "topic": "4.1 Mảng",
+    "level": "Vận dụng",
+    "q": "`int a[3]={4,5,9};` thì `a[1]` bằng bao nhiêu?",
+    "opts": [
+      "4",
+      "5",
+      "9",
+      "1"
+    ],
+    "a": 1,
+    "why": "Chỉ số 1 là phần tử thứ hai."
+  },
+  {
+    "id": "C4-008",
+    "chapter": 4,
+    "topic": "4.1 Mảng",
+    "level": "Vận dụng",
+    "q": "`int b[5]={2,6,1};` giá trị `b[4]` bằng gì?",
+    "opts": [
+      "Không xác định",
+      "0",
+      "1",
+      "5"
+    ],
+    "a": 1,
+    "why": "Mảng khởi tạo một phần tự động đặt phần tử còn lại bằng 0."
+  },
+  {
+    "id": "C4-009",
+    "chapter": 4,
+    "topic": "4.1 Mảng",
+    "level": "Vận dụng",
+    "q": "`int x[]={10,20,30,40};` số phần tử mảng x là bao nhiêu?",
+    "opts": [
+      "3",
+      "4",
+      "5",
+      "Không xác định"
+    ],
+    "a": 1,
+    "why": "Kích thước được suy ra từ số phần tử khởi tạo."
+  },
+  {
+    "id": "C4-010",
+    "chapter": 4,
+    "topic": "4.1 Mảng",
+    "level": "Hiểu",
+    "q": "Với `int a[3];`, đọc `a[3]` có vấn đề gì?",
+    "opts": [
+      "Hợp lệ vì chỉ số cuối là 3",
+      "Truy cập ngoài phạm vi mảng, gây hành vi không xác định",
+      "Luôn trả về 0",
+      "Tự tạo phần tử mới"
+    ],
+    "a": 1,
+    "why": "Các chỉ số hợp lệ chỉ từ 0 đến 2."
+  },
+  {
+    "id": "C4-011",
+    "chapter": 4,
+    "topic": "4.1 Mảng",
+    "level": "Nhớ",
+    "q": "Biểu thức nào lấy địa chỉ phần tử thứ ba của mảng a?",
+    "opts": [
+      "&a[2]",
+      "a[3]",
+      "*a[2]",
+      "%a[2]"
+    ],
+    "a": 0,
+    "why": "Phần tử thứ ba có chỉ số 2, & lấy địa chỉ."
+  },
+  {
+    "id": "C4-012",
+    "chapter": 4,
+    "topic": "4.1 Mảng",
+    "level": "Hiểu",
+    "q": "Tên mảng `a` trong phần lớn biểu thức tương ứng với gì?",
+    "opts": [
+      "Giá trị của phần tử cuối",
+      "Con trỏ đến phần tử đầu (`&a[0]`) sau chuyển đổi",
+      "Số phần tử tự động",
+      "Tên thư viện"
+    ],
+    "a": 1,
+    "why": "Trong phần lớn ngữ cảnh, biểu thức mảng chuyển thành con trỏ phần tử đầu."
+  },
+  {
+    "id": "C4-013",
+    "chapter": 4,
+    "topic": "4.1 Mảng",
+    "level": "Hiểu",
+    "q": "Với hai mảng `int a[3],b[3];`, lệnh `b=a;` là gì?",
+    "opts": [
+      "Hợp lệ và copy ba số",
+      "Không hợp lệ trong C",
+      "Chỉ copy phần tử đầu",
+      "Hợp lệ nếu a có 3 phần tử"
+    ],
+    "a": 1,
+    "why": "Không thể gán trực tiếp toàn bộ mảng bằng dấu =."
+  },
+  {
+    "id": "C4-014",
+    "chapter": 4,
+    "topic": "4.1 Mảng",
+    "level": "Hiểu",
+    "q": "Cách thông thường để sao chép giá trị các phần tử từ a sang b cùng cỡ là gì?",
+    "opts": [
+      "for lặp và gán b[i]=a[i]",
+      "b=a",
+      "a+b",
+      "printf(\"%s\",a)"
+    ],
+    "a": 0,
+    "why": "Cần copy từng phần tử, hoặc dùng kỹ thuật phù hợp như memcpy với điều kiện đúng."
+  },
+  {
+    "id": "C4-015",
+    "chapter": 4,
+    "topic": "4.1 Mảng",
+    "level": "Vận dụng",
+    "q": "`int a[4]={1,3,5,7};` tổng các phần tử là bao nhiêu?",
+    "opts": [
+      "10",
+      "15",
+      "16",
+      "20"
+    ],
+    "a": 2,
+    "why": "1+3+5+7=16."
+  },
+  {
+    "id": "C4-016",
+    "chapter": 4,
+    "topic": "4.1 Mảng",
+    "level": "Vận dụng",
+    "q": "Với `int a[]={9,2,7};`, giá trị lớn nhất là gì?",
+    "opts": [
+      "2",
+      "7",
+      "9",
+      "18"
+    ],
+    "a": 2,
+    "why": "Duyệt mảng để tìm max, nhận 9."
+  },
+  {
+    "id": "C4-017",
+    "chapter": 4,
+    "topic": "4.1 Mảng",
+    "level": "Vận dụng",
+    "q": "`int a[]={1,2,3}; int s=0; for(int i=0;i<3;i++) s+=a[i];` s bằng gì?",
+    "opts": [
+      "3",
+      "5",
+      "6",
+      "9"
+    ],
+    "a": 2,
+    "why": "Duyệt và cộng 3 phần tử: 1+2+3=6."
+  },
+  {
+    "id": "C4-018",
+    "chapter": 4,
+    "topic": "4.1 Mảng",
+    "level": "Vận dụng",
+    "q": "`int a[2][2]={{1,2},{3,4}};` thì `a[1][0]` bằng gì?",
+    "opts": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "a": 2,
+    "why": "Hàng thứ hai, cột thứ nhất chứa 3."
+  },
+  {
+    "id": "C4-019",
+    "chapter": 4,
+    "topic": "4.1 Mảng",
+    "level": "Vận dụng",
+    "q": "`int a[3]={5,1,4}; a[0]=a[2];` sau đó a[0] bằng gì?",
+    "opts": [
+      "1",
+      "4",
+      "5",
+      "9"
+    ],
+    "a": 1,
+    "why": "Phép gán chép giá trị phần tử a[2]=4 vào a[0]."
+  },
+  {
+    "id": "C4-020",
+    "chapter": 4,
+    "topic": "4.1 Mảng",
+    "level": "Hiểu",
+    "q": "`sizeof(a)/sizeof(a[0])` với `int a[10]` trong đúng phạm vi còn là mảng thường dùng để làm gì?",
+    "opts": [
+      "Tính số phần tử",
+      "Tính tổng các giá trị",
+      "Sắp xếp mảng",
+      "Tìm địa chỉ phần tử cuối"
+    ],
+    "a": 0,
+    "why": "Kích thước toàn mảng chia kích thước một phần tử cho số phần tử; không áp dụng nguyên dạng khi a đã là tham số con trỏ."
+  },
+  {
+    "id": "C4-021",
+    "chapter": 4,
+    "topic": "4.1 Mảng",
+    "level": "Vận dụng",
+    "q": "Nếu `sizeof(int)==4`, mảng `int a[2][3]` cần bao nhiêu byte cho các phần tử?",
+    "opts": [
+      "6",
+      "12",
+      "24",
+      "48"
+    ],
+    "a": 2,
+    "why": "2×3×4=24 byte, theo giả thiết kích thước int."
+  },
+  {
+    "id": "C4-022",
+    "chapter": 4,
+    "topic": "4.1 Mảng",
+    "level": "Hiểu",
+    "q": "Muốn nhập `int a[10]` từ bàn phím, cách phổ biến là gì?",
+    "opts": [
+      "Dùng scanf cho từng `&a[i]` trong vòng for",
+      "Gọi scanf một lần với `%s` và biến a",
+      "Gọi puts(a)",
+      "Gán a=0"
+    ],
+    "a": 0,
+    "why": "Vòng lặp quét từng phần tử với định dạng phù hợp."
+  },
+  {
+    "id": "C4-023",
+    "chapter": 4,
+    "topic": "4.1 Mảng",
+    "level": "Hiểu",
+    "q": "Với `float a[2][3]`, `scanf(\"%f\", &a[1][2]);` có hợp lệ theo C chuẩn không?",
+    "opts": [
+      "Không, vì mảng hai chiều không lấy được địa chỉ phần tử",
+      "Có, nếu chỉ số hợp lệ và kiểu phù hợp",
+      "Chỉ hợp lệ nếu a là mảng char",
+      "Chỉ hợp lệ khi dùng gets"
+    ],
+    "a": 1,
+    "why": "Lưu ý sửa một chỗ trong slide: hoàn toàn có thể lấy địa chỉ phần tử mảng nhiều chiều bằng &a[i][j]."
+  },
+  {
+    "id": "C4-024",
+    "chapter": 4,
+    "topic": "4.1 Mảng",
+    "level": "Vận dụng",
+    "q": "Thuật toán tìm kiếm tuyến tính phần tử x trong mảng n phần tử có độ phức tạp tệ nhất thường là gì?",
+    "opts": [
+      "O(1)",
+      "O(log n)",
+      "O(n)",
+      "O(n²)"
+    ],
+    "a": 2,
+    "why": "Có thể phải kiểm tra đến n phần tử."
+  },
+  {
+    "id": "C4-025",
+    "chapter": 4,
+    "topic": "4.1 Mảng",
+    "level": "Vận dụng",
+    "q": "Sắp xếp lựa chọn (selection sort) n phần tử có độ phức tạp thời gian điển hình là gì?",
+    "opts": [
+      "O(1)",
+      "O(log n)",
+      "O(n)",
+      "O(n²)"
+    ],
+    "a": 3,
+    "why": "Tổng các lượt so sánh xấp xỉ n(n−1)/2."
+  },
+  {
+    "id": "C4-026",
+    "chapter": 4,
+    "topic": "4.2 Xâu ký tự",
+    "level": "Nhớ",
+    "q": "Xâu ký tự kiểu C kết thúc bằng ký tự nào?",
+    "opts": [
+      "'\\n'",
+      "'\\0'",
+      "'0'",
+      "' '"
+    ],
+    "a": 1,
+    "why": "NUL ('\\0') đánh dấu cuối xâu; không tính vào độ dài logic."
+  },
+  {
+    "id": "C4-027",
+    "chapter": 4,
+    "topic": "4.2 Xâu ký tự",
+    "level": "Hiểu",
+    "q": "Điều gì khác giữa `'A'` và `\"A\"` trong C?",
+    "opts": [
+      "Hai cách viết cùng một biến",
+      "'A' là hằng ký tự, \"A\" là chuỗi có A và '\\0'",
+      "\"A\" không có ký tự kết thúc",
+      "'A' là mảng hai ký tự"
+    ],
+    "a": 1,
+    "why": "Chuỗi \"A\" cần chỗ cho hai phần tử char kể cả NUL."
+  },
+  {
+    "id": "C4-028",
+    "chapter": 4,
+    "topic": "4.2 Xâu ký tự",
+    "level": "Vận dụng",
+    "q": "`char s[4]=\"ABC\";` cần 4 ô nhớ để chứa gì?",
+    "opts": [
+      "'A','B','C','\\0'",
+      "'A','B','C','D'",
+      "Ba số nguyên 1,2,3",
+      "'\\0' xuất hiện đầu tiên"
+    ],
+    "a": 0,
+    "why": "3 ký tự nội dung cộng ký tự kết thúc."
+  },
+  {
+    "id": "C4-029",
+    "chapter": 4,
+    "topic": "4.2 Xâu ký tự",
+    "level": "Nhớ",
+    "q": "Độ dài thực tế của xâu `\"HELLO\"` là bao nhiêu ký tự?",
+    "opts": [
+      "4",
+      "5",
+      "6",
+      "Không xác định"
+    ],
+    "a": 1,
+    "why": "Năm ký tự H,E,L,L,O; ký tự '\\0' không tính vào strlen."
+  },
+  {
+    "id": "C4-030",
+    "chapter": 4,
+    "topic": "4.2 Xâu ký tự",
+    "level": "Vận dụng",
+    "q": "`strlen(\"A B\")` trả về bao nhiêu?",
+    "opts": [
+      "2",
+      "3",
+      "4",
+      "Không xác định"
+    ],
+    "a": 1,
+    "why": "Dấu cách cũng là một ký tự nằm trong xâu."
+  },
+  {
+    "id": "C4-031",
+    "chapter": 4,
+    "topic": "4.2 Xâu ký tự",
+    "level": "Vận dụng",
+    "q": "`char s[]=\"CAT\";` thì `s[2]` là ký tự gì?",
+    "opts": [
+      "'C'",
+      "'A'",
+      "'T'",
+      "'\\0'"
+    ],
+    "a": 2,
+    "why": "Chỉ số 0=C, 1=A, 2=T, 3=NUL."
+  },
+  {
+    "id": "C4-032",
+    "chapter": 4,
+    "topic": "4.2 Xâu ký tự",
+    "level": "Hiểu",
+    "q": "Xâu rỗng `\"\"` chứa bao nhiêu ký tự nội dung?",
+    "opts": [
+      "0",
+      "1",
+      "2",
+      "Không có ký tự kết thúc"
+    ],
+    "a": 0,
+    "why": "Xâu rỗng vẫn có một ký tự '\\0' để đánh dấu kết thúc."
+  },
+  {
+    "id": "C4-033",
+    "chapter": 4,
+    "topic": "4.2 Xâu ký tự",
+    "level": "Nhớ",
+    "q": "Tệp tiêu đề chứa `strlen`, `strcpy`, `strcat`, `strcmp` là gì?",
+    "opts": [
+      "stdio.h",
+      "string.h",
+      "math.h",
+      "stdlib.h"
+    ],
+    "a": 1,
+    "why": "Các hàm xử lý chuỗi chuẩn C thường ở string.h."
+  },
+  {
+    "id": "C4-034",
+    "chapter": 4,
+    "topic": "4.2 Xâu ký tự",
+    "level": "Nhớ",
+    "q": "Hàm `strlen(s)` trả về đại lượng nào?",
+    "opts": [
+      "Số byte của toàn bộ vùng mảng cấp phát",
+      "Số ký tự trước '\\0'",
+      "Số từ trong xâu",
+      "Số chữ cái in hoa"
+    ],
+    "a": 1,
+    "why": "strlen trả về độ dài xâu, không kể NUL."
+  },
+  {
+    "id": "C4-035",
+    "chapter": 4,
+    "topic": "4.2 Xâu ký tự",
+    "level": "Nhớ",
+    "q": "Hàm `strcpy(dst,src)` làm gì?",
+    "opts": [
+      "Nối thêm src vào cuối dst",
+      "Sao chép src sang dst (kể cả '\\0')",
+      "Đảo ngược src",
+      "Đổi src sang số"
+    ],
+    "a": 1,
+    "why": "dst phải đủ chỗ để chứa toàn bộ src và NUL."
+  },
+  {
+    "id": "C4-036",
+    "chapter": 4,
+    "topic": "4.2 Xâu ký tự",
+    "level": "Nhớ",
+    "q": "Hàm `strcat(dst,src)` làm gì?",
+    "opts": [
+      "Nối src vào cuối chuỗi dst",
+      "Lấy độ dài src",
+      "So sánh hai chuỗi",
+      "Chuyển thành chữ hoa"
+    ],
+    "a": 0,
+    "why": "dst phải đủ dung lượng cho cả hai chuỗi và NUL."
+  },
+  {
+    "id": "C4-037",
+    "chapter": 4,
+    "topic": "4.2 Xâu ký tự",
+    "level": "Nhớ",
+    "q": "Khi `strcmp(a,b)` trả về 0, có ý nghĩa gì?",
+    "opts": [
+      "a dài hơn b",
+      "Hai xâu có nội dung giống nhau",
+      "a khác b",
+      "So sánh thất bại"
+    ],
+    "a": 1,
+    "why": "strcmp so sánh theo thứ tự ký tự, bằng nhau trả về 0."
+  },
+  {
+    "id": "C4-038",
+    "chapter": 4,
+    "topic": "4.2 Xâu ký tự",
+    "level": "Hiểu",
+    "q": "Biểu thức `s1==s2` khi s1, s2 là mảng char trong C thường so sánh gì?",
+    "opts": [
+      "Nội dung từng chữ giống strcmp",
+      "Địa chỉ phần tử đầu sau chuyển đổi mảng",
+      "Số ký tự",
+      "Nối hai chuỗi"
+    ],
+    "a": 1,
+    "why": "Dùng strcmp để so sánh nội dung xâu, không dùng ==."
+  },
+  {
+    "id": "C4-039",
+    "chapter": 4,
+    "topic": "4.2 Xâu ký tự",
+    "level": "Nhớ",
+    "q": "Hàm `toupper` và `tolower` được khai báo trong header nào?",
+    "opts": [
+      "ctype.h",
+      "string.h",
+      "stdio.h",
+      "time.h"
+    ],
+    "a": 0,
+    "why": "ctype.h chứa các hàm kiểm tra và chuyển đổi ký tự."
+  },
+  {
+    "id": "C4-040",
+    "chapter": 4,
+    "topic": "4.2 Xâu ký tự",
+    "level": "Nhớ",
+    "q": "Hàm nào kiểm tra ký tự có phải chữ số không?",
+    "opts": [
+      "isalpha",
+      "isdigit",
+      "strlen",
+      "strcmp"
+    ],
+    "a": 1,
+    "why": "isdigit kiểm tra ký tự thuộc tập chữ số 0–9 (theo miền ký tự phù hợp)."
+  },
+  {
+    "id": "C4-041",
+    "chapter": 4,
+    "topic": "4.2 Xâu ký tự",
+    "level": "Hiểu",
+    "q": "Hàm `isspace` kiểm tra những gì?",
+    "opts": [
+      "Chỉ ký tự dấu cách ' '",
+      "Các ký tự khoảng trắng như space, tab, newline",
+      "Chỉ chữ cái",
+      "Chỉ số âm"
+    ],
+    "a": 1,
+    "why": "Slide mô tả chưa đầy đủ: isspace còn nhận nhiều dạng whitespace khác."
+  },
+  {
+    "id": "C4-042",
+    "chapter": 4,
+    "topic": "4.2 Xâu ký tự",
+    "level": "Vận dụng",
+    "q": "`toupper('b')` thông thường trả về mã ký tự nào?",
+    "opts": [
+      "'a'",
+      "'B'",
+      "'b'",
+      "'C'"
+    ],
+    "a": 1,
+    "why": "toupper chuyển chữ thường sang chữ hoa."
+  },
+  {
+    "id": "C4-043",
+    "chapter": 4,
+    "topic": "4.2 Xâu ký tự",
+    "level": "Nhớ",
+    "q": "`atoi(\"123\")` thường cho kết quả gì?",
+    "opts": [
+      "123 (int)",
+      "\"123\" (char*)",
+      "1.23",
+      "0 trong mọi trường hợp"
+    ],
+    "a": 0,
+    "why": "atoi chuyển chuỗi số nguyên thập phân thành int."
+  },
+  {
+    "id": "C4-044",
+    "chapter": 4,
+    "topic": "4.2 Xâu ký tự",
+    "level": "Nhớ",
+    "q": "`atof(\"2.5\")` thông thường cho kết quả gì?",
+    "opts": [
+      "2",
+      "2.5 kiểu double",
+      "\"2.5\"",
+      "25"
+    ],
+    "a": 1,
+    "why": "Theo C chuẩn, atof có kiểu trả về double; slide ghi float là chưa chính xác."
+  },
+  {
+    "id": "C4-045",
+    "chapter": 4,
+    "topic": "4.2 Xâu ký tự",
+    "level": "Hiểu",
+    "q": "Vì sao `scanf(\"%s\",s)` không phù hợp để đọc họ tên có dấu cách?",
+    "opts": [
+      "%s dừng khi gặp khoảng trắng",
+      "%s luôn đọc hết cả dòng",
+      "%s chỉ dùng cho số nguyên",
+      "Vì s không phải con trỏ"
+    ],
+    "a": 0,
+    "why": "Đọc chuỗi gồm khoảng trắng nên dùng fgets với giới hạn độ dài."
+  },
+  {
+    "id": "C4-046",
+    "chapter": 4,
+    "topic": "4.2 Xâu ký tự",
+    "level": "Hiểu",
+    "q": "Hàm nào an toàn hơn `gets` để đọc một dòng vào mảng char kích thước cố định?",
+    "opts": [
+      "fgets",
+      "strcat",
+      "strcpy",
+      "atoi"
+    ],
+    "a": 0,
+    "why": "gets đã bị loại khỏi C11 do không kiểm soát được độ dài đầu vào."
+  },
+  {
+    "id": "C4-047",
+    "chapter": 4,
+    "topic": "4.2 Xâu ký tự",
+    "level": "Hiểu",
+    "q": "Lệnh nào là cách phổ biến để in chuỗi `s`?",
+    "opts": [
+      "printf(\"%s\",s);",
+      "printf(\"%d\",s);",
+      "scanf(\"%s\",s);",
+      "strcpy(\"%s\",s);"
+    ],
+    "a": 0,
+    "why": "%s in dữ liệu đến byte NUL; đảm bảo s là xâu hợp lệ."
+  },
+  {
+    "id": "C4-048",
+    "chapter": 4,
+    "topic": "4.2 Xâu ký tự",
+    "level": "Hiểu",
+    "q": "Có thể gán `s=\"XYZ\";` sau khi đã khai báo `char s[10];` không?",
+    "opts": [
+      "Có, luôn copy chuỗi",
+      "Không, vì s là mảng và mảng không gán trực tiếp bằng =",
+      "Có, nếu s rỗng",
+      "Có, nếu đặt trong if"
+    ],
+    "a": 1,
+    "why": "Cần strcpy hoặc gán phần tử riêng; lưu ý kiểm soát kích thước."
+  },
+  {
+    "id": "C4-049",
+    "chapter": 4,
+    "topic": "4.2 Xâu ký tự",
+    "level": "Hiểu",
+    "q": "Hàm nào KHÔNG thuộc thư viện chuẩn C dù xuất hiện trong ví dụ của slide?",
+    "opts": [
+      "strlen",
+      "strcmp",
+      "strrev",
+      "strcat"
+    ],
+    "a": 2,
+    "why": "strrev thường là phần mở rộng của một số trình dịch, không thuộc ISO C."
+  },
+  {
+    "id": "C4-050",
+    "chapter": 4,
+    "topic": "4.2 Xâu ký tự",
+    "level": "Hiểu",
+    "q": "Dùng `fflush(stdin)` để xóa bộ đệm bàn phím theo ISO C có đảm bảo đúng trên mọi compiler không?",
+    "opts": [
+      "Có, được chuẩn hóa cho mọi input stream",
+      "Không, hành vi không được ISO C định nghĩa cho input stream",
+      "Có, vì sscanf là như vậy",
+      "Chỉ cần khi in số thực"
+    ],
+    "a": 1,
+    "why": "Bài giảng dùng ví dụ cũ; nên xử lý đầu vào bằng fgets/định dạng hợp lý."
+  },
+  {
+    "id": "C4-051",
+    "chapter": 4,
+    "topic": "4.2 Xâu ký tự",
+    "level": "Vận dụng",
+    "q": "Cho `char s[10]=\"AB\"; strcat(s,\"C\");`, chuỗi s sau đó là gì?",
+    "opts": [
+      "\"AB\"",
+      "\"ABC\"",
+      "\"CAB\"",
+      "\"C\""
+    ],
+    "a": 1,
+    "why": "strcat thêm C vào sau AB rồi kết thúc bằng NUL."
+  },
+  {
+    "id": "C4-052",
+    "chapter": 4,
+    "topic": "4.2 Xâu ký tự",
+    "level": "Vận dụng",
+    "q": "Cho `char s[10]=\"XYZ\"; s[1]='A';` nội dung s là gì?",
+    "opts": [
+      "\"XAZ\"",
+      "\"AYZ\"",
+      "\"XAY\"",
+      "\"XYZ\""
+    ],
+    "a": 0,
+    "why": "Thay phần tử chỉ số 1 từ Y thành A."
+  },
+  {
+    "id": "C4-053",
+    "chapter": 4,
+    "topic": "4.3 Cấu trúc struct",
+    "level": "Nhớ",
+    "q": "Kiểu `struct` dùng để làm gì?",
+    "opts": [
+      "Nhóm các trường dữ liệu, có thể khác kiểu, thành một kiểu cấu trúc",
+      "Chứa chỉ một biến int",
+      "Thay thế mọi vòng lặp",
+      "Biên dịch chương trình"
+    ],
+    "a": 0,
+    "why": "Các trường struct có tên và kiểu riêng."
+  },
+  {
+    "id": "C4-054",
+    "chapter": 4,
+    "topic": "4.3 Cấu trúc struct",
+    "level": "Nhớ",
+    "q": "Khai báo nào định nghĩa đúng kiểu cấu trúc có hai trường?",
+    "opts": [
+      "struct Point {int x; int y;};",
+      "struct Point (int x, int y);",
+      "Point = {x,y};",
+      "int struct Point;"
+    ],
+    "a": 0,
+    "why": "Định nghĩa kiểu struct dùng cặp ngoặc nhọn và chấm phẩy cuối."
+  },
+  {
+    "id": "C4-055",
+    "chapter": 4,
+    "topic": "4.3 Cấu trúc struct",
+    "level": "Hiểu",
+    "q": "Với `struct Date {int day;int month;int year;};` cách khai báo biến d là gì?",
+    "opts": [
+      "Date d; trong mọi ngữ cảnh C",
+      "struct Date d;",
+      "int Date d;",
+      "d struct Date;"
+    ],
+    "a": 1,
+    "why": "Trong C, không có typedef thì cần viết `struct Date`."
+  },
+  {
+    "id": "C4-056",
+    "chapter": 4,
+    "topic": "4.3 Cấu trúc struct",
+    "level": "Vận dụng",
+    "q": "Với `struct Point {int x;int y;}; struct Point p={2,5};`, `p.y` bằng mấy?",
+    "opts": [
+      "2",
+      "5",
+      "7",
+      "Không hợp lệ"
+    ],
+    "a": 1,
+    "why": "Dấu chấm truy cập trường y của biến p."
+  },
+  {
+    "id": "C4-057",
+    "chapter": 4,
+    "topic": "4.3 Cấu trúc struct",
+    "level": "Nhớ",
+    "q": "Toán tử truy cập thành phần biến struct (không phải con trỏ) là gì?",
+    "opts": [
+      ". (dấu chấm)",
+      "->",
+      "::",
+      "%"
+    ],
+    "a": 0,
+    "why": "Dùng `tên_biến.tên_trường`."
+  },
+  {
+    "id": "C4-058",
+    "chapter": 4,
+    "topic": "4.3 Cấu trúc struct",
+    "level": "Hiểu",
+    "q": "Với `typedef struct {int id;float diem;} SinhVien;`, khai báo nào đúng?",
+    "opts": [
+      "SinhVien sv;",
+      "struct SinhVien sv; là cách duy nhất",
+      "int SinhVien;",
+      "typedef sv SinhVien;"
+    ],
+    "a": 0,
+    "why": "typedef đặt tên kiểu SinhVien, sử dụng trực tiếp như int/float."
+  },
+  {
+    "id": "C4-059",
+    "chapter": 4,
+    "topic": "4.3 Cấu trúc struct",
+    "level": "Hiểu",
+    "q": "Có thể tạo mảng các phần tử struct không?",
+    "opts": [
+      "Không",
+      "Có, ví dụ `struct Point a[10];`",
+      "Chỉ có thể nếu struct toàn char",
+      "Chỉ trong C++"
+    ],
+    "a": 1,
+    "why": "Mỗi phần tử mảng là một biến cấu trúc."
+  },
+  {
+    "id": "C4-060",
+    "chapter": 4,
+    "topic": "4.3 Cấu trúc struct",
+    "level": "Vận dụng",
+    "q": "Với `struct Point {int x,y;}; struct Point a[2]={{1,2},{3,4}};`, `a[1].x` bằng gì?",
+    "opts": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "a": 2,
+    "why": "Lấy phần tử chỉ số 1 rồi truy cập trường x."
+  },
+  {
+    "id": "C4-061",
+    "chapter": 4,
+    "topic": "4.3 Cấu trúc struct",
+    "level": "Hiểu",
+    "q": "Hai biến struct cùng kiểu có được gán trực tiếp `a=b;` không?",
+    "opts": [
+      "Không, giống mảng",
+      "Có, C cho phép gán toàn bộ struct cùng kiểu",
+      "Chỉ khi các trường đều là float",
+      "Chỉ nếu có hàm copy riêng"
+    ],
+    "a": 1,
+    "why": "Khác mảng: struct có phép gán toàn bộ khi hai biến tương thích kiểu."
+  },
+  {
+    "id": "C4-062",
+    "chapter": 4,
+    "topic": "4.3 Cấu trúc struct",
+    "level": "Hiểu",
+    "q": "Nếu struct có trường `char ten[30]`, có thể gán chuỗi cho trường bằng `sv.ten=\"Lan\";` sau khai báo không?",
+    "opts": [
+      "Có",
+      "Không, vì ten là một mảng char",
+      "Có nếu ten dài dưới 30",
+      "Có nếu sv là biến toàn cục"
+    ],
+    "a": 1,
+    "why": "Trường mảng vẫn tuân theo quy tắc không gán mảng bằng =."
+  },
+  {
+    "id": "C4-063",
+    "chapter": 4,
+    "topic": "4.3 Cấu trúc struct",
+    "level": "Vận dụng",
+    "q": "Với `struct S {int a; float b;}; struct S x={3,2.5f}, y; y=x;`, y.a bằng gì?",
+    "opts": [
+      "0",
+      "2",
+      "3",
+      "Không xác định"
+    ],
+    "a": 2,
+    "why": "Phép gán struct sao chép giá trị của các trường."
+  },
+  {
+    "id": "C4-064",
+    "chapter": 4,
+    "topic": "4.3 Cấu trúc struct",
+    "level": "Hiểu",
+    "q": "Với một con trỏ `p` trỏ đến struct, toán tử nào thường truy cập trường `x`?",
+    "opts": [
+      "p.x",
+      "p->x",
+      "p[x]",
+      "&p.x"
+    ],
+    "a": 1,
+    "why": "Đây là kiến thức nền mở rộng: p->x tương đương (*p).x."
+  },
+  {
+    "id": "C4-065",
+    "chapter": 4,
+    "topic": "4.3 Cấu trúc struct",
+    "level": "Nhớ",
+    "q": "Kiểu cấu trúc nào phù hợp nhất để lưu ngày, tháng, năm trong một biến?",
+    "opts": [
+      "struct có ba trường nguyên day, month, year",
+      "Mảng int chỉ có một phần tử",
+      "Một float",
+      "Một char"
+    ],
+    "a": 0,
+    "why": "Bài giảng sử dụng ví dụ kiểu ngaythang."
+  },
+  {
+    "id": "C4-066",
+    "chapter": 4,
+    "topic": "4.3 Cấu trúc struct",
+    "level": "Vận dụng",
+    "q": "Với `struct D {int d,m,y;}; struct D a={1,2,2026};`, giá trị `a.m` là gì?",
+    "opts": [
+      "1",
+      "2",
+      "2026",
+      "0"
+    ],
+    "a": 1,
+    "why": "Các trường khởi tạo theo thứ tự khai báo: d=1, m=2, y=2026."
+  },
+  {
+    "id": "C4-067",
+    "chapter": 4,
+    "topic": "4.3 Cấu trúc struct",
+    "level": "Hiểu",
+    "q": "Cách nào đúng để nhập dữ liệu cho phần tử nguyên `a[i].id` của mảng struct?",
+    "opts": [
+      "scanf(\"%d\", &a[i].id);",
+      "scanf(\"%d\", a[i]);",
+      "scanf(\"%s\", a[i].id);",
+      "printf(\"%d\", &a[i].id);"
+    ],
+    "a": 0,
+    "why": "Truy cập trường rồi lấy địa chỉ trường bằng &."
+  },
+  {
+    "id": "C4-068",
+    "chapter": 4,
+    "topic": "4.3 Cấu trúc struct",
+    "level": "Hiểu",
+    "q": "Vì sao struct thích hợp quản lý hồ sơ sinh viên hơn một mảng int đơn thuần?",
+    "opts": [
+      "Cho phép kết hợp mã, tên, điểm thuộc nhiều kiểu khác nhau",
+      "Vì struct luôn nhỏ hơn 1 byte",
+      "Vì struct tự tìm kiếm theo tên",
+      "Vì struct không cần khai báo"
+    ],
+    "a": 0,
+    "why": "struct dùng để nhóm nhiều thuộc tính khác kiểu của cùng đối tượng."
+  }
+]
