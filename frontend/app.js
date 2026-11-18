@@ -1,86 +1,130 @@
-const $ = id => document.getElementById(id);
-let exam = null, pos = 0;
-const hidden = (id, yes) => $(id).classList.toggle('hidden', yes);
-const escapeHTML = s => String(s??'').replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-async function api(url, options={}) {
-  const response = await fetch(url, {headers:{'Content-Type':'application/json'},...options});
-  const data = await response.json();
-  if (!response.ok) throw Error(data.error || 'Có lỗi kết nối máy chủ');
-  return data;
+const $=id=>document.getElementById(id);
+const hide=(id,yes)=>$(id).classList.toggle('hidden',yes);
+const escapeHTML=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let exam=null,position=0,reviewing=false,meta=null,upload=null,checked=null,importBusy=false;
+async function api(url,options={}) {
+  const response=await fetch(url,{headers:{'Content-Type':'application/json'},...options});
+  let payload;try{payload=await response.json();}catch{throw Error('Máy chủ trả về dữ liệu không hợp lệ.');}
+  if(!response.ok)throw Error(payload.error||'Yêu cầu thất bại.');
+  return payload;
 }
-function onError(error) { alert(error.message); }
-async function loadHome() {
-  try {
-    const [meta, history] = await Promise.all([api('/api/meta'),api('/api/history')]);
-    $('stats').innerHTML=[1,2,3,4].map(c=>'<div class="stat"><strong>'+meta.chapters[c].total+'</strong><span>Chương '+c+'</span></div>').join('');
-    $('history').innerHTML=history.length?'<strong>Đề gần đây</strong><div>'+history.map(e=>
-      '<button data-code="'+escapeHTML(e.code)+'">'+escapeHTML(e.code)+' · '+e.correct+'/'+e.total+'</button>').join('')+'</div>':'';
-    $('history').querySelectorAll('[data-code]').forEach(b=>b.addEventListener('click',()=>openExam(b.dataset.code).catch(onError)));
-  } catch(e) {onError(e);}
+const post=(url,body)=>api(url,{method:'POST',body:JSON.stringify(body)});
+function show(id){for(const name of ['home','bankPanel','exam','result'])hide(name,name!==id);
+  $('navHome').classList.toggle('active',id!=='bankPanel');$('navBank').classList.toggle('active',id==='bankPanel');}
+function message(text,type='info'){$('importFeedback').className='import-feedback'+(type==='error'?' bad':type==='success'?' good':'');$('importFeedback').textContent=text;}
+function fail(err){alert(err.message);}
+function settingUpdate(){const count=document.querySelectorAll('#chapterPicker input:checked').length;
+  const per=Number($('perChapter').value)||0;$('examEstimate').textContent=(count*per)+' câu / '+count+' chương';}
+async function loadMeta(){
+  meta=await api('/api/meta');const bank=meta.bank;
+  $('totalCount').textContent=bank.total;$('chapterCount').textContent=bank.chapters.length;$('examCount').textContent=meta.generatedExams;
+  $('bankName').textContent=bank.name;$('bankRevision').textContent='Phiên bản dữ liệu: '+bank.revision.slice(0,16)+'…';
+  $('bankCounts').innerHTML=[`<span class="pill">${bank.total} câu</span>`,`<span class="pill">Loại A: ${bank.categories.A}</span>`,
+    `<span class="pill">Loại B: ${bank.categories.B}</span>`,...bank.chapters.map(c=>`<span class="pill">Chương ${c.chapter}: ${c.count}</span>`)].join('');
+  $('chapterPicker').innerHTML=bank.chapters.map((c,i)=>`<label class="chapter"><input type="checkbox" value="${c.chapter}" ${i<4?'checked':''}>
+    <span><b>Chương ${c.chapter}</b><small>${c.count} câu</small></span></label>`).join('');
+  document.querySelectorAll('#chapterPicker input').forEach(c=>c.addEventListener('change',settingUpdate));settingUpdate();
+  const history=await api('/api/history');
+  $('recentHistory').innerHTML=history.length?history.map(h=>`<button data-code="${escapeHTML(h.code)}">${escapeHTML(h.code)} · ${h.correct}/${h.total}</button>`).join(''):'<span class="muted">Chưa có mã đề nào.</span>';
+  $('recentHistory').querySelectorAll('button').forEach(btn=>btn.onclick=()=>openExam(btn.dataset.code).catch(fail));
 }
-function showHome() {hidden('home',false);hidden('exam',true);hidden('result',true);loadHome();}
-function showExam() {hidden('home',true);hidden('exam',false);hidden('result',true);render();}
-async function openExam(code) {exam=await api('/api/exams/'+encodeURIComponent(code));pos=0;showExam();}
-async function createExam() {
-  $('create').disabled=true;
-  try {exam=await api('/api/exams',{method:'POST'});pos=0;showExam();}
-  catch(e){onError(e);}finally{$('create').disabled=false;}
+async function home(){show('home');try{await loadMeta();}catch(e){fail(e);}}
+async function bankPage(){show('bankPanel');try{await loadMeta();}catch(e){fail(e);}}
+function showExam(){show('exam');render();}
+async function openExam(code){exam=await api('/api/exams/'+encodeURIComponent(code));position=0;reviewing=!!exam.finishedAt;
+  if(reviewing)showResult();else showExam();}
+async function createExam(){
+  const chapters=[...document.querySelectorAll('#chapterPicker input:checked')].map(c=>Number(c.value));
+  const perChapter=Number($('perChapter').value);
+  $('createExam').disabled=true;
+  try{exam=await post('/api/exams',{chapters,perChapter});position=0;reviewing=false;showExam();}
+  catch(err){fail(err);}finally{$('createExam').disabled=false;}
 }
-function render() {
-  if (!exam) return;
-  if(exam.finishedAt){showResult();return;}
-  const q=exam.questions[pos],fb=q.feedback;
-  $('code').textContent=exam.code;
-  $('bar').style.width=(exam.answered/40*100)+'%';
-  $('number').textContent='Câu '+(pos+1)+' / 40 · Chương '+q.chapter;
-  $('score').textContent='Đã làm '+exam.answered+'/40 · Đúng '+exam.correct;
-  $('topic').textContent=(q.topic||'Chương '+q.chapter)+' · Loại '+(q.source?.category||'?')+' · '+(q.level||'');
-  $('prompt').textContent=q.prompt;
-  $('choices').innerHTML='';
-  q.choices.forEach((answer,i)=>{
-    const btn=document.createElement('button');
-    btn.className='choice'+(fb?(i===fb.correctIndex?' correct':i===fb.selectedIndex?' wrong':''):'');
-    const letter=document.createElement('b');letter.textContent='ABCD'[i];
-    const span=document.createElement('span');span.textContent=answer;
-    btn.append(letter,span);btn.disabled=!!fb;
-    btn.onclick=()=>select(q.id,i);
-    $('choices').append(btn);
+function render(){
+  if(!exam)return;const q=exam.questions[position],fb=q.feedback;
+  $('examLabel').textContent=exam.code;
+  $('progressValue').style.width=100*exam.answered/exam.total+'%';
+  $('questionNumber').textContent=`Câu ${position+1}/${exam.total} · Chương ${q.chapter}`;
+  $('quizScore').textContent=`Đã trả lời ${exam.answered} · Đúng ${exam.correct}`;
+  $('questionTopic').textContent=(q.topic||'Chương '+q.chapter)+' · Loại '+q.source.category+' · '+(q.level||'');
+  $('questionText').textContent=q.prompt;$('answerOptions').innerHTML='';
+  q.choices.forEach((choice,index)=>{
+    const btn=document.createElement('button');btn.className='answer';
+    if(fb)btn.classList.add(index===fb.correctIndex?'right':index===fb.selectedIndex?'wrong':'');
+    const symbol=document.createElement('b');symbol.textContent='ABCD'[index];
+    const label=document.createElement('span');label.textContent=choice;btn.append(symbol,label);
+    btn.disabled=!!fb||reviewing;btn.onclick=()=>answer(q.id,index);$('answerOptions').append(btn);
   });
-  hidden('feedback',!fb);
-  if(fb){
-    $('feedback').className='feedback '+(fb.isCorrect?'good':'bad');
-    $('feedback').innerHTML='<strong>'+(fb.isCorrect?'✓ Chính xác!':'✗ Chưa đúng. Đáp án: '+ 'ABCD'[fb.correctIndex])+'</strong>'+
-      '<div>'+escapeHTML(fb.explanation||'')+'</div>'+
-      '<div style="margin-top:10px;font-size:13px;opacity:.8">Nguồn: '+escapeHTML((q.source?.references||[]).map(r=>'Chương '+r.chapter+' · slide '+r.slide).join('; '))+'</div>';
+  hide('answerFeedback',!fb);
+  if(fb){$('answerFeedback').className='answer-feedback '+(fb.isCorrect?'good':'bad');
+    const refs=q.source.references.map(r=>'Chương '+r.chapter+', slide '+r.slide).join(' · ');
+    $('answerFeedback').innerHTML='<strong>'+(fb.isCorrect?'✓ Chính xác!':'✗ Chưa đúng – Đáp án: '+ 'ABCD'[fb.correctIndex])+'</strong>'+
+      '<div>'+escapeHTML(fb.explanation)+'</div><div class="source-line">Căn cứ bài giảng: '+escapeHTML(refs)+'</div>';
   }
-  $('prev').disabled=pos===0;
-  $('next').textContent=pos===39?'Xem kết quả →':'Câu tiếp →';
+  $('previousQuestion').disabled=position===0;
+  $('nextQuestion').textContent=position===exam.total-1?(reviewing?'Về kết quả →':'Hoàn thành →'):'Câu tiếp →';
+  hide('endExam',reviewing);
 }
-async function select(id,index) {
-  try {
-    await api('/api/exams/'+encodeURIComponent(exam.code)+'/answers',{method:'POST',body:JSON.stringify({questionId:id,selectedIndex:index})});
-    exam=await api('/api/exams/'+encodeURIComponent(exam.code));
-    render();
-  } catch(e) {onError(e);}
+async function answer(id,index){
+  try{await post('/api/exams/'+encodeURIComponent(exam.code)+'/answers',{questionId:id,selectedIndex:index});
+    exam=await api('/api/exams/'+encodeURIComponent(exam.code));render();}
+  catch(err){fail(err);}
 }
-async function finish() {
-  if(!exam)return;
-  if(exam.answered<40&&!confirm('Bạn mới làm '+exam.answered+'/40 câu. Vẫn kết thúc đề?'))return;
-  try {exam=await api('/api/exams/'+encodeURIComponent(exam.code)+'/finish',{method:'POST'});showResult();}
-  catch(e){onError(e);}
+async function finish(){
+  if(reviewing)return showResult();
+  if(exam.answered<exam.total&&!confirm(`Bạn mới làm ${exam.answered}/${exam.total} câu. Kết thúc đề ngay?`))return;
+  try{exam=await post('/api/exams/'+encodeURIComponent(exam.code)+'/finish',{});reviewing=false;showResult();}
+  catch(e){fail(e);}
 }
-function showResult() {
-  hidden('home',true);hidden('exam',true);hidden('result',false);
-  $('resultTitle').textContent=exam.correct+' / 40 câu đúng';
-  const byChapter=[1,2,3,4].map(c=>{const qs=exam.questions.filter(q=>q.chapter===c);return 'Chương '+c+': '+qs.filter(q=>q.feedback?.isCorrect).length+'/10';});
-  $('summary').innerHTML='<p>Đã trả lời: '+exam.answered+'/40</p><p>'+byChapter.join(' · ')+'</p><p>Mã đề: '+escapeHTML(exam.code)+'</p>';
+function showResult(){show('result');$('resultHeader').textContent=`${exam.correct} / ${exam.total} câu đúng`;
+  $('resultContent').innerHTML=`<p>Đã trả lời: ${exam.answered}/${exam.total}</p>`+
+    exam.settings.chapters.map(c=>{
+      const qs=exam.questions.filter(q=>q.chapter===c);
+      return '<p>Chương '+c+': '+qs.filter(q=>q.feedback?.isCorrect).length+'/'+qs.length+' đúng</p>';
+    }).join('')+'<p>Mã đề: '+escapeHTML(exam.code)+'</p>';
 }
-$('create').onclick=createExam;
-$('newExam').onclick=createExam;
-$('back').onclick=showHome;
-$('prev').onclick=()=>{pos=Math.max(pos-1,0);render();};
-$('next').onclick=()=>{if(pos===39)finish();else{pos++;render();}};
-$('finish').onclick=finish;
-$('resume').onclick=()=>openExam($('examCode').value.trim()).catch(onError);
-$('review').onclick=async()=>{const copy=exam.code;const v=await api('/api/exams/'+copy);exam={...v,finishedAt:null};pos=0;showExam();exam.finishedAt=v.finishedAt;document.querySelectorAll('.choice').forEach(x=>x.disabled=true);$('finish').disabled=true;};
-loadHome();
+function clearPreview(){checked=null;$('applyImport').disabled=true;hide('importPreview',true);hide('importFeedback',true);}
+async function previewImport(){
+  const file=$('bankFile').files?.[0];clearPreview();
+  if(!file)return message('Bạn cần chọn một tệp JSON hoặc CSV trước.','error');
+  const name=file.name.toLowerCase(),format=name.endsWith('.json')?'json':name.endsWith('.csv')?'csv':null;
+  if(!format)return message('Chỉ chấp nhận tệp .json hoặc .csv.','error');
+  if(file.size>5*1024*1024)return message('Tệp quá lớn, giới hạn 5 MB.','error');
+  $('previewImport').disabled=true;
+  try{
+    upload={format,content:await file.text(),mode:$('importMode').value};
+    const report=await post('/api/bank/preview',upload);
+    checked=report.canApply?{...upload,expectedRevision:report.revision}:null;
+    $('previewStats').innerHTML=[`Hợp lệ: ${report.validCount}/${report.inputCount}`,`Thêm: ${report.add}`,`Cập nhật: ${report.update}`,
+      `Bỏ khi thay thế: ${report.remove}`,`Tổng sau nạp: ${report.resultCount}`].map(v=>'<span class="pill">'+escapeHTML(v)+'</span>').join('');
+    $('previewNote').textContent=report.note||'';
+    $('previewErrors').innerHTML=report.errors.map(e=>'<div>Dòng '+e.row+' · '+escapeHTML(e.field)+': '+escapeHTML(e.message)+'</div>').join('');
+    hide('importPreview',false);$('applyImport').disabled=!report.canApply;
+    message(report.canApply?'Kiểm định thành công. Xem thống kê rồi nhấn xác nhận để áp dụng.':
+      `Phát hiện ${report.errorCount} lỗi. Chỉnh dữ liệu trước khi nạp.`,report.canApply?'success':'error');
+  }catch(err){message(err.message,'error');}
+  finally{$('previewImport').disabled=false;}
+}
+async function applyImport(){
+  if(!checked||importBusy)return;
+  if(checked.mode==='replace'&&!confirm('Thay thế toàn bộ ngân hàng đang dùng? Các đề và tiến độ cũ sẽ được đặt lại.'))return;
+  if(checked.mode!=='replace'&&!confirm('Áp dụng thay đổi vào ngân hàng? Các mã đề cũ sẽ được đặt lại.'))return;
+  importBusy=true;$('applyImport').disabled=true;
+  try{const report=await post('/api/bank/import',checked);
+    message(`Nạp thành công! Ngân hàng hiện có ${report.resultCount} câu. Bạn có thể tạo đề ngay.`, 'success');
+    checked=null;hide('importPreview',true);await loadMeta();
+  }catch(err){message(err.message,'error');}
+  finally{importBusy=false;}
+}
+$('navHome').onclick=home;$('navBank').onclick=bankPage;
+$('createExam').onclick=createExam;$('resumeExam').onclick=()=>openExam($('examCode').value.trim()).catch(fail);
+$('examBack').onclick=()=>reviewing?showResult():home();
+$('previousQuestion').onclick=()=>{position=Math.max(0,position-1);render();};
+$('nextQuestion').onclick=()=>{if(position===exam.total-1){if(reviewing)showResult();else finish();}else{position++;render();}};
+$('endExam').onclick=finish;
+$('resultReview').onclick=()=>{reviewing=true;position=0;showExam();};
+$('resultNewExam').onclick=home;
+$('bankFile').onchange=()=>{$('fileName').textContent=$('bankFile').files?.[0]?.name||'Chọn tệp .json hoặc .csv';clearPreview();};
+$('importMode').onchange=clearPreview;$('previewImport').onclick=previewImport;$('applyImport').onclick=applyImport;
+$('perChapter').onchange=settingUpdate;
+home();

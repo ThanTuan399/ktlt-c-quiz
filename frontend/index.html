@@ -1,27 +1,53 @@
 <!doctype html>
-<html lang="vi"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>CodeQuiz • Ôn thi Kỹ thuật lập trình C</title><link rel="stylesheet" href="/styles.css"></head>
-<body><main class="app">
-<header class="top"><div class="logo">C<span>?</span></div><div><h1>CodeQuiz</h1><p class="muted">Ôn thi giữa kỳ · Kỹ thuật lập trình C · Chương 1–4</p></div></header>
-<section id="home" class="card">
-  <span class="eyebrow">LUYỆN TẬP THÔNG MINH</span><h2>Mỗi mã đề mới, một thử thách mới.</h2>
-  <p class="muted">40 câu mỗi đề, 10 câu mỗi chương. Câu hỏi và thứ tự đáp án đều xáo trộn. Chọn đáp án để biết đúng/sai và xem giải thích ngay.</p>
-  <div id="stats" class="stats">Đang tải ngân hàng câu hỏi...</div>
-  <button id="create" class="primary">Bắt đầu đề 40 câu →</button>
-  <div class="resume"><input id="examCode" placeholder="Nhập mã đề để học tiếp"><button id="resume">Mở mã đề</button></div>
-  <div id="history" class="history"></div>
+<html lang="vi">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CodeQuiz – Ôn tập trắc nghiệm</title><link rel="stylesheet" href="/styles.css"></head>
+<body><div class="shell">
+<header class="header">
+  <div class="brand"><div class="mark">C<span>?</span></div><div><strong>CodeQuiz</strong><small>Hệ thống ôn tập trắc nghiệm</small></div></div>
+  <nav class="nav" aria-label="Điều hướng"><button id="navHome" class="navbtn active" type="button">Luyện tập</button><button id="navBank" class="navbtn" type="button">Ngân hàng đề</button></nav>
+</header>
+<main>
+<section id="home" class="panel">
+  <div class="eyebrow">LUYỆN TẬP TRẮC NGHIỆM</div><h1>Tạo đề từ ngân hàng <em>của bạn.</em></h1>
+  <p class="sub">Đề được xáo trộn câu hỏi và đáp án, chia đều theo các chương bạn chọn. Chỉ dùng câu loại A/B có tham chiếu slide.</p>
+  <div class="metrics"><div><span id="totalCount">—</span><small>Câu trong ngân hàng</small></div><div><span id="chapterCount">—</span><small>Chương có dữ liệu</small></div><div><span id="examCount">—</span><small>Đề đã tạo</small></div></div>
+  <div class="divider"></div><h2>Cấu hình mã đề mới</h2>
+  <label class="field-title">Chọn chương</label><div id="chapterPicker" class="chapters"><span class="muted">Đang tải...</span></div>
+  <label class="field-title" for="perChapter">Số câu mỗi chương</label>
+  <div class="config-row"><input id="perChapter" type="number" min="1" max="50" value="10"><span id="examEstimate" class="muted">40 câu mỗi đề</span></div>
+  <button id="createExam" class="primary wide">Tạo mã đề và bắt đầu <span aria-hidden="true">→</span></button>
+  <div class="section-note">Chương không đủ số câu sẽ được báo lỗi trước khi tạo đề. Câu đã dùng chỉ quay lại sau khi hết vòng của chương.</div>
+  <div class="divider"></div><h3>Mở lại mã đề</h3>
+  <div class="inline"><input id="examCode" type="text" placeholder="VD: C-0001-A1B2C3D4"><button id="resumeExam" type="button">Mở đề</button></div>
+  <div id="recentHistory" class="history"></div>
 </section>
-<section id="exam" class="card hidden">
-  <div class="topline"><button id="back" class="quiet">← Trang chủ</button><span id="code" class="code"></span></div>
-  <div class="progress-line"><div id="bar"></div></div>
-  <div class="meta"><span id="number"></span><span id="score"></span></div>
-  <div id="topic" class="eyebrow"></div><h2 id="prompt"></h2>
-  <div id="choices" class="choices"></div>
-  <div id="feedback" class="feedback hidden"></div>
-  <div class="actions"><button id="prev">← Câu trước</button><button id="next" class="primary">Câu tiếp →</button></div>
-  <button id="finish" class="quiet finish">Kết thúc và xem kết quả</button>
+<section id="bankPanel" class="panel hidden">
+  <div class="eyebrow">QUẢN LÝ DỮ LIỆU</div><h1>Ngân hàng câu hỏi</h1>
+  <p class="sub">Nạp ngân hàng đề mới mà <strong>không sửa mã nguồn</strong>. Hệ thống kiểm tra toàn bộ câu trước khi áp dụng và không thay dữ liệu nếu phát hiện lỗi.</p>
+  <div class="bank-summary"><strong id="bankName">—</strong><div class="muted" id="bankRevision">—</div><div class="pill-row" id="bankCounts"></div></div>
+  <h2>1. Chuẩn bị tệp dữ liệu</h2>
+  <p class="muted">Định dạng hỗ trợ: <strong>JSON</strong> (mảng câu hoặc cấu trúc schema v1) và <strong>CSV UTF-8</strong>. Mỗi câu bắt buộc có ID riêng, chương, 4 đáp án, đáp án đúng, giải thích, loại A/B và nguồn slide.</p>
+  <div class="downloads"><a href="/api/bank/template?format=json" download>Tải mẫu JSON</a><a href="/api/bank/template?format=csv" download>Tải mẫu CSV</a><a href="/api/bank/export" download>Xuất ngân hàng hiện tại</a></div>
+  <h2>2. Nạp và kiểm tra</h2>
+  <label class="upload" for="bankFile"><span class="upload-symbol">⇧</span><strong id="fileName">Chọn tệp .json hoặc .csv</strong><small>Chỉ đọc dữ liệu vào bản xem trước. Chưa thay ngân hàng đang dùng.</small></label>
+  <input id="bankFile" type="file" accept=".json,.csv,application/json,text/csv" class="visually-hidden">
+  <label class="field-title" for="importMode">Cách xử lý dữ liệu</label>
+  <select id="importMode"><option value="replace">Thay thế toàn bộ ngân hàng</option><option value="append">Chỉ thêm ID mới (trùng ID sẽ báo lỗi)</option><option value="upsert">Thêm mới + cập nhật ID đã có</option></select>
+  <button id="previewImport" class="secondary wide" type="button">Kiểm tra dữ liệu trước khi nhập</button>
+  <div id="importFeedback" role="status" class="import-feedback hidden"></div>
+  <div id="importPreview" class="preview hidden"><h3>Kết quả kiểm định</h3><div id="previewStats" class="pill-row"></div><div id="previewNote" class="muted"></div><div id="previewErrors" class="errors"></div></div>
+  <button id="applyImport" type="button" class="primary wide" disabled>Xác nhận nạp ngân hàng</button>
+  <p class="section-note"><strong>Lưu ý:</strong> Nạp thành công sẽ làm mới các mã đề cũ để tránh dùng dữ liệu không còn hợp lệ. Dữ liệu tải lên được lưu tại backend/storage/active-bank.json trên chính máy chạy server. Nếu triển khai công khai, cần bổ sung đăng nhập và phân quyền quản trị.</p>
 </section>
-<section id="result" class="card hidden"><span class="eyebrow">KẾT QUẢ</span><h2 id="resultTitle"></h2><div id="summary"></div>
-<button id="newExam" class="primary">Tạo mã đề mới →</button><button id="review" class="quiet">Xem lại câu trả lời</button></section>
-<footer>CodeQuiz · Luyện tập trực tiếp trên trình duyệt · Dữ liệu và đáp án được xử lý bởi backend</footer>
-</main><script type="module" src="/app.js"></script></body></html>
+<section id="exam" class="panel hidden"><div class="quiz-toolbar"><button id="examBack" type="button" class="ghost">← Trở về</button><span id="examLabel" class="code"></span></div>
+  <div class="progress"><div id="progressValue"></div></div><div class="quiz-meta"><span id="questionNumber"></span><span id="quizScore"></span></div>
+  <div id="questionTopic" class="eyebrow"></div><h2 id="questionText" class="question-text"></h2><div id="answerOptions" class="answers"></div>
+  <div id="answerFeedback" class="answer-feedback hidden"></div>
+  <div class="quiz-actions"><button id="previousQuestion">← Câu trước</button><button id="nextQuestion" class="primary">Câu tiếp →</button></div>
+  <button id="endExam" class="ghost end-exam">Kết thúc đề</button>
+</section>
+<section id="result" class="panel hidden"><div class="eyebrow">KẾT QUẢ ĐỀ THI</div><h1 id="resultHeader"></h1><div id="resultContent" class="result-content"></div>
+  <div class="button-row"><button id="resultReview">Xem lại câu hỏi</button><button id="resultNewExam" class="primary">Tạo mã đề khác →</button></div></section>
+</main><footer>CodeQuiz · Frontend / Backend tách biệt · Ngân hàng đề có thể nạp động</footer></div>
+<script src="/app.js" type="module"></script></body></html>
