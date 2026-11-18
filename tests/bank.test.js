@@ -103,3 +103,34 @@ test('Đáp án được khóa sau khi bấm; kết thúc không sửa được'
   quiz.finish(exam.code);
   assert.throws(()=>quiz.answer(exam.code,{questionId:q.id,selectedIndex:0}),e=>e.status===409);
 });
+
+
+test('Ngân hàng chương 1–4 nhập được cả JSON lẫn CSV, tạo đề 40 câu và trả phản hồi đáp án',()=>{
+  const json=fs.readFileSync(path.join(root,'banks/ktlt-chuong-1-4-import.json'),'utf8');
+  const csv=fs.readFileSync(path.join(root,'banks/ktlt-chuong-1-4-import.csv'),'utf8');
+  const questions=parseDocument({format:'json',content:json}).questions;
+  const checked=validateQuestions(questions);
+  assert.equal(questions.length,300);
+  assert.deepEqual(checked.errors,[]);
+  assert.deepEqual([1,2,3,4].map(ch=>checked.questions.filter(q=>q.chapter===ch).length),[62,81,78,79]);
+  const csvChecked=validateQuestions(parseDocument({format:'csv',content:csv}).questions);
+  assert.deepEqual(csvChecked.errors,[]);
+  assert.deepEqual(csvChecked.questions.map(q=>q.id),checked.questions.map(q=>q.id));
+  const {bank,quiz}=setup();
+  const args={format:'json',content:json,mode:'replace'};
+  const preview=bank.preview(args);
+  assert.equal(preview.canApply,true);
+  assert.equal(preview.resultCount,300);
+  bank.import({...args,expectedRevision:preview.revision});
+  quiz.reload();
+  const exam=quiz.createExam({chapters:[1,2,3,4],perChapter:10});
+  assert.equal(exam.questions.length,40);
+  assert.deepEqual([1,2,3,4].map(ch=>exam.questions.filter(q=>q.chapter===ch).length),[10,10,10,10]);
+  const first=exam.questions[0];
+  assert.equal(first.feedback,undefined);
+  const answer=quiz.answer(exam.code,{questionId:first.id,selectedIndex:0});
+  assert.ok(Number.isInteger(answer.correctIndex));
+  assert.equal(answer.selectedIndex,0);
+  assert.equal(answer.isCorrect,answer.selectedIndex===answer.correctIndex);
+  assert.equal(quiz.get(exam.code).questions.find(q=>q.id===first.id).feedback.correctIndex,answer.correctIndex);
+});
