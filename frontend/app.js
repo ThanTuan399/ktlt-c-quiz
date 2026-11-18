@@ -50,15 +50,28 @@ function render(){
   $('questionText').textContent=q.prompt;$('answerOptions').innerHTML='';
   q.choices.forEach((choice,index)=>{
     const btn=document.createElement('button');btn.className='answer';
-    if(fb)btn.classList.add(index===fb.correctIndex?'right':index===fb.selectedIndex?'wrong':'');
+    btn.type='button';
+    // Sau khi trả lời, luôn tô xanh đáp án đúng. Nếu chọn sai, lựa chọn đã chọn tô đỏ.
+    const isCorrect=!!fb && index===fb.correctIndex;
+    const isWrongChoice=!!fb && !fb.isCorrect && index===fb.selectedIndex;
+    if(isCorrect)btn.classList.add('right');
+    if(isWrongChoice)btn.classList.add('wrong');
     const symbol=document.createElement('b');symbol.textContent='ABCD'[index];
-    const label=document.createElement('span');label.textContent=choice;btn.append(symbol,label);
-    btn.disabled=!!fb||reviewing;btn.onclick=()=>answer(q.id,index);$('answerOptions').append(btn);
+    const label=document.createElement('span');label.className='answer-text';label.textContent=choice;
+    btn.append(symbol,label);
+    if(isCorrect||isWrongChoice){
+      const state=document.createElement('span');state.className='answer-state';
+      state.textContent=isCorrect?(fb.isCorrect?'✓ Bạn chọn đúng':'✓ Đáp án đúng'):'✕ Bạn chọn sai';
+      btn.append(state);
+    }
+    btn.disabled=!!fb||reviewing;
+    btn.onclick=()=>answer(q.id,index);
+    $('answerOptions').append(btn);
   });
   hide('answerFeedback',!fb);
   if(fb){$('answerFeedback').className='answer-feedback '+(fb.isCorrect?'good':'bad');
     const refs=q.source.references.map(r=>'Chương '+r.chapter+', slide '+r.slide).join(' · ');
-    $('answerFeedback').innerHTML='<strong>'+(fb.isCorrect?'✓ Chính xác!':'✗ Chưa đúng – Đáp án: '+ 'ABCD'[fb.correctIndex])+'</strong>'+
+    $('answerFeedback').innerHTML='<strong>'+(fb.isCorrect?'✓ Chính xác!':'✗ Chưa đúng — Đáp án đúng: '+ 'ABCD'[fb.correctIndex])+'</strong>'+
       '<div>'+escapeHTML(fb.explanation)+'</div><div class="source-line">Căn cứ bài giảng: '+escapeHTML(refs)+'</div>';
   }
   $('previousQuestion').disabled=position===0;
